@@ -9,15 +9,13 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-market-data
+  group: market-data-update
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    env:
-      PYTHONUNBUFFERED: '1'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
@@ -29,29 +27,28 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Validate FRED secret
-        shell: bash
+      - name: Validate secret
         run: |
           if [ -z "${{ secrets.FRED_API_KEY }}" ]; then
-            echo "FRED_API_KEY secret is missing. Add it under Settings > Secrets and variables > Actions."
+            echo "FRED_API_KEY is missing. Add it in Settings > Secrets and variables > Actions."
             exit 1
           fi
 
-      - name: Fetch FRED data
+      - name: Fetch macro data and news
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python scripts/fetch_data.py
 
-      - name: Commit and push data update
-        shell: bash
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/latest.json
           if git diff --staged --quiet; then
-            echo "No data changes to commit."
+            echo "No changes to commit."
             exit 0
           fi
           git commit -m "data: update $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin "${GITHUB_REF_NAME:-main}" || true
-          git push origin "HEAD:${GITHUB_REF_NAME:-main}"
+          BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$BRANCH"
+          git push origin HEAD:"$BRANCH"
