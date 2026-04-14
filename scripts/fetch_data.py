@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch FRED data and write a richer data/latest.json for GitHub Pages."""
+"""Fetch FRED data and write a stable data/latest.json schema for GitHub Pages."""
 
 from __future__ import annotations
 
@@ -26,6 +26,16 @@ MONTHLY_START = (NOW - timedelta(days=365 * 15)).strftime("%Y-%m-%d")
 DAILY_START = (NOW - timedelta(days=365 * 6)).strftime("%Y-%m-%d")
 YEAR_START = f"{NOW.year}-01-01"
 TWO_WEEKS_AGO = (NOW - timedelta(days=14)).strftime("%Y-%m-%d")
+
+TICKER_ICONS = {
+    "SPX": "📊",
+    "VIX": "⚡",
+    "BRENT": "🛢️",
+    "US 10Y": "📉",
+    "GOLD": "🟡",
+    "SILBER": "⚪",
+    "EUR/USD": "💱",
+}
 
 
 def fred(series_id: str, observation_start: str | None = None, limit: int | None = None) -> list[dict]:
@@ -85,6 +95,7 @@ def ticker_item(label: str, observations: list[dict], unit: str = "", dec: int =
     prev = float(observations[-2]["value"]) if len(observations) > 1 else None
     return {
         "label": label,
+        "icon": TICKER_ICONS.get(label, "•"),
         "val": round(current, dec),
         "chg": round(current - prev, dec) if prev is not None else None,
         "chgPct": round(((current - prev) / prev) * 100, 2) if prev not in (None, 0) else None,
@@ -124,45 +135,52 @@ def fill_forward_map(points: list[dict]) -> dict[str, float]:
     return {p["date"]: p["value"] for p in points}
 
 
-def stress_score(vix: float, brent: float, eurusd: float, us10y: float) -> int:
+def stress_score(vix: float, brent: float, eurusd: float, us10y: float, sp_ytd: float) -> int:
     score = 0
 
     if vix >= 30:
-        score += 35
+        score += 28
     elif vix >= 25:
-        score += 27
+        score += 22
     elif vix >= 20:
-        score += 18
+        score += 15
     elif vix >= 16:
         score += 8
 
     if brent >= 110:
-        score += 30
+        score += 26
     elif brent >= 100:
-        score += 22
-    elif brent >= 90:
-        score += 14
-    elif brent >= 80:
-        score += 8
-
-    # DEXUSEU = USD per EUR. Lower values indicate a stronger USD / tighter conditions.
-    if eurusd <= 1.00:
         score += 20
+    elif brent >= 90:
+        score += 13
+    elif brent >= 80:
+        score += 7
+
+    # DEXUSEU = USD per EUR. Lower values imply a stronger USD / tighter conditions.
+    if eurusd <= 1.00:
+        score += 16
     elif eurusd <= 1.05:
-        score += 14
+        score += 12
     elif eurusd <= 1.08:
-        score += 8
+        score += 7
     elif eurusd <= 1.12:
-        score += 4
+        score += 3
 
     if us10y >= 5.00:
-        score += 15
+        score += 13
     elif us10y >= 4.50:
-        score += 11
+        score += 9
     elif us10y >= 4.00:
-        score += 7
+        score += 6
     elif us10y >= 3.50:
         score += 3
+
+    if sp_ytd <= -20:
+        score += 17
+    elif sp_ytd <= -10:
+        score += 11
+    elif sp_ytd <= -5:
+        score += 6
 
     return min(100, score)
 
@@ -175,14 +193,16 @@ def stress_label(score: int) -> str:
     return "Entspannt"
 
 
-def build_stress_history(vix: list[dict], brent: list[dict], eurusd: list[dict], us10y: list[dict]) -> list[dict]:
+def build_stress_history(vix: list[dict], brent: list[dict], eurusd: list[dict], us10y: list[dict], sp500: list[dict]) -> list[dict]:
     vix_map = fill_forward_map(vix)
     brent_map = fill_forward_map(brent)
     eur_map = fill_forward_map(eurusd)
     y10_map = fill_forward_map(us10y)
+    sp_map = fill_forward_map(sp500)
 
-    dates = sorted(set(vix_map) | set(brent_map) | set(eur_map) | set(y10_map))
-    last_vix = last_brent = last_eur = last_y10 = None
+    dates = sorted(set(vix_map) | set(brent_map) | set(eur_map) | set(y10_map) | set(sp_map))
+    last_vix = last_brent = last_eur = last_y10 = last_sp = None
+    base_sp = None
     history: list[dict] = []
 
     for date in dates:
@@ -194,14 +214,19 @@ def build_stress_history(vix: list[dict], brent: list[dict], eurusd: list[dict],
             last_eur = eur_map[date]
         if date in y10_map:
             last_y10 = y10_map[date]
+        if date in sp_map:
+            last_sp = sp_map[date]
+            if base_sp is None:
+                base_sp = last_sp
 
-        if None in (last_vix, last_brent, last_eur, last_y10):
+        if None in (last_vix, last_brent, last_eur, last_y10, last_sp, base_sp) or base_sp == 0:
             continue
 
+        sp_ytd_like = ((last_sp / base_sp) - 1) * 100
         history.append(
             {
                 "date": date,
-                "value": stress_score(float(last_vix), float(last_brent), float(last_eur), float(last_y10)),
+                "value": stress_score(float(last_vix), float(last_brent), float(last_eur), float(last_y10), float(sp_ytd_like)),
             }
         )
 
@@ -224,10 +249,10 @@ silver_recent = fred("SLVPRUSD", observation_start=TWO_WEEKS_AGO)
 eurusd_recent = fred("DEXUSEU", observation_start=TWO_WEEKS_AGO)
 
 print("Fetching long histories…")
-vix_hist = fred("VIXCLS", observation_start=DAILY_START)
-brent_hist = fred("DCOILBRENTEU", observation_start=DAILY_START)
-us10y_hist = fred("DGS10", observation_start=DAILY_START)
-eurusd_hist = fred("DEXUSEU", observation_start=DAILY_START)
+vix_hist_raw = fred("VIXCLS", observation_start=DAILY_START)
+brent_hist_raw = fred("DCOILBRENTEU", observation_start=DAILY_START)
+us10y_hist_raw = fred("DGS10", observation_start=DAILY_START)
+eurusd_hist_raw = fred("DEXUSEU", observation_start=DAILY_START)
 
 if len(cpi_raw) < 13:
     print("ERROR: Not enough CPI history to calculate YoY inflation.", file=sys.stderr)
@@ -241,12 +266,12 @@ fed_history = history_points(fed_raw, dec=2)
 rec_history = history_points(rec_raw, dec=1)
 sent_history = history_points(sent_raw, dec=1)
 sp_history = history_points(sp_raw, dec=2)
-stress_history = build_stress_history(
-    history_points(vix_hist, dec=2),
-    history_points(brent_hist, dec=2),
-    history_points(eurusd_hist, dec=4),
-    history_points(us10y_hist, dec=2),
-)
+vix_hist = history_points(vix_hist_raw, dec=2)
+brent_hist = history_points(brent_hist_raw, dec=2)
+eurusd_hist = history_points(eurusd_hist_raw, dec=4)
+us10y_hist = history_points(us10y_hist_raw, dec=2)
+
+stress_history = build_stress_history(vix_hist, brent_hist, eurusd_hist, us10y_hist, sp_history)
 
 inflation_value = inflation_history[-1]["value"]
 fed_value = fed_history[-1]["value"] if fed_history else 0.0
@@ -257,20 +282,21 @@ stress_value = stress_history[-1]["value"] if stress_history else 0
 
 print(f"→ Inflation YoY: {inflation_value}%")
 print(f"→ S&P 500 YTD: {sp_ytd}%")
-print(f"→ Stress Proxy: {stress_value}/100 ({stress_label(stress_value)})")
+print(f"→ Trade Stress: {stress_value}/100 ({stress_label(stress_value)})")
 
-latest_vix = last_value(vix_hist)
-latest_brent = last_value(brent_hist)
-latest_eurusd = last_value(eurusd_hist)
-latest_us10y = last_value(us10y_hist)
+latest_vix = last_value(vix_hist_raw)
+latest_brent = last_value(brent_hist_raw)
+latest_eurusd = last_value(eurusd_hist_raw)
+latest_us10y = last_value(us10y_hist_raw)
 
 output = {
     "fetchedAt": NOW.isoformat(),
     "meta": {
+        "schemaVersion": "2.2",
         "source": "FRED",
         "notes": {
-            "reload": "The browser only reloads data/latest.json. New macro data arrives when GitHub Actions refreshes this file.",
-            "cadence": "Monthly series can look sparse on 1W/1M ranges because the underlying source updates monthly.",
+            "reload": "Das Dashboard lädt nur data/latest.json neu. Frische Makrodaten kommen, wenn GitHub Actions diese Datei überschreibt.",
+            "cadence": "Monatliche Reihen wirken auf 1W/1M oft flach, weil die Quelle selbst nur monatlich aktualisiert wird.",
         },
     },
     "indicators": {
@@ -278,19 +304,17 @@ output = {
             "value": inflation_value,
             "date": latest_by_date(inflation_history),
             "cadence": "monthly",
-            "history": inflation_history,
         },
         "fedRate": {
             "value": fed_value,
             "date": latest_by_date(fed_history),
             "cadence": "monthly",
-            "history": fed_history,
         },
         "recProb": {
             "value": rec_value,
             "date": latest_by_date(rec_history),
             "cadence": "monthly",
-            "history": rec_history,
+            "series": "RECPROUSM156N",
         },
         "sp500": {
             "ytd": sp_ytd,
@@ -298,20 +322,18 @@ output = {
             "latest": sp_latest,
             "date": sp_date,
             "cadence": "daily",
-            "history": sp_history,
         },
         "sentiment": {
             "value": sent_value,
             "date": latest_by_date(sent_history),
             "cadence": "monthly",
-            "history": sent_history,
         },
-        "stressProxy": {
+        "tradeStress": {
             "value": stress_value,
             "label": stress_label(stress_value),
             "date": latest_by_date(stress_history),
             "cadence": "daily",
-            "history": stress_history,
+            "method": "proxy",
             "components": {
                 "vix": round(latest_vix, 2),
                 "brent": round(latest_brent, 2),
@@ -329,9 +351,17 @@ output = {
         ticker_item("SILBER", silver_recent, "USD", 2),
         ticker_item("EUR/USD", eurusd_recent, "", 4),
     ],
+    "history": {
+        "inflation": inflation_history,
+        "fedRate": fed_history,
+        "recProb": rec_history,
+        "sp500": sp_history,
+        "sentiment": sent_history,
+        "tradeStress": stress_history,
+    },
 }
 output["ticker"] = [item for item in output["ticker"] if item is not None]
 
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-OUT_PATH.write_text(json.dumps(output, indent=2), encoding="utf-8")
+OUT_PATH.write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"✓ Wrote {OUT_PATH} at {NOW.strftime('%Y-%m-%d %H:%M:%S UTC')}")
