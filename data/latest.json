@@ -1,12 +1,69 @@
 {
-  "fetchedAt": "1970-01-01T00:00:00+00:00",
-  "_note": "Diese Datei wird automatisch von GitHub Actions überschrieben. Manuell: Actions → Update Market Data → Run workflow.",
+  "fetchedAt": "2026-04-14T07:22:29.971257+00:00",
   "indicators": {
-    "inflation": { "value": 0, "date": "" },
-    "fedRate":   { "value": 0, "date": "" },
-    "recProb":   { "value": 0, "date": "" },
-    "sp500":     { "ytd": 0, "first": 0, "latest": 0, "date": "" },
-    "sentiment": { "value": 0, "date": "" }
+    "inflation": {
+      "value": 6.82,
+      "date": "1948-03-01"
+    },
+    "fedRate": {
+      "value": 1.07,
+      "date": "1954-09-01"
+    },
+    "recProb": {
+      "value": 0.0,
+      "date": ""
+    },
+    "sp500": {
+      "ytd": 0.4,
+      "first": 6858.47,
+      "latest": 6886.24,
+      "date": "2026-04-13"
+    },
+    "sentiment": {
+      "value": 86.2,
+      "date": "1952-11-01"
+    }
   },
-  "ticker": []
+  "ticker": [
+    {
+      "label": "SPX",
+      "val": 6886.24,
+      "chg": 69.35,
+      "chgPct": 1.02,
+      "unit": "",
+      "dec": 2
+    },
+    {
+      "label": "VIX",
+      "val": 19.23,
+      "chg": -0.26,
+      "chgPct": -1.33,
+      "unit": "",
+      "dec": 2
+    },
+    {
+      "label": "BRENT",
+      "val": 127.61,
+      "chg": 8.05,
+      "chgPct": 6.73,
+      "unit": "USD",
+      "dec": 2
+    },
+    {
+      "label": "US 10Y",
+      "val": 4.31,
+      "chg": 0.02,
+      "chgPct": 0.47,
+      "unit": "%",
+      "dec": 2
+    },
+    {
+      "label": "EUR/USD",
+      "val": 1.1723,
+      "chg": 0.0017,
+      "chgPct": 0.15,
+      "unit": "",
+      "dec": 4
+    }
+  ]
 }
