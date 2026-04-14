@@ -69,6 +69,7 @@ vix_data   = fred("VIXCLS",           4, TWO_WEEKS_AGO)
 brent_data = fred("DCOILBRENTEU",     4, TWO_WEEKS_AGO)
 us10y_data = fred("DGS10",            4, TWO_WEEKS_AGO)
 gold_data  = fred("GOLDAMGBD228NLBM", 4, TWO_WEEKS_AGO)
+silver_data= fred("SLVPRUSD",         4, TWO_WEEKS_AGO)
 eur_data   = fred("DEXUSEU",          4, TWO_WEEKS_AGO)
 
 
@@ -94,6 +95,7 @@ ticker = [
     ticker_item("BRENT",   brent_data, "USD", 2),
     ticker_item("US 10Y",  us10y_data, "%",   2),
     ticker_item("GOLD",    gold_data,  "USD", 0),
+    ticker_item("SILBER",  silver_data,"USD", 2),
     ticker_item("EUR/USD", eur_data,   "",    4),
 ]
 ticker = [t for t in ticker if t]
