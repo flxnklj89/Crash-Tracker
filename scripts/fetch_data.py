@@ -15,42 +15,59 @@ NOW = datetime.now(timezone.utc)
 OUT = Path("data/latest.json")
 MONTHLY_START = (NOW - timedelta(days=365 * 15)).strftime("%Y-%m-%d")
 DAILY_START = (NOW - timedelta(days=365 * 6)).strftime("%Y-%m-%d")
+QUARTERLY_START = (NOW - timedelta(days=365 * 20)).strftime("%Y-%m-%d")
+YEARLY_START = "2010-01-01"
 TWO_WEEKS_AGO = (NOW - timedelta(days=14)).strftime("%Y-%m-%d")
 YEAR_START = f"{NOW.year}-01-01"
 TICKER_ICONS = {"SPX":"📊","VIX":"⚡","BRENT":"🛢️","US 10Y":"📉","GOLD":"🟡","SILBER":"⚪","EUR/USD":"💱"}
 
 def http_get(url:str, timeout:int=25)->bytes:
-    req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; MarketRiskMonitor/2.4)"})
+    req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0 (compatible; MarketRiskMonitor/3.0)"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
 def fred(series_id:str, observation_start:str|None=None, limit:int|None=None)->list[dict]:
     params={"series_id":series_id,"api_key":FRED_KEY,"file_type":"json","sort_order":"asc"}
-    if observation_start: params["observation_start"]=observation_start
-    if limit is not None: params["limit"]=str(limit)
+    if observation_start:
+        params["observation_start"] = observation_start
+    if limit is not None:
+        params["limit"] = str(limit)
     url = FRED_BASE + "?" + urllib.parse.urlencode(params)
     try:
         payload = json.loads(http_get(url).decode("utf-8"))
     except urllib.error.HTTPError as e:
-        print(f"ERROR {series_id}: HTTP {e.code}", file=sys.stderr); return []
+        print(f"ERROR {series_id}: HTTP {e.code}", file=sys.stderr)
+        return []
     except Exception as e:
-        print(f"ERROR {series_id}: {e}", file=sys.stderr); return []
+        print(f"ERROR {series_id}: {e}", file=sys.stderr)
+        return []
     obs = [o for o in payload.get("observations", []) if o.get("value") not in (None, "", ".")]
     print(f"✓ {series_id}: {len(obs)} valid obs")
     return obs
 
+def first_available(series_ids:list[str], observation_start:str|None=None)->tuple[str,list[dict]]:
+    for sid in series_ids:
+        obs = fred(sid, observation_start=observation_start)
+        if obs:
+            return sid, obs
+    return series_ids[0], []
+
 def history_points(obs:list[dict], dec:int=2)->list[dict]:
     out=[]
     for o in obs:
-        try: out.append({"date":o["date"],"value":round(float(o["value"]),dec)})
-        except Exception: pass
+        try:
+            out.append({"date":o["date"],"value":round(float(o["value"]),dec)})
+        except Exception:
+            pass
     return out
 
-def build_yoy_history(obs:list[dict], dec:int=2)->list[dict]:
+def build_yoy_history(obs:list[dict], dec:int=2, lag:int=12)->list[dict]:
     out=[]
-    for i in range(12, len(obs)):
-        cur=float(obs[i]["value"]); prev=float(obs[i-12]["value"])
-        if prev==0: continue
+    for i in range(lag, len(obs)):
+        cur=float(obs[i]["value"])
+        prev=float(obs[i-lag]["value"])
+        if prev==0:
+            continue
         out.append({"date":obs[i]["date"],"value":round(((cur/prev)-1)*100,dec)})
     return out
 
@@ -58,19 +75,33 @@ def latest_by_date(points:list[dict])->str:
     return points[-1]["date"] if points else ""
 
 def last_value(obs:list[dict], default:float=0.0)->float:
-    if not obs: return default
-    try: return float(obs[-1]["value"])
-    except Exception: return default
+    if not obs:
+        return default
+    try:
+        return float(obs[-1]["value"])
+    except Exception:
+        return default
 
 def ticker_item(label:str, obs:list[dict], unit:str="", dec:int=2)->dict|None:
-    if not obs: return None
-    cur=float(obs[-1]["value"]); prev=float(obs[-2]["value"]) if len(obs)>1 else None
-    return {"label":label,"icon":TICKER_ICONS.get(label,"•"),"val":round(cur,dec),"chg":round(cur-prev,dec) if prev is not None else None,"chgPct":round(((cur-prev)/prev)*100,2) if prev not in (None,0) else None,"unit":unit,"dec":dec}
+    if not obs:
+        return None
+    cur=float(obs[-1]["value"])
+    prev=float(obs[-2]["value"]) if len(obs)>1 else None
+    return {
+        "label":label,
+        "icon":TICKER_ICONS.get(label,"•"),
+        "val":round(cur,dec),
+        "chg":round(cur-prev,dec) if prev is not None else None,
+        "chgPct":round(((cur-prev)/prev)*100,2) if prev not in (None,0) else None,
+        "unit":unit,
+        "dec":dec,
+    }
 
 def ytd_stats(sp_history:list[dict])->tuple[float,float,float,str]:
     year_points=[p for p in sp_history if p["date"]>=YEAR_START]
     source=year_points if len(year_points)>=2 else sp_history
-    if len(source)<2: return 0.0,0.0,0.0,""
+    if len(source)<2:
+        return 0.0,0.0,0.0,""
     first, latest = source[0]["value"], source[-1]["value"]
     ytd = round(((latest/first)-1)*100,2) if first else 0.0
     return ytd, first, latest, source[-1]["date"]
@@ -104,33 +135,113 @@ def build_stress_history(vix, brent, eurusd, us10y, sp500):
         if d in sp_map:
             ls=sp_map[d]
             if base is None: base=ls
-        if None in (lv,lb,le,ly,ls,base) or base==0: continue
+        if None in (lv,lb,le,ly,ls,base) or base==0:
+            continue
         sp_ytd=((ls/base)-1)*100
         out.append({"date":d,"value":stress_score(float(lv),float(lb),float(le),float(ly),float(sp_ytd))})
     return out
 
+def compute_region_label(score:float)->str:
+    return "Angespannt" if score>=65 else "Beobachten" if score>=40 else "Stabil"
+
+def safe_last(points:list[dict], default:float=0.0)->float:
+    return points[-1]["value"] if points else default
+
+def yoy_from_level(points:list[dict], lag:int)->list[dict]:
+    out=[]
+    for i in range(lag, len(points)):
+        cur=points[i]["value"]; prev=points[i-lag]["value"]
+        if prev == 0:
+            continue
+        out.append({"date":points[i]["date"],"value":round(((cur/prev)-1)*100,2)})
+    return out
+
+def build_region(name:str, inflation:dict|None, growth_or_rate:dict|None, fx:dict|None, driver_text:str, score:float)->dict:
+    dates=[x.get("date","") for x in (inflation or {}, growth_or_rate or {}, fx or {}) if x and x.get("date")]
+    latest=max(dates) if dates else ""
+    return {
+        "name":name,
+        "score":round(score,1),
+        "label":compute_region_label(score),
+        "date":latest,
+        "summary":driver_text,
+        "driverText":driver_text,
+        "inflation": inflation,
+        "growthOrRate": growth_or_rate,
+        "fx": fx,
+    }
+
 def clean_title(title:str)->str:
     title=html.unescape(title).strip()
     for sep in (" - ", " | ", " — "):
-        if sep in title: return title.split(sep)[0].strip()
+        if sep in title:
+            return title.split(sep)[0].strip()
     return title
 
-def infer_why_and_assets(title:str)->tuple[str,list[str],str]:
+def classify_news(title:str)->dict:
     t=title.lower()
     if any(k in t for k in ["oil","brent","opec","hormuz","energy","gas"]):
-        return ("Energiepreise wirken direkt auf Inflation, Transportkosten und Risikoappetit. Das kann Aktien, Anleihen und Zentralbank-Erwartungen gleichzeitig bewegen.",["Öl","Inflation","Aktien","Staatsanleihen"],"Energie / Inflation")
-    if any(k in t for k in ["fed","rate","rates","inflation","cpi","pce","yield","bond"]):
-        return ("Zins- und Inflationsnachrichten verändern die Abzinsung künftiger Gewinne und beeinflussen Renditen, US-Dollar und Bewertungsniveaus.",["Aktien","US-Dollar","Staatsanleihen","Gold"],"Zinsen / Inflation")
+        return {
+            "bucket":"Energie / Inflation",
+            "summary":"Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+            "impact":"Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+            "probability":"Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+            "horizon":"Sofort bis einige Wochen.",
+            "priceEffect":"Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+            "assets":["Öl","Energieaktien","Inflation","Staatsanleihen"],
+        }
+    if any(k in t for k in ["fed","rate","rates","inflation","cpi","pce","yield","bond","ecb","boj"]):
+        return {
+            "bucket":"Zinsen / Inflation",
+            "summary":"Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+            "impact":"Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+            "probability":"Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+            "horizon":"Von sofort bis mehrere Wochen.",
+            "priceEffect":"Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+            "assets":["Staatsanleihen","Aktien","US-Dollar","Gold"],
+        }
     if any(k in t for k in ["earnings","guidance","profit","results","forecast"]):
-        return ("Gewinnmeldungen und Ausblicke zeigen, ob Unternehmen höhere Kosten und schwächeres Wachstum abfedern können.",["Aktien","Sektoren","Volatilität"],"Unternehmensgewinne")
-    if any(k in t for k in ["china","euro","europe","japan","boj","ecb","brics"]):
-        return ("Internationale Wachstums- und Politiksignale sind wichtig, weil globale Nachfrage, Wechselkurse und Lieferketten eng verbunden sind.",["Weltaktien","Währungen","Rohstoffe"],"Globales Wachstum")
+        return {
+            "bucket":"Unternehmensgewinne",
+            "summary":"Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+            "impact":"Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+            "probability":"Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+            "horizon":"Kurzfristig bis zur nächsten Berichtswelle.",
+            "priceEffect":"Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+            "assets":["Aktien","Sektoren","Gewinnschätzungen"],
+        }
+    if any(k in t for k in ["china","euro","europe","japan","brics","yuan","yen"]):
+        return {
+            "bucket":"Globales Wachstum",
+            "summary":"Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+            "impact":"Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+            "probability":"Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+            "horizon":"Tage bis Wochen.",
+            "priceEffect":"Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+            "assets":["Weltaktien","Währungen","Rohstoffe"],
+        }
     if any(k in t for k in ["tariff","trade","sanction","shipping","supply chain"]):
-        return ("Handels- und Lieferkettenmeldungen beeinflussen Margen, Preise und die Verfügbarkeit wichtiger Vorprodukte.",["Aktien","Rohstoffe","Inflation"],"Handel / Lieferketten")
-    return ("Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",["Aktien","Makro"],"Marktkontext")
+        return {
+            "bucket":"Handel / Lieferketten",
+            "summary":"Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+            "impact":"Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+            "probability":"Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+            "horizon":"Sofort bis mehrere Wochen.",
+            "priceEffect":"Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+            "assets":["Industrieaktien","Rohstoffe","Inflation","Transport"],
+        }
+    return {
+        "bucket":"Marktkontext",
+        "summary":"Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+        "impact":"Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+        "probability":"Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+        "horizon":"Kurzfristig bis einige Tage.",
+        "priceEffect":"Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+        "assets":["Aktien","Anleihen","Währungen"],
+    }
 
-def fetch_news(max_items:int=5)->list[dict]:
-    query=urllib.parse.quote("stock market OR inflation OR Federal Reserve OR oil OR recession OR earnings OR tariffs when:3d")
+def fetch_news(max_items:int=6)->list[dict]:
+    query=urllib.parse.quote("stock market OR inflation OR Federal Reserve OR oil OR recession OR earnings OR tariffs OR ECB OR China OR Japan when:3d")
     url=f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
     try:
         root=ET.fromstring(http_get(url, timeout=20))
@@ -140,17 +251,27 @@ def fetch_news(max_items:int=5)->list[dict]:
     items=[]; seen=set()
     for item in root.findall("./channel/item"):
         raw=item.findtext("title", default="").strip(); title=clean_title(raw)
-        if not title or title.lower() in seen: continue
+        if not title or title.lower() in seen:
+            continue
         seen.add(title.lower())
         link=item.findtext("link", default="").strip()
         pub=item.findtext("pubDate", default="").strip()
         source_el=item.find("source")
         source=source_el.text.strip() if source_el is not None and source_el.text else "Google News"
-        try: pub_iso=parsedate_to_datetime(pub).astimezone(timezone.utc).isoformat()
-        except Exception: pub_iso=NOW.isoformat()
-        why, assets, bucket = infer_why_and_assets(title)
-        items.append({"title":title,"source":source,"publishedAt":pub_iso,"link":link,"whyItMatters":why,"assets":assets,"bucket":bucket})
-        if len(items)>=max_items: break
+        try:
+            pub_iso=parsedate_to_datetime(pub).astimezone(timezone.utc).isoformat()
+        except Exception:
+            pub_iso=NOW.isoformat()
+        ctx=classify_news(title)
+        items.append({
+            "title":title,
+            "source":source,
+            "publishedAt":pub_iso,
+            "link":link,
+            **ctx,
+        })
+        if len(items)>=max_items:
+            break
     return items
 
 print("Fetching core series…")
@@ -172,8 +293,20 @@ vix_hist_raw=fred("VIXCLS", observation_start=DAILY_START)
 brent_hist_raw=fred("DCOILBRENTEU", observation_start=DAILY_START)
 us10y_hist_raw=fred("DGS10", observation_start=DAILY_START)
 eurusd_hist_raw=fred("DEXUSEU", observation_start=DAILY_START)
+print("Fetching global layer…")
+euro_hicp_raw=fred("CP0000EZ19M086NEST", observation_start=MONTHLY_START)
+ecb_rate_raw=fred("ECBDFR", observation_start=DAILY_START)
+japan_gdp_raw=fred("JPNRGDPEXP", observation_start=QUARTERLY_START)
+japan_fx_series, japan_fx_raw=first_available(["DEXJPUS","EXJPUS"], observation_start=DAILY_START)
+japan_cpi_annual_raw=fred("JPNPCPIPCPPPT", observation_start=YEARLY_START)
+china_gdp_raw=fred("CHNGDPRAPSMEI", observation_start=YEARLY_START)
+china_fx_series, china_fx_raw=first_available(["DEXCHUS","EXCHUS"], observation_start=YEARLY_START)
+china_cpi_annual_raw=fred("CHNPCPIPCPPPT", observation_start=YEARLY_START)
+
 if len(cpi_raw)<13 or len(sp_raw)<2:
-    print("ERROR: not enough core history", file=sys.stderr); sys.exit(1)
+    print("ERROR: not enough core history", file=sys.stderr)
+    sys.exit(1)
+
 inflation_history=build_yoy_history(cpi_raw)
 effr_history=history_points(effr_raw,2)
 rec_history=history_points(rec_raw,1)
@@ -185,6 +318,7 @@ brent_hist=history_points(brent_hist_raw,2)
 eurusd_hist=history_points(eurusd_hist_raw,4)
 us10y_hist=history_points(us10y_hist_raw,2)
 stress_history=build_stress_history(vix_hist, brent_hist, eurusd_hist, us10y_hist, sp_history)
+
 inflation_value = inflation_history[-1]["value"] if inflation_history else 0.0
 effr_value = effr_history[-1]["value"] if effr_history else 0.0
 rec_value = rec_history[-1]["value"] if rec_history else 0.0
@@ -192,17 +326,98 @@ sahm_value = sahm_history[-1]["value"] if sahm_history else 0.0
 sent_value = sent_history[-1]["value"] if sent_history else 0.0
 sp_ytd, sp_first, sp_latest, sp_date = ytd_stats(sp_history)
 stress_value = stress_history[-1]["value"] if stress_history else 0
-news_items = fetch_news(5)
+
+# Global layer calculations
+
+euro_hicp_yoy = build_yoy_history(euro_hicp_raw)
+euro_infl = euro_hicp_yoy[-1]["value"] if euro_hicp_yoy else None
+ecb_rate = safe_last(history_points(ecb_rate_raw,2), None)
+eurusd_now = safe_last(eurusd_hist, None)
+europe_score = 0.0
+if euro_infl is not None:
+    europe_score += 35 if euro_infl >= 4 else 24 if euro_infl >= 3 else 12 if euro_infl >= 2 else 5
+if ecb_rate is not None:
+    europe_score += 22 if ecb_rate >= 3.5 else 15 if ecb_rate >= 2.5 else 8 if ecb_rate >= 1.5 else 3
+if eurusd_now is not None:
+    europe_score += 18 if eurusd_now <= 1.03 else 12 if eurusd_now <= 1.07 else 6 if eurusd_now <= 1.10 else 2
+
+europe = build_region(
+    "Europa",
+    {"value":euro_infl,"date":latest_by_date(euro_hicp_yoy),"unit":"%","cadence":"monthly","series":"CP0000EZ19M086NEST"},
+    {"label":"ECB Einlagezins","value":ecb_rate,"date":latest_by_date(history_points(ecb_rate_raw,2)),"unit":"%","cadence":"daily","series":"ECBDFR"},
+    {"label":"EUR/USD","value":eurusd_now,"date":latest_by_date(eurusd_hist),"unit":"","cadence":"daily","series":"DEXUSEU"},
+    "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
+    min(100, europe_score),
+)
+
+japan_gdp_hist = history_points(japan_gdp_raw,2)
+japan_gdp_yoy = yoy_from_level(japan_gdp_hist, 4)
+japan_growth = japan_gdp_yoy[-1]["value"] if japan_gdp_yoy else None
+japan_infl = safe_last(history_points(japan_cpi_annual_raw,2), None)
+japan_fx_hist = history_points(japan_fx_raw,4)
+japan_fx = safe_last(japan_fx_hist, None)
+japan_score = 0.0
+if japan_growth is not None:
+    japan_score += 30 if japan_growth <= 0 else 18 if japan_growth <= 1 else 10 if japan_growth <= 2 else 4
+if japan_infl is not None:
+    japan_score += 20 if japan_infl >= 3 else 12 if japan_infl >= 2 else 6 if japan_infl >= 1 else 2
+if japan_fx is not None:
+    japan_score += 22 if japan_fx >= 155 else 16 if japan_fx >= 145 else 10 if japan_fx >= 135 else 4
+
+japan = build_region(
+    "Japan",
+    {"value":japan_infl,"date":latest_by_date(history_points(japan_cpi_annual_raw,2)),"unit":"%","cadence":"annual","series":"JPNPCPIPCPPPT"},
+    {"label":"BIP-Wachstum YoY","value":japan_growth,"date":latest_by_date(japan_gdp_yoy),"unit":"%","cadence":"quarterly","series":"JPNRGDPEXP"},
+    {"label":"JPY pro USD","value":japan_fx,"date":latest_by_date(japan_fx_hist),"unit":"","cadence":"daily" if japan_fx_series.startswith("DEX") else "monthly","series":japan_fx_series},
+    "Japan wird über Wachstum, Preisbild und Yen-Stärke gelesen. Ein schwacher Yen kann globalen Stress und importierten Preisauftrieb verstärken.",
+    min(100, japan_score),
+)
+
+china_growth = safe_last(history_points(china_gdp_raw,2), None)
+china_infl = safe_last(history_points(china_cpi_annual_raw,2), None)
+china_fx_hist = history_points(china_fx_raw,4)
+china_fx = safe_last(china_fx_hist, None)
+china_score = 0.0
+if china_growth is not None:
+    china_score += 28 if china_growth < 4 else 18 if china_growth < 5 else 8 if china_growth < 6 else 4
+if china_infl is not None:
+    china_score += 22 if china_infl < 1 else 14 if china_infl < 2 else 8 if china_infl < 3 else 4
+if china_fx is not None:
+    china_score += 18 if china_fx >= 7.2 else 12 if china_fx >= 7.0 else 7 if china_fx >= 6.8 else 3
+
+china = build_region(
+    "China",
+    {"value":china_infl,"date":latest_by_date(history_points(china_cpi_annual_raw,2)),"unit":"%","cadence":"annual","series":"CHNPCPIPCPPPT"},
+    {"label":"BIP-Wachstum","value":china_growth,"date":latest_by_date(history_points(china_gdp_raw,2)),"unit":"%","cadence":"annual","series":"CHNGDPRAPSMEI"},
+    {"label":"CNY pro USD","value":china_fx,"date":latest_by_date(china_fx_hist),"unit":"","cadence":"daily" if china_fx_series.startswith("DEX") else "monthly","series":china_fx_series},
+    "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
+    min(100, china_score),
+)
+
+global_composite = round((europe["score"] + japan["score"] + china["score"]) / 3, 1)
+news_items = fetch_news(6)
+
 output={
  "fetchedAt":NOW.isoformat(),
- "meta":{"schemaVersion":"2.4","source":"FRED + Google News RSS","notes":{"reload":"Das Dashboard lädt nur data/latest.json neu. Frische Daten kommen, wenn GitHub Actions diese Datei überschreibt.","cadence":"Monatliche Reihen wirken auf 1W/1M oft flach, weil die Quelle selbst nur monatlich aktualisiert wird.","news":"Die Nachrichten sind ein kompakter Marktkontext und keine Anlageempfehlung."}},
+ "meta":{
+   "schemaVersion":"3.0",
+   "source":"FRED + Google News RSS",
+   "notes":{
+     "reload":"Das Dashboard lädt nur data/latest.json neu. Frische Daten kommen, wenn GitHub Actions diese Datei überschreibt.",
+     "cadence":"Langsame Reihen können monatlich, quartalsweise oder jährlich kommen. Das Dashboard zeigt deshalb Datenstand und Takt getrennt.",
+     "news":"Die Nachrichten sind ein kompakter Marktkontext und keine Anlageempfehlung."
+   }
+ },
  "indicators":{
    "inflation":{"value":inflation_value,"date":latest_by_date(inflation_history),"cadence":"monthly","series":"CPIAUCSL"},
    "fedRate":{"value":effr_value,"date":latest_by_date(effr_history),"cadence":"daily","series":"EFFR","displayName":"Effective Federal Funds Rate"},
    "recProb":{"value":rec_value,"date":latest_by_date(rec_history),"cadence":"monthly","series":"RECPROUSM156N","fastProxy":{"label":"Sahm Rule","value":sahm_value,"date":latest_by_date(sahm_history),"series":"SAHMCURRENT"}},
    "sp500":{"ytd":sp_ytd,"first":sp_first,"latest":sp_latest,"date":sp_date,"cadence":"daily","series":"SP500"},
    "sentiment":{"value":sent_value,"date":latest_by_date(sent_history),"cadence":"monthly","series":"UMCSENT"},
-   "tradeStress":{"value":stress_value,"label":stress_label(stress_value),"date":latest_by_date(stress_history),"cadence":"daily","method":"proxy","components":{"vix":round(last_value(vix_hist_raw),2),"brent":round(last_value(brent_hist_raw),2),"eurusd":round(last_value(eurusd_hist_raw),4),"us10y":round(last_value(us10y_hist_raw),2)}}},
+   "tradeStress":{"value":stress_value,"label":stress_label(stress_value),"date":latest_by_date(stress_history),"cadence":"daily","method":"proxy","components":{"vix":round(last_value(vix_hist_raw),2),"brent":round(last_value(brent_hist_raw),2),"eurusd":round(last_value(eurusd_hist_raw),4),"us10y":round(last_value(us10y_hist_raw),2)}}
+ },
+ "globalComposite":{"value":global_composite,"label":compute_region_label(global_composite),"date":NOW.date().isoformat()},
+ "regions":{"europe":europe,"japan":japan,"china":china},
  "ticker":[
    ticker_item("SPX", sp_raw[-10:] if len(sp_raw)>=2 else sp_raw, "", 2),
    ticker_item("VIX", vix_recent, "", 2),
@@ -212,7 +427,14 @@ output={
    ticker_item("SILBER", silver_recent, "USD", 2),
    ticker_item("EUR/USD", eurusd_recent, "", 4)
  ],
- "history":{"inflation":inflation_history,"fedRate":effr_history,"recProb":rec_history,"sp500":sp_history,"sentiment":sent_history,"tradeStress":stress_history},
+ "history":{
+   "inflation":inflation_history,
+   "fedRate":effr_history,
+   "recProb":rec_history,
+   "sp500":sp_history,
+   "sentiment":sent_history,
+   "tradeStress":stress_history
+ },
  "news":news_items
 }
 output["ticker"]=[x for x in output["ticker"] if x is not None]
