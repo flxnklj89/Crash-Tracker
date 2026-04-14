@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marktrisiko-Monitor</title>
+  <link rel="manifest" href="manifest.json"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg:       #07090d;
+      --bg2:      #0d1117;
+      --bg3:      #111820;
+      --border:   rgba(255,255,255,0.07);
+      --border2:  rgba(255,255,255,0.04);
+      --text:     #dde3ec;
+      --text2:    #7a8799;
+      --text3:    #3d4e61;
+      --mono:     'IBM Plex Mono', monospace;
+      --serif:    'Fraunces', Georgia, serif;
+      --red:      #e84040;
+      --amber:    #e8a020;
+      --green:    #28b87a;
+      --red-bg:   rgba(232,64,64,0.07);
+      --amber-bg: rgba(232,160,32,0.07);
+      --green-bg: rgba(40,184,122,0.07);
+      --red-b:    rgba(232,64,64,0.2);
+      --amber-b:  rgba(232,160,32,0.2);
+      --green-b:  rgba(40,184,122,0.2);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--mono); min-height: 100vh; }
+
+    /* ── Ticker ──────────────────────────────────────── */
+    #ticker-wrap {
+      position: sticky; top: 0; z-index: 50;
+      background: var(--bg2); border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; height: 36px; overflow: hidden;
+    }
+    .ticker-badge {
+      flex-shrink: 0; background: var(--bg3); border-right: 1px solid var(--border);
+      font-size: 8px; letter-spacing: 0.2em; color: var(--text3); text-transform: uppercase;
+      padding: 0 14px; height: 100%; display: flex; align-items: center; white-space: nowrap;
+    }
+    .ticker-viewport { flex: 1; overflow: hidden; position: relative; }
+    .ticker-viewport::before, .ticker-viewport::after {
+      content: ''; position: absolute; top: 0; bottom: 0; width: 36px; z-index: 2; pointer-events: none;
+    }
+    .ticker-viewport::before { left:  0; background: linear-gradient(to right, var(--bg2), transparent); }
+    .ticker-viewport::after  { right: 0; background: linear-gradient(to left,  var(--bg2), transparent); }
+    .ticker-track {
+      display: flex; align-items: center; white-space: nowrap;
+      animation: ticker-scroll 55s linear infinite; will-change: transform;
+    }
+    .ticker-track:hover { animation-play-state: paused; }
+    @keyframes ticker-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .ticker-item { display: inline-flex; align-items: center; gap: 7px; padding: 0 22px; font-size: 11px; }
+    .tk-sep  { color: var(--border); font-size: 14px; }
+    .tk-label{ color: var(--text3); font-size: 9.5px; letter-spacing: 0.08em; }
+    .tk-val  { color: var(--text); font-weight: 500; }
+    .tk-unit { font-size: 9px; color: var(--text3); margin-left: 1px; }
+    .tk-chg  { font-size: 10px; }
+    .tk-up   { color: var(--green); }
+    .tk-dn   { color: var(--red); }
+    .tk-neu  { color: var(--text3); }
+    .tk-stale{ color: var(--text3); font-size: 10px; font-style: italic; padding: 0 20px; }
+
+    /* ── Layout ─────────────────────────────────────── */
+    .page { max-width: 740px; margin: 0 auto; padding: 28px 20px 40px; }
+
+    header {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      margin-bottom: 32px; padding-bottom: 20px; border-bottom: 1px solid var(--border);
+      gap: 16px; flex-wrap: wrap;
+    }
+    .eyebrow { font-size: 9px; letter-spacing: 0.2em; color: var(--text3); text-transform: uppercase; margin-bottom: 7px; }
+    .main-title { font-family: var(--serif); font-size: 22px; font-weight: 300; letter-spacing: -0.01em; line-height: 1.25; }
+    .main-title em { font-style: italic; color: var(--text2); }
+    .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; flex-shrink: 0; }
+    .btn-update {
+      font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em;
+      padding: 9px 18px; border-radius: 5px; cursor: pointer;
+      border: 1px solid var(--border); background: rgba(255,255,255,0.04);
+      color: var(--text2); transition: all 0.2s; white-space: nowrap;
+    }
+    .btn-update:hover { background: rgba(255,255,255,0.09); color: var(--text); border-color: rgba(255,255,255,0.15); }
+    .btn-update.loading { animation: pulse 1.1s ease-in-out infinite; cursor: wait; }
+    @keyframes pulse { 0%,100%{opacity:.3} 50%{opacity:.85} }
+    .ts-header { font-size: 9px; color: var(--text3); }
+    .dot { display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: var(--green); margin-right: 6px; vertical-align: middle; animation: blink 2.4s ease-in-out infinite; }
+    .dot.stale { background: var(--amber); }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.12} }
+
+    .section-label { font-size: 8.5px; letter-spacing: 0.22em; color: var(--text3); text-transform: uppercase; margin-bottom: 12px; }
+
+    /* ── Error banner ────────────────────────────────── */
+    .msg-box { display: none; font-size: 11.5px; border-radius: 7px; padding: 11px 15px; margin-bottom: 20px; line-height: 1.6; }
+    .msg-box.visible { display: block; }
+    .msg-box.error { color: var(--red); background: var(--red-bg); border: 1px solid var(--red-b); }
+    .msg-box.warn  { color: var(--amber); background: var(--amber-bg); border: 1px solid var(--amber-b); }
+
+    /* ── Scenarios ───────────────────────────────────── */
+    #scenarios { margin-bottom: 30px; display: flex; flex-direction: column; gap: 8px; }
+    .sc-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+    .sc-bar-track { height: 2px; background: rgba(255,255,255,0.04); }
+    .sc-bar-fill { height: 100%; transition: width 0.9s cubic-bezier(0.16,1,0.3,1); }
+    .sc-inner { padding: 14px 16px; }
+    .sc-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 7px; }
+    .sc-left { display: flex; align-items: center; gap: 10px; }
+    .sc-badge { width: 21px; height: 21px; border-radius: 4px; font-size: 10px; font-weight: 600; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .sc-name { font-family: var(--serif); font-size: 14px; font-weight: 300; letter-spacing: -0.01em; }
+    .sc-prob { font-size: 26px; font-weight: 600; letter-spacing: -0.03em; line-height: 1; }
+    .sc-prob-u { font-size: 11px; color: var(--text3); margin-left: 1px; }
+    .sc-desc { font-size: 11px; color: var(--text2); margin-bottom: 8px; line-height: 1.55; }
+    .sc-meta { display: flex; gap: 18px; flex-wrap: wrap; }
+    .mk { font-size: 8px; letter-spacing: 0.13em; color: var(--text3); text-transform: uppercase; margin-right: 5px; }
+    .mv { font-size: 11px; color: var(--text2); }
+
+    /* ── Indicators ──────────────────────────────────── */
+    #indicators { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 26px; }
+    .ind-card { border-radius: 8px; padding: 13px 14px; border: 1px solid var(--border2); background: var(--bg2); transition: background 0.5s, border-color 0.5s; }
+    .ind-card.h { background: var(--red-bg);   border-color: var(--red-b); }
+    .ind-card.m { background: var(--amber-bg); border-color: var(--amber-b); }
+    .ind-card.l { background: var(--green-bg); border-color: var(--green-b); }
+    .ind-label { font-size: 10.5px; color: var(--text2); margin-bottom: 5px; line-height: 1.35; }
+    .ind-row   { display: flex; align-items: baseline; gap: 3px; margin-bottom: 3px; }
+    .ind-val   { font-size: 20px; font-weight: 500; letter-spacing: -0.02em; line-height: 1; transition: color 0.5s; color: var(--text3); }
+    .ind-val.h { color: var(--red); }
+    .ind-val.m { color: var(--amber); }
+    .ind-val.l { color: var(--green); }
+    .ind-unit  { font-size: 10px; color: var(--text3); }
+    .ind-note  { font-size: 10px; color: var(--text3); line-height: 1.45; }
+    .ind-ts    { font-size: 9px; color: var(--text3); margin-top: 4px; opacity: 0.6; }
+
+    /* ── Analysis ────────────────────────────────────── */
+    #analysis { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; margin-bottom: 20px; display: none; }
+    #analysis.visible { display: block; }
+    .an-head { font-size: 8.5px; letter-spacing: 0.18em; color: var(--text3); text-transform: uppercase; margin-bottom: 10px; }
+    #rationale { font-size: 12px; color: var(--text2); line-height: 1.7; }
+
+    /* ── Tariff ──────────────────────────────────────── */
+    #tariff-card .tariff-ctrl { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+    .tariff-btn { font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em; padding: 4px 10px; border-radius: 4px; cursor: pointer; background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--text2); transition: all 0.15s; }
+    .tariff-btn:hover { background: rgba(255,255,255,0.08); color: var(--text); }
+    .tariff-btn.active-h { background: var(--red-bg);   border-color: var(--red-b);   color: var(--red); }
+    .tariff-btn.active-m { background: var(--amber-bg); border-color: var(--amber-b); color: var(--amber); }
+    .tariff-btn.active-l { background: var(--green-bg); border-color: var(--green-b); color: var(--green); }
+
+    /* ── Status Bar ──────────────────────────────────── */
+    #status-bar { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; margin-top: 8px; }
+    .sb-cards { display: grid; grid-template-columns: repeat(3,1fr); border-bottom: 1px solid var(--border); }
+    .sb-card { padding: 13px 16px; border-right: 1px solid var(--border); }
+    .sb-card:last-child { border-right: none; }
+    .sb-card-lbl { font-size: 8.5px; letter-spacing: 0.16em; color: var(--text3); text-transform: uppercase; margin-bottom: 6px; }
+    .sb-card-val { font-size: 13px; font-weight: 500; color: var(--text); letter-spacing: -0.01em; line-height: 1.3; margin-bottom: 2px; }
+    .sb-card-val.small { font-size: 11px; font-weight: 400; }
+    .sb-card-tz { font-size: 9px; color: var(--text3); }
+    .sb-controls { display: flex; align-items: center; gap: 12px; padding: 10px 16px; flex-wrap: wrap; }
+    .sb-check { display: flex; align-items: center; gap: 7px; font-size: 11px; color: var(--text2); cursor: pointer; user-select: none; }
+    .sb-check input[type=checkbox] { width: 13px; height: 13px; accent-color: var(--green); cursor: pointer; }
+    .sb-lbl { font-size: 11px; color: var(--text2); }
+    #refresh-interval { background: rgba(255,255,255,0.04); border: 1px solid var(--border); color: var(--text2); font-family: var(--mono); font-size: 11px; padding: 4px 8px; border-radius: 4px; cursor: pointer; outline: none; }
+    #sb-next-reload { font-size: 11px; color: var(--text3); flex: 1; }
+    #sb-next-reload span { color: var(--amber); }
+    .btn-reload { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; padding: 6px 14px; border-radius: 5px; cursor: pointer; background: rgba(255,255,255,0.05); border: 1px solid var(--border); color: var(--text2); transition: all 0.2s; }
+    .btn-reload:hover { background: rgba(255,255,255,0.09); color: var(--text); }
+    .btn-ghost { background: none; border: none; color: var(--text3); font-family: var(--mono); font-size: 9px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+    .btn-ghost:hover { color: var(--text2); }
+
+    @media (max-width: 560px) {
+      #indicators { grid-template-columns: 1fr; }
+      .sb-cards { grid-template-columns: 1fr; }
+      .sb-card { border-right: none; border-bottom: 1px solid var(--border); }
+      .sb-card:last-child { border-bottom: none; }
+      header { flex-direction: column; }
+      .header-right { flex-direction: row; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Ticker ─────────────────────────────────────────────────── -->
+<div id="ticker-wrap">
+  <div class="ticker-badge">FRED · Live</div>
+  <div class="ticker-viewport">
+    <div class="ticker-track" id="ticker-track">
+      <span class="tk-stale">Warte auf Daten …</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── Page ───────────────────────────────────────────────────── -->
+<div class="page">
+
+  <header>
+    <div>
+      <div class="eyebrow">Marktrisiko-Monitor · Federal Reserve Data</div>
+      <div class="main-title">Stagflation &amp; Crash<br/><em>Szenario-Tracker</em></div>
+    </div>
+    <div class="header-right">
+      <button class="btn-update" id="btn-update">↻&nbsp;&nbsp;RELOAD</button>
+      <div class="ts-header" id="ts-header">—</div>
+    </div>
+  </header>
+
+  <div id="warn-box" class="msg-box warn"></div>
+  <div id="error-box" class="msg-box error"></div>
+
+  <!-- Szenarien -->
+  <div class="section-label">Szenarien &amp; Wahrscheinlichkeiten</div>
+  <div id="scenarios">
+    <div class="sc-card">
+      <div class="sc-bar-track"><div class="sc-bar-fill" id="bar-A" style="width:12%;background:var(--red)"></div></div>
+      <div class="sc-inner">
+        <div class="sc-top">
+          <div class="sc-left">
+            <div class="sc-badge" style="background:rgba(232,64,64,0.12);color:var(--red)">A</div>
+            <div class="sc-name">Volles 1970er-Äquivalent</div>
+          </div>
+          <div><span class="sc-prob" id="prob-A" style="color:var(--red)">12</span><span class="sc-prob-u"> %</span></div>
+        </div>
+        <div class="sc-desc">Jahrzehntelange Stagflation · reale Marktverluste 40–50 %</div>
+        <div class="sc-meta">
+          <div><span class="mk">Horizont</span><span class="mv">2025–2035</span></div>
+          <div><span class="mk">Trigger</span><span class="mv">Dauerhafte Zölle + Energiekrise + Fed-Kontrollverlust</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="sc-card">
+      <div class="sc-bar-track"><div class="sc-bar-fill" id="bar-B" style="width:38%;background:var(--amber)"></div></div>
+      <div class="sc-inner">
+        <div class="sc-top">
+          <div class="sc-left">
+            <div class="sc-badge" style="background:rgba(232,160,32,0.12);color:var(--amber)">B</div>
+            <div class="sc-name">Partielle Stagflation</div>
+          </div>
+          <div><span class="sc-prob" id="prob-B" style="color:var(--amber)">38</span><span class="sc-prob-u"> %</span></div>
+        </div>
+        <div class="sc-desc">1–3 Jahre erhöhte Inflation + Rezession · Märkte –20 bis –35 %</div>
+        <div class="sc-meta">
+          <div><span class="mk">Horizont</span><span class="mv">2025–2027</span></div>
+          <div><span class="mk">Trigger</span><span class="mv">Zölle bleiben hoch, Handelskrieg eskaliert, Fed im Dilemma</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="sc-card">
+      <div class="sc-bar-track"><div class="sc-bar-fill" id="bar-C" style="width:50%;background:var(--green)"></div></div>
+      <div class="sc-inner">
+        <div class="sc-top">
+          <div class="sc-left">
+            <div class="sc-badge" style="background:rgba(40,184,122,0.12);color:var(--green)">C</div>
+            <div class="sc-name">Kurzer Schock / Erholung</div>
+          </div>
+          <div><span class="sc-prob" id="prob-C" style="color:var(--green)">50</span><span class="sc-prob-u"> %</span></div>
+        </div>
+        <div class="sc-desc">Zölle verhandelt · Märkte erholen sich in 12–18 Monaten</div>
+        <div class="sc-meta">
+          <div><span class="mk">Horizont</span><span class="mv">2025–2026</span></div>
+          <div><span class="mk">Trigger</span><span class="mv">Verhandlungslösung USA–EU/China, Fed senkt rechtzeitig</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Indikatoren -->
+  <div class="section-label">Makro-Indikatoren · Quelle: Federal Reserve (FRED)</div>
+  <div id="indicators">
+    <div class="ind-card" id="c-inflation">
+      <div class="ind-label">US Inflation (CPI YoY)</div>
+      <div class="ind-row"><span class="ind-val" id="v-inflation">—</span><span class="ind-unit"> %</span></div>
+      <div class="ind-note" id="n-inflation">Warte auf Daten…</div>
+      <div class="ind-ts"  id="t-inflation"></div>
+    </div>
+    <div class="ind-card" id="c-fed">
+      <div class="ind-label">Fed Funds Rate</div>
+      <div class="ind-row"><span class="ind-val" id="v-fed">—</span><span class="ind-unit"> %</span></div>
+      <div class="ind-note" id="n-fed">Warte auf Daten…</div>
+      <div class="ind-ts"  id="t-fed"></div>
+    </div>
+    <div class="ind-card" id="c-rec">
+      <div class="ind-label">US Rezessions-Wahrscheinlichkeit</div>
+      <div class="ind-row"><span class="ind-val" id="v-rec">—</span><span class="ind-unit"> %</span></div>
+      <div class="ind-note" id="n-rec">Warte auf Daten…</div>
+      <div class="ind-ts"  id="t-rec"></div>
+    </div>
+    <div class="ind-card" id="c-sp">
+      <div class="ind-label">S&amp;P 500 YTD</div>
+      <div class="ind-row"><span class="ind-val" id="v-sp">—</span><span class="ind-unit"> %</span></div>
+      <div class="ind-note" id="n-sp">Warte auf Daten…</div>
+      <div class="ind-ts"  id="t-sp"></div>
+    </div>
+    <div class="ind-card" id="c-sent">
+      <div class="ind-label">Verbrauchervertrauen (USA)</div>
+      <div class="ind-row"><span class="ind-val" id="v-sent">—</span></div>
+      <div class="ind-note" id="n-sent">Warte auf Daten…</div>
+      <div class="ind-ts"  id="t-sent"></div>
+    </div>
+    <div class="ind-card" id="tariff-card">
+      <div class="ind-label">Handelskrieg-Eskalation <span style="color:var(--text3);font-size:8px">(manuell)</span></div>
+      <div class="ind-row"><span class="ind-val" id="v-tariff">—</span></div>
+      <div class="tariff-ctrl">
+        <button class="tariff-btn" data-level="h">Eskaliert</button>
+        <button class="tariff-btn" data-level="m">Erhöht</button>
+        <button class="tariff-btn" data-level="l">Entspannt</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Analyse -->
+  <div id="analysis">
+    <div class="an-head">Algorithmus-Analyse</div>
+    <div id="rationale"></div>
+  </div>
+
+  <!-- Status Bar -->
+  <div id="status-bar">
+    <div class="sb-cards">
+      <div class="sb-card">
+        <div class="sb-card-lbl">FRED-Daten vom</div>
+        <div class="sb-card-val" id="sb-data-ts">—</div>
+        <div class="sb-card-tz">Quelle: api.stlouisfed.org</div>
+      </div>
+      <div class="sb-card">
+        <div class="sb-card-lbl">Aktuelle Uhrzeit Berlin</div>
+        <div class="sb-card-val" id="sb-clock">—</div>
+        <div class="sb-card-tz">(Europe/Berlin)</div>
+      </div>
+      <div class="sb-card">
+        <div class="sb-card-lbl">Manuelle Einschätzung</div>
+        <div class="sb-card-val small" id="sb-tariff-lbl">—</div>
+        <div class="sb-card-tz" id="sb-tariff-ts">Noch nicht gesetzt</div>
+      </div>
+    </div>
+    <div class="sb-controls">
+      <label class="sb-check">
+        <input type="checkbox" id="auto-refresh-cb"/>
+        Auto-Reload
+      </label>
+      <span class="sb-lbl">Intervall</span>
+      <select id="refresh-interval">
+        <option value="5">5 Min</option>
+        <option value="15">15 Min</option>
+        <option value="30">30 Min</option>
+        <option value="60">60 Min</option>
+      </select>
+      <span id="sb-next-reload">Nächster Reload: <span>aus</span></span>
+      <button class="btn-reload" id="btn-reload-now">Jetzt neu laden</button>
+      <a class="btn-ghost" href="../../actions/workflows/update.yml" target="_blank">GitHub Actions →</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ═══════════════════════════════════════
+//  CONFIG
+// ═══════════════════════════════════════
+const DATA_URL   = './data/latest.json';
+const LS_TARIFF  = 'mrm_tariff';
+const LS_TARIFF_TS = 'mrm_tariff_ts';
+const LS_AR      = 'mrm_autorefresh';
+const PAGE_LOAD  = new Date();
+
+const $ = id => document.getElementById(id);
+
+// ═══════════════════════════════════════
+//  HELPERS
+// ═══════════════════════════════════════
+function berlinFull(d = new Date()) {
+  return d.toLocaleString('de-DE', { timeZone:'Europe/Berlin', day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit', second:'2-digit' });
+}
+function berlinShort(d = new Date()) {
+  return d.toLocaleString('de-DE', { timeZone:'Europe/Berlin', day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit' });
+}
+function fmtDate(s) {
+  return new Date(s).toLocaleDateString('de-DE', { day:'2-digit', month:'short', year:'numeric' });
+}
+function setErr(msg, type='error') {
+  const el = $(type==='warn' ? 'warn-box' : 'error-box');
+  el.textContent = msg;
+  el.classList.toggle('visible', !!msg);
+}
+function setCard(id, val, unit, note, obsDate, s) {
+  $('c-'+id).className = 'ind-card' + (s?' '+s:'');
+  $('v-'+id).className = 'ind-val'  + (s?' '+s:'');
+  $('v-'+id).textContent = val;
+  const u = $('c-'+id).querySelector('.ind-unit');
+  if (u) u.textContent = unit ? ' '+unit : '';
+  $('n-'+id).textContent = note;
+  $('t-'+id).textContent = obsDate ? 'Daten: '+obsDate : '';
+}
+
+// ═══════════════════════════════════════
+//  STATUS THRESHOLDS
+// ═══════════════════════════════════════
+const inflSt = v => v>4?'h':v>2.5?'m':'l';
+const fedSt  = v => v>5?'h':v>3?'m':'l';
+const recSt  = v => v>50?'h':v>25?'m':'l';
+const spSt   = v => v<-15?'h':v<-5?'m':'l';
+const sentSt = v => v<65?'h':v<85?'m':'l';
+
+// ═══════════════════════════════════════
+//  SCENARIO ALGORITHM
+// ═══════════════════════════════════════
+function calcScenarios(infl, rec, sp, tariff) {
+  let a=12, b=38, c=50;
+  if (rec>65){a+=4;b+=6;c-=10;} else if(rec>45){b+=4;c-=4;} else if(rec>30){b+=2;c-=2;} else if(rec<15){c+=6;b-=6;}
+  if (infl>4.5){a+=6;b+=4;c-=10;} else if(infl>3.5){a+=3;b+=3;c-=6;} else if(infl>2.5){a+=1;b+=1;c-=2;} else if(infl<2){c+=4;b-=4;}
+  if (sp<-20){a+=4;b+=3;c-=7;} else if(sp<-10){b+=3;c-=3;} else if(sp<-5){b+=1;c-=1;} else if(sp>10){c+=4;b-=4;}
+  if (tariff==='h'){a+=3;b+=3;c-=6;} else if(tariff==='l'){c+=4;b-=4;}
+  a=Math.max(3,a); b=Math.max(5,b); c=Math.max(5,c);
+  const tot=a+b+c;
+  const A=Math.round(a/tot*100), B=Math.round(b/tot*100);
+  return {A, B, C:100-A-B};
+}
+function buildRationale(infl, rec, sp, sc, tariff) {
+  const p = [];
+  p.push(rec>50 ? `Rezessionswahrscheinlichkeit bei ${rec.toFixed(0)} % (${rec>60?'kritisch':'erhöht'}) — drückt Szenario C, stärkt B.` : `Rezessionswahrscheinlichkeit mit ${rec.toFixed(0)} % moderat.`);
+  p.push(infl>3.5 ? `CPI-Inflation ${infl.toFixed(1)} % signifikant über Fed-Ziel (2 %) — Stagflationsdruck erhöht.` : infl<2.5 ? `Inflation ${infl.toFixed(1)} % nahe Fed-Ziel — geringer Stagflationsdruck.` : `Inflation ${infl.toFixed(1)} % erhöht, aber kontrollierbar.`);
+  if (sp<-10) p.push(`S&P 500 YTD ${sp.toFixed(1)} % signalisiert erheblichen Marktdruck.`);
+  else if (sp>5) p.push(`S&P 500 YTD +${sp.toFixed(1)} % zeigt relative Marktstabilität.`);
+  if (tariff==='h') p.push(`Handelskrieg-Status „Eskaliert" erhöht Szenarien A+B.`);
+  p.push(`Gewichte: A ${sc.A} % · B ${sc.B} % · C ${sc.C} %.`);
+  return p.join(' ');
+}
+function applyScenarios(sc) {
+  ['A','B','C'].forEach(id => { $('prob-'+id).textContent=sc[id]; $('bar-'+id).style.width=sc[id]+'%'; });
+}
+
+// ═══════════════════════════════════════
+//  TICKER
+// ═══════════════════════════════════════
+function renderTicker(items) {
+  if (!items || !items.length) {
+    $('ticker-track').innerHTML = '<span class="tk-stale">Keine Ticker-Daten — GitHub Action ausführen</span>';
+    return;
+  }
+  const half = items.map(it => {
+    const sign   = it.chg > 0 ? '+' : '';
+    const cls    = it.chg > 0 ? 'tk-up' : it.chg < 0 ? 'tk-dn' : 'tk-neu';
+    const valStr = it.val.toLocaleString('de-DE', { minimumFractionDigits: it.dec, maximumFractionDigits: it.dec });
+    const chgStr = it.chg !== null
+      ? `${sign}${it.chg.toFixed(it.dec)} (${sign}${it.chgPct.toFixed(2)}%)`
+      : '';
+    return `<span class="ticker-item">
+      <span class="tk-label">${it.label}</span>
+      <span class="tk-val">${valStr}${it.unit?`<span class="tk-unit"> ${it.unit}</span>`:''}
+      </span>${chgStr?`<span class="tk-chg ${cls}">${chgStr}</span>`:''}
+    </span><span class="tk-sep">·</span>`;
+  }).join('');
+  $('ticker-track').innerHTML = half + half;
+}
+
+// ═══════════════════════════════════════
+//  LOAD DATA
+// ═══════════════════════════════════════
+async function doLoad() {
+  const btn = $('btn-update');
+  btn.classList.add('loading');
+  btn.textContent = '◌  LÄDT…';
+  setErr('');
+  setErr('','warn');
+
+  try {
+    const r = await fetch(DATA_URL + '?t=' + Date.now());
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+
+    const ind  = d.indicators;
+    const infl = ind.inflation.value;
+    const fed  = ind.fedRate.value;
+    const rec  = ind.recProb.value;
+    const sp   = ind.sp500;
+    const sent = ind.sentiment.value;
+    const spYtd = sp.ytd;
+    const tariff = localStorage.getItem(LS_TARIFF) || 'm';
+
+    // Check data freshness
+    const ageH = (Date.now() - new Date(d.fetchedAt).getTime()) / 3600000;
+    if (ageH > 12) setErr(`⚠ Daten sind ${Math.round(ageH)} Stunden alt. GitHub Action prüfen: Actions → Update Market Data → Run workflow.`, 'warn');
+
+    // Placeholder check
+    if (d.fetchedAt === '1970-01-01T00:00:00+00:00') {
+      setErr('Noch keine echten Daten. GitHub Action einmalig manuell ausführen: Repository → Actions → "Update Market Data" → "Run workflow".', 'warn');
+      return;
+    }
+
+    // Cards
+    setCard('inflation', infl.toFixed(1), '%', `CPI ${fmtDate(ind.inflation.date)} — ${infl>3?'Über Fed-Ziel (2 %)':'Nahe Fed-Ziel'}`, fmtDate(ind.inflation.date), inflSt(infl));
+    setCard('fed',  fed.toFixed(2),  '%', `Effektiver Satz, ${fmtDate(ind.fedRate.date)}`, fmtDate(ind.fedRate.date), fedSt(fed));
+    setCard('rec',  rec.toFixed(1),  '%', `Smoothed Recession Prob. (Fed), ${fmtDate(ind.recProb.date)}`, fmtDate(ind.recProb.date), recSt(rec));
+    const spSign = spYtd>=0?'+':'';
+    setCard('sp', spSign+spYtd.toFixed(1), '%', `${Math.round(sp.first).toLocaleString('de-DE')} → ${Math.round(sp.latest).toLocaleString('de-DE')} Pkt.`, fmtDate(sp.date), spSt(spYtd));
+    setCard('sent', sent.toFixed(1), '', `Univ. Michigan — ${sent<65?'Sehr pessimistisch':sent<85?'Verhalten':'Positiv'} (${fmtDate(ind.sentiment.date)})`, fmtDate(ind.sentiment.date), sentSt(sent));
+
+    // Scenarios
+    const sc = calcScenarios(infl, rec, spYtd, tariff);
+    applyScenarios(sc);
+    $('rationale').textContent = buildRationale(infl, rec, spYtd, sc, tariff);
+    $('analysis').classList.add('visible');
+
+    // Ticker
+    renderTicker(d.ticker);
+
+    // Timestamps
+    const fetchedBerlin = berlinShort(new Date(d.fetchedAt));
+    const dotCls = ageH > 8 ? 'dot stale' : 'dot';
+    $('ts-header').innerHTML = `<span class="${dotCls}"></span>${fetchedBerlin}`;
+    $('sb-data-ts').textContent = fetchedBerlin;
+
+    resetARTimer();
+
+  } catch(e) {
+    setErr('Fehler beim Laden von data/latest.json: ' + e.message);
+    console.error(e);
+  } finally {
+    btn.classList.remove('loading');
+    btn.textContent = '↻  RELOAD';
+  }
+}
+
+// ═══════════════════════════════════════
+//  TARIFF
+// ═══════════════════════════════════════
+const tariffLabels = { h:'Eskaliert', m:'Erhöht', l:'Entspannt' };
+function setTariff(level, save=false) {
+  if (save) { localStorage.setItem(LS_TARIFF, level); localStorage.setItem(LS_TARIFF_TS, new Date().toISOString()); }
+  $('v-tariff').textContent  = tariffLabels[level];
+  $('v-tariff').className    = 'ind-val '+level;
+  $('tariff-card').className = 'ind-card '+level;
+  document.querySelectorAll('.tariff-btn').forEach(b => { b.className = 'tariff-btn'+(b.dataset.level===level?' active-'+level:''); });
+  $('sb-tariff-lbl').textContent = 'Handelskrieg: '+tariffLabels[level];
+  const ts = localStorage.getItem(LS_TARIFF_TS);
+  $('sb-tariff-ts').textContent = ts ? 'gespeichert '+berlinShort(new Date(ts)) : 'Noch nicht gesetzt';
+  // Recalc if data loaded
+  try {
+    fetch(DATA_URL).then(r=>r.json()).then(d => {
+      const sc = calcScenarios(d.indicators.inflation.value, d.indicators.recProb.value, d.indicators.sp500.ytd, level);
+      applyScenarios(sc);
+      $('rationale').textContent = buildRationale(d.indicators.inflation.value, d.indicators.recProb.value, d.indicators.sp500.ytd, sc, level);
+    }).catch(()=>{});
+  } catch(e) {}
+}
+document.querySelectorAll('.tariff-btn').forEach(b => b.addEventListener('click', () => setTariff(b.dataset.level, true)));
+
+// ═══════════════════════════════════════
+//  AUTO-REFRESH
+// ═══════════════════════════════════════
+let arTimer = null, arTarget = null;
+function getSavedAR() { try { return JSON.parse(localStorage.getItem(LS_AR))||{enabled:false,interval:5}; } catch(e){return{enabled:false,interval:5};} }
+function saveAR() { localStorage.setItem(LS_AR, JSON.stringify({enabled:$('auto-refresh-cb').checked,interval:parseInt($('refresh-interval').value)})); resetARTimer(); }
+function resetARTimer() {
+  clearInterval(arTimer); arTimer=null;
+  const ar=getSavedAR();
+  if(!ar.enabled){$('sb-next-reload').innerHTML='Nächster Reload: <span>aus</span>';return;}
+  arTarget=Date.now()+ar.interval*60000;
+  arTimer=setInterval(()=>{
+    const rem=arTarget-Date.now();
+    if(rem<=0){clearInterval(arTimer);doLoad();return;}
+    const m=Math.floor(rem/60000), s=Math.floor((rem%60000)/1000).toString().padStart(2,'0');
+    $('sb-next-reload').innerHTML=`Nächster Reload: <span>${m}:${s}</span>`;
+  },1000);
+}
+$('auto-refresh-cb').addEventListener('change', saveAR);
+$('refresh-interval').addEventListener('change', saveAR);
+$('btn-reload-now').addEventListener('click', doLoad);
+$('btn-update').addEventListener('click', doLoad);
+
+// Live clock
+setInterval(()=>{ $('sb-clock').textContent=berlinFull(); }, 1000);
+
+// ═══════════════════════════════════════
+//  INIT
+// ═══════════════════════════════════════
+(function init() {
+  $('sb-clock').textContent = berlinFull();
+  const tariff = localStorage.getItem(LS_TARIFF)||'m';
+  const ar = getSavedAR();
+  setTariff(tariff, false);
+  $('auto-refresh-cb').checked = ar.enabled;
+  $('refresh-interval').value  = ar.interval;
+  doLoad();
+  resetARTimer();
+})();
+</script>
+</body>
+</html>
