@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-19T14:11:40.608291+00:00",
+  "fetchedAt": "2026-04-19T17:55:38.499794+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20605,10 +20605,10 @@
       ]
     },
     {
-      "title": "Here’s what the stock market might have gotten wrong about the Iran war",
-      "source": "The Washington Post",
-      "publishedAt": "2026-04-18T18:43:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUhqLUcxRUMzckFORGoybXk2LU5qdGRsRHpyY0Q4Zm5kWndiNHBENzZqc3dTN0xrX0t3R0dMbmxwSGNZTkI3dlE5SERqYm1YRmNJMncyc2NUN1lUNUp0S1U2T2h2X3U2N0FVVlI0R3FYZnBZOXBkTlJ2OXJBelk4YU1TUy04dXNr?oc=5",
+      "title": "The stock market’s new approach to valuation",
+      "source": "Financial Times",
+      "publishedAt": "2026-04-19T11:00:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVEM1NTBnT2poWTN0dUNTWnloS1JreUZFdV9TVUo5UGFsSmZqdHFHTDNzc0VNTWhFSjJieUZkX0EtZnp1YXktU0VvR05PbVdtSklEWVBMU2JnTEQxZ2d1NzNzNXhhX3psYUljLVJfclZFc3E3bVpBZnEzUHN1MDg4ell2Q2E?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20622,10 +20622,10 @@
       ]
     },
     {
-      "title": "The New York Stock Exchange | NYSE",
-      "source": "NYSE",
-      "publishedAt": "2026-04-17T22:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
+      "title": "Here’s what the stock market might have gotten wrong about the Iran war",
+      "source": "The Washington Post",
+      "publishedAt": "2026-04-18T18:43:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdUhqLUcxRUMzckFORGoybXk2LU5qdGRsRHpyY0Q4Zm5kWndiNHBENzZqc3dTN0xrX0t3R0dMbmxwSGNZTkI3dlE5SERqYm1YRmNJMncyc2NUN1lUNUp0S1U2T2h2X3U2N0FVVlI0R3FYZnBZOXBkTlJ2OXJBelk4YU1TUy04dXNr?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20656,20 +20656,20 @@
       ]
     },
     {
-      "title": "Earnings poised to stoke confidence in a stock market that has rebounded to all-time highs. Here's what's ahead",
-      "source": "CNBC",
-      "publishedAt": "2026-04-17T19:05:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUEJpTGpRa3EwcXlBV2tqSEl3ZnRTbUlZb2dKTHNxc0EtZ3lxbnJISHptMmNyeEplelpmNFBBSHhDUmlLSnF1VjdnbG1HQzVMUzVadXdEaFdrZEQ2bG44U3lJQWY4bFpnSGdqcWd0RjB6Z0o1OVpoLS12NGtyYU1tcE1Cc2JvYVZ2WWNpSVd1aExNZw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "The New York Stock Exchange | NYSE",
+      "source": "NYSE",
+      "publishedAt": "2026-04-17T22:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
