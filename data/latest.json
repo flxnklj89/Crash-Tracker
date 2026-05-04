@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-04T17:17:30.499450+00:00",
+  "fetchedAt": "2026-05-04T23:12:43.157731+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -58,13 +58,13 @@
       "components": {
         "vix": 16.99,
         "brent": 113.89,
-        "eurusd": 1.1718,
-        "us10y": 4.4
+        "eurusd": 1.1755,
+        "us10y": 4.39
       }
     }
   },
   "globalComposite": {
-    "value": 29.7,
+    "value": 32.3,
     "label": "Stabil",
     "date": "2026-05-04"
   },
@@ -93,8 +93,8 @@
       },
       "fx": {
         "label": "EUR/USD",
-        "value": 1.1718,
-        "date": "2026-04-24",
+        "value": 1.1755,
+        "date": "2026-05-01",
         "unit": "",
         "cadence": "daily",
         "series": "DEXUSEU"
@@ -124,8 +124,8 @@
       },
       "fx": {
         "label": "JPY pro USD",
-        "value": 159.35,
-        "date": "2026-04-24",
+        "value": 156.76,
+        "date": "2026-05-01",
         "unit": "",
         "cadence": "daily",
         "series": "DEXJPUS"
@@ -133,7 +133,7 @@
     },
     "china": {
       "name": "China",
-      "score": 21.0,
+      "score": 29.0,
       "label": "Stabil",
       "date": "2031-01-01",
       "summary": "China wird hier über Wachstum, Preisbild und Yuan-Stärke gelesen. Schwächeres Wachstum oder sehr niedriger Preisauftrieb können globalen Industrie- und Rohstoffdruck verstärken.",
@@ -147,16 +147,16 @@
       },
       "growthOrRate": {
         "label": "BIP-Wachstum",
-        "value": null,
-        "date": "",
+        "value": 5.0,
+        "date": "2025-01-01",
         "unit": "%",
         "cadence": "annual",
         "series": "CHNGDPRAPSMEI"
       },
       "fx": {
         "label": "CNY pro USD",
-        "value": 6.8359,
-        "date": "2026-04-24",
+        "value": 6.8276,
+        "date": "2026-05-01",
         "unit": "",
         "cadence": "daily",
         "series": "DEXCHUS"
@@ -194,18 +194,18 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.4,
-      "chg": -0.02,
-      "chgPct": -0.45,
+      "val": 4.39,
+      "chg": -0.01,
+      "chgPct": -0.23,
       "unit": "%",
       "dec": 2
     },
     {
       "label": "EUR/USD",
       "icon": "💱",
-      "val": 1.1718,
-      "chg": 0.0014,
-      "chgPct": 0.12,
+      "val": 1.1755,
+      "chg": 0.0026,
+      "chgPct": 0.22,
       "unit": "",
       "dec": 4
     }
@@ -20570,7 +20570,7 @@
   },
   "news": [
     {
-      "title": "What’s Going on With This Stock Market?",
+      "title": "Why Stocks Keep Going Up",
       "source": "The Atlantic",
       "publishedAt": "2026-05-04T16:38:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdWs4bERObWJvcDk2XzZIRlRXVUZiQ3Y2WTZ5OHpRZ3RIZ2xDb3h1WFhtcjNVTkgxYl9PR2hxVUxRNFQ4Q1RUUmtjS0JFTkJtNnNRalRpRWZMRXBwZzhyV2NRcEpUQjhVU2VCWXhCUm1DeGpRNE1IVXVQbHRxOHRja3hOeElYRmot?oc=5",
@@ -20587,10 +20587,10 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-05-04T12:07:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRHZjWklCMHcwMU9vc3BfZTFCNEx6UUN2dDhvS1ZJQ1E2aVJjSkF1elp3dVlxZ1dXNEhIVVRhTnB3c1ZqdUVXUlpvcXZNem0zQlpjYS0yVFFSY18za3B4d1ZKY3FENGhXVnEzNnhCemx4SGhyaEpsZWFpdnE2RE9TUWpaWHN4NG10WWRzUWhnM1JFWk9lallITnNKTQ?oc=5",
+      "title": "Weekly market commentary",
+      "source": "blackrock.com",
+      "publishedAt": "2026-05-04T17:46:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20604,61 +20604,10 @@
       ]
     },
     {
-      "title": "Nvidia CEO Jensen Huang says company now has zero market share in China",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-05-04T15:08:05+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPd1hYYk5qWHVvMDBwUkpSTjU4NlE5ZGUwMDVEbEhOZmV3bHRpT1A3N05FRE1pdUFlTVFzVWdneHZTYk5JTXVVdjZGOUUyY3BqWThxbUFNZk1iVFJua2hGbVdUQllmRm9CSVdwR0xoRGU2LVBkamtPTEh2ci1YRDhYZy1DZTNhN2Z5VWJNUUw2UXp2TTNqSUpQZ3pRdHMyeUlFMWhlWG1ZdktxV3h3a2tsamYxZDRZS2tSUjNHSXducFdKUHJIYnkwS05nR2VvMnpVaGJham53?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stock Market Week 18/26: RENIXX Sets Course for 1,400 Points",
-      "source": "renewable-energy-industry.com",
-      "publishedAt": "2026-05-04T08:29:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNM1VvNkRjd0hnTV9JaGlyYm1UNW1ydjl6bXBST3lDLWcyWk5XZHJOWkluc1pMUl9ZNkNabGRKazVpTGR0MVNabTZwVFlYRXBDM2VrMWdyU1VZUjhuYk9ndlVxVVhYRVVyQWo1bUFBOVpnTXVtQjBINzFQeE1oX3lTajhCdnJSUl9KbF9QdXVZaDZaSVk2MjQtaDlKemZjZEROcDBFNWVTd21GQk96TmJmTnlJRm1Vc25PQVVTdHJ1MFhKWldjM3o0ZnhfVFJUZHFZMlZBVE1CYlpIbHZ2c1NlcVRRTmFVMEZhSHVWM25iaHlhLXRCbVdwamxZME1JVmFjc2pFZF8yak11aTlTR0Y4eXVjcU1lUmhIUFhpTU5SRFR1Wl8ydG9OQU42NGRkX3lneFVNZFdWTkROdUhCUEtoNk9RenJSZ2ZYNmEzUEgtYjBXNHU4RldqRnpaY3JrRVBVbDktcFNn?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Monopoly Round-Up: How Big Tech Earnings Show the Stock Market Is Being Manipulated",
-      "source": "BIG substack.",
-      "publishedAt": "2026-05-04T03:31:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkaVZwbVZqMlJmS05qNFBhd09WbzFQdUpRWDlqMTdaNk1DRWNUa0R5ODB6eFZrYnd1WndPQ0IyUEx3Tk5ydjktS2U5TGpINWNhTU5INzVDMlNOT1M4eGkyRmZJczBpbldJNWNMNEhvQ1VpX01FWUJqOS1TSVdQMUE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, May 4: Strait of Hormuz Tensions Weigh on Stocks at Midday",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-04T17:03:45+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPN1pqcVJTWE1XdDZnMjQ4ZnVNaGlJRG9vQ2otdjlKRWZTc0dxby1qWEhKM2JhcnpfQ1hOMk4zTHhNZ1NfZTloc2kzWk9seU1DNG5ZZWNtdVMzMzNNV09RbVdHX0JRQ3hXTEl1bXZPTTZUVTg4MXhEalVtQ3lYTllaTGtuMnpGd09QZmQtRE9YVzBLSDBsZEplMnZLMEJ3VUlTTkpZZEhfTzhvc1dJMlN1RXpiS1l3NG92NnE1NGs3eWtDMF9GMXBibFVpdTI1a0VINWdV?oc=5",
+      "title": "Asian Stocks Set to Fall as Gulf Tensions Lift Oil: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-05-04T22:07:44+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRDkyRWpPWkdLTnFYVldMSU0yTExCOWpWNlB6TGlwZ1NoNlEzd2g1YWVteElncUpoTzJPTldVLXRxajNHZmNsWmozYXZOVVNSbGtDNUN1WXM3OERJdFJBb2VqUXpuZXlwMHRXWGZ0SlRfTWhZaUFhMnZYS29OdWpWZXV6c1Y0akpYRGVzS3J6Y3VNR2UyWExBR3Jubjdyejl3TnNDeHMxM0xOTkZQRUo1aHRVWGM?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20670,6 +20619,59 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "US Stock Market Today: Dow Sinks as Oil Shock Tests Wall Street’s Record Run",
+      "source": "TechStock²",
+      "publishedAt": "2026-05-04T17:15:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWW9DVkcwOGNVWFdHMm9RZGNJbFZqSm1xeFhibENpTEc0eEgzdEtHbE5DRldweGtCR09ZQ2kzbkdmX09WeWwxbk02M0FnWGZxeGg0TlFvWEZwd0pqU000Y1ZybzNNdm9paHg4Zk5Xeng5c1FLWE9HTTdnQkxWUnJYX2RvbzQtWXJUcTIxRmk1cXVEdXhBNjFQWk1YVQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Oil and Treasury Yields Surge as Markets Face Inflation Pressures",
+      "source": "Mott Capital Management",
+      "publishedAt": "2026-05-04T22:38:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wbEVWLURpVTBUT1hIdkwwcWpRbzBKRE5CVEJSRFdiQ3FUSEJyMm1Ta2F4V3hzZmVHanduM2k2d2p6QVljQ3ctUllVR1Q1V1lRZUkwbXVocnpxMWl3RUFVZUctSVlqQTBUa0o2bmZFcjB6WkRaem56QVZxUVBsQQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "The Stock Market Flashes a Warning Not Seen for Over 2 Decades: Here's Where History Says the NASDAQ Is Headed Next",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-05-04T18:15:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRTlKWHZrWXExY1ZFRmEtcEw1UTVna00wZzZRa282YVZBcXJBSE9WaFE1R2FNMURBVGJXbzdUOHpaZllvZ1N2UnZVZ25WX2ZoTFlJVV8zRDBHcDJSRGk0T2hKNGRsNk1ncGw2Q2JGakJxQnE1OHNCSUw3QlJ5azJCcVpzOEtPZUdDNEhjcjMtdXpKdjBzTGhHeQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
