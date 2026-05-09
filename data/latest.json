@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-09T07:23:04.089001+00:00",
+  "fetchedAt": "2026-05-09T11:13:32.632521+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20629,44 +20629,44 @@
       ]
     },
     {
+      "title": "Weekly Insights: Stock Market Outlook, Best-Performing Dividend Stocks, and Q1 Earnings Insights",
+      "source": "Morningstar Canada",
+      "publishedAt": "2026-05-09T09:08:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNzVZd1FHNnBiZ0I5WS1oZi03djYtbjNpelEybUNKOFZqcEZuaVpVczdpQjl4cGYzVkhlSzlaU3B6TmM2RHJuR1BxMXJBODY4dUFXZUhfWmFIVHBscjFIRnZIYVVFenBxYlg4c3pYNHFkNmRPU1o2aVNMay1RSnRvbTZnTlZkbUZuVXV4WkUzYk83b25Pc0wxZC1LZzFYSWhpQXZZUVoyTjNWUk9mcXBGeUVMY0tBSG1UR0d2UDdZRWtSQWNaei1naWF1cXlSaFk?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "What to Look Out for in Economic Data This Week (May 11-15)",
+      "source": "Kiplinger",
+      "publishedAt": "2026-05-08T20:30:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Stock Market Today, May 8: Ambev Gained 13% This Week on Strong Earnings",
       "source": "The Motley Fool",
       "publishedAt": "2026-05-08T23:05:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWVoxTnRLcGNuTkJrV0kwMDQ0TnNMT0pkU2EtTTliR3J6SmItQWY1clV5Z3lpUTJUQ3NJd0F6WF9POGZiV25NaDZxSG9uWjYtSjZjNGQ1MTNXTHViUVREX3gxajNpNDlNVjJQQi1EMy1rbGhEdU1rZjFVckJDbjdmLUFBYzF2ck9fSjFxOXdUWDhDRjdsTnVfZ19mOElXdld0ZDVUM3NqUC1WRmVEMEV3d3NqY3NMdGR5YnJ1bVBfX3pqR1Qyb3ZfZC1B?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Emera Earnings: Strong Market Conditions Support Unregulated Earnings",
-      "source": "Morningstar Canada",
-      "publishedAt": "2026-05-08T21:04:22+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOTF3aHFUNTVzRUExbDczc1Bwb3ByUDRjNnhYTWM4ZHJhWlIxV3RkVHFYSktYVlRINnYtTDMwXzdzYXhWNld2dXQ4enZzcDNvNGstYUt5elZIaWdQbGJFOHVrZGp3ZEljU2FEZkpYQ3dZalAtRVl4ZGZ0STIwU0FhSzd0cS1yOE82RUN4Vk9NTThtSzM0eGhkRVJsTkZKRFFWdVBwWllLRUVSRk5KdEQ2OVRR?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "CoreWeave CEO Hails ‘Transformational’ Earnings, but the Stock Market Isn’t Buying It",
-      "source": "Barron's",
-      "publishedAt": "2026-05-08T12:13:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2VERWNWwzaFVIMGtaVHFRSC15TzhJZHlwVmFELTE5NENNNVNEc3lESUxwQWlIa05tQ2FyTlU4OGs2U0ZlR1JUN293elhvTVNMR3lGamNsUUFaSlF4ZUFwdm51QjVRSG5WTEZpZGdhTWxiSFdxNW9MNXlGRFE?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
