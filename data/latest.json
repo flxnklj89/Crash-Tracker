@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-10T20:43:00.631052+00:00",
+  "fetchedAt": "2026-05-11T02:54:52.954342+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 32.3,
     "label": "Stabil",
-    "date": "2026-05-10"
+    "date": "2026-05-11"
   },
   "regions": {
     "europe": {
@@ -878,10 +878,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-05-11",
-        "value": 0.05
-      },
       {
         "date": "2020-05-12",
         "value": 0.05
@@ -7614,10 +7610,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-05-11",
-        "value": 2930.32
-      },
       {
         "date": "2020-05-12",
         "value": 2870.12
@@ -14363,10 +14355,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-05-11",
-        "value": 25
-      },
-      {
         "date": "2020-05-12",
         "value": 31
       },
@@ -20578,6 +20566,42 @@
   },
   "news": [
     {
+      "title": "U.S. stock futures fall, oil surges as Trump calls Iran’s latest offer to end war ‘totally unacceptable’",
+      "source": "MarketWatch",
+      "publishedAt": "2026-05-10T22:17:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQlkxYml6R1dkTXY3Z215TnpZWnF1UGt0cW9BTTBDZExhVmY3QlNHYnctWVY2MVpPNzJ3NExvX25GVHppVEtiVmNQY3RVMk53TzBCSmJXb19wSUluM3RGaFNuUGQ2OW8xN0doOVptbFJqTlFQYktTWTlNVWIwT2dKM3JhQjVRTXFJMzBuUXEtVWtHaHpqbk1CYm4xbFNLNkxHRkZwTV96VVhmbkZPLTRhZ2hMMmhOUzhnMWZWdjl2NXJ5TkFmY3h2M2pkY2s5TkM1VEhDWlYwemROZw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Dow Jones Futures Fall, Oil Prices Rise; Trump Says Iran Response To U.S. Offer 'Totally Unacceptable'",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-11T00:31:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT212QXFVWWtZeF9LclY0NTZGSU9xNHd6XzRLemhWdW1yRS01b0ZqUEJBVFpsUHJqWEo4ckppeW14N3RuT1RzaDZ5aGgxUkhlYVpNOGJMUVBhaUdoSkc2RUZUN0xWSmpmeTQtX1RTSC05T3JEZDBrZUZSM0N0T0psWE1xbzNqa2h3Z0hNeV9TaXU3VFNJeFkwUHg5aGVSU1V0REVjUEkwa2d3OTJoYV9kb3FNaExHaHNL?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Market guru Yardeni sees S&P 500 hitting 8,250 this year as earnings bolster 'Roaring 2020s'",
       "source": "Fortune",
       "publishedAt": "2026-05-10T20:13:00+00:00",
@@ -20613,10 +20637,10 @@
       ]
     },
     {
-      "title": "Futures: Iran Responds To U.S. Proposal; Trump-Xi Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-10T17:17:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNT212QXFVWWtZeF9LclY0NTZGSU9xNHd6XzRLemhWdW1yRS01b0ZqUEJBVFpsUHJqWEo4ckppeW14N3RuT1RzaDZ5aGgxUkhlYVpNOGJMUVBhaUdoSkc2RUZUN0xWSmpmeTQtX1RTSC05T3JEZDBrZUZSM0N0T0psWE1xbzNqa2h3Z0hNeV9TaXU3VFNJeFkwUHg5aGVSU1V0REVjUEkwa2d3OTJoYV9kb3FNaExHaHNL?oc=5",
+      "title": "US Stock Futures Slip as US-Iran Deal Hope Fades: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-05-10T22:09:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSERuMkVGTTh0SjRURWZWTVhhSlo5eThmdzdwNEVQSXF5MkNtNDNZaDA2NW5ZY2t3Q2xIcXdMLXN4WGk2Zlo0cnRudVl0Yk41Qnk3UTVuOUU1N0pOaDIxeWhmM1BabGhmZ3lLRnY5M0wxMzBqdGUxY2xyelVnd1FhYUZOMXpMeV85VUlleDVtT1d2Ny1LWm1Ta0xZUWZyQVVKeEN3X1JEbUVQZjNfcmQ2Zmh3?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20645,40 +20669,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "The New York Stock Exchange | NYSE",
-      "source": "NYSE",
-      "publishedAt": "2026-05-08T22:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE93UWVlU3g1TVNpdTNEcjI2Yk9kSHU2Tnh5Y0stVFBGRWVkLW9wbU1EbHhQaHdIOE56d2V5NXVhSQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Data, Iran, US-China meeting in focus for scorching US stock market",
-      "source": "TradingView",
-      "publishedAt": "2026-05-10T13:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQ0JMcDdBZDZTclJ1V2NUWVVsTWZUWTg5eHg1X1pSMlhJYWJDaGlCblhoLWxyWHlTbUJRMEZRaDBiakxlSURrTGpaWVlTcUpodlBpQnB4VUZNV1ZKR3BaWlNCaHhaSm1icnNLaHNkMzd6N3Z5NzdkNW83RktDc2lUOS1oVG1OTXhkU0xtT1JRai1jVUlHMHh6VEQ4RFpxdG12UUZ2LUJLSDRudTlfc01IdkRQcmdsbTh5elJhWXE4YzJnTlJBSFVrUGR4X21Tekha?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ]
