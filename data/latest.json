@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-13T02:51:58.828375+00:00",
+  "fetchedAt": "2026-05-13T06:46:01.939141+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -180,24 +180,6 @@
       "chg": 1.19,
       "chgPct": 6.92,
       "unit": "",
-      "dec": 2
-    },
-    {
-      "label": "BRENT",
-      "icon": "🛢️",
-      "val": 118.26,
-      "chg": -5.98,
-      "chgPct": -4.81,
-      "unit": "USD",
-      "dec": 2
-    },
-    {
-      "label": "US 10Y",
-      "icon": "📉",
-      "val": 4.42,
-      "chg": 0.04,
-      "chgPct": 0.91,
-      "unit": "%",
       "dec": 2
     },
     {
@@ -20604,41 +20586,6 @@
       ]
     },
     {
-      "title": "Stock Market Today (LIVE): Beazer Tells Dream Finders to Dream On; CPI Comes in Hot, Gas Surges, Treasury Yield Hits 1-Year High",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-12T21:24:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSm1ac0s1RjAyS283SWEzR193YVBrYkZtRE84bDhoMzkybVl6NnpWSUYxVlQyaEJLRFM0VkFUUG5yc2hMYjNFMmhoem9RTWx5NG1QTkxoWWRMYUZNeHFTejdVSDlyalhoSWFiS3F2RVREV1pib2gyMURxNkZ5eW9UMw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "China’s big tech groups miss out on AI stock market frenzy",
-      "source": "Financial Times",
-      "publishedAt": "2026-05-12T21:00:04+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXNlaFl5SklmSEdIaGp2Qko3c25WYzFWbzBJMjJ3QmhHZUFzb0xmaW5iZDJCRVpSd1pIMS10ZE51cUJjNXFaWDU5VFB5cXhtaWRYcXBNdkwwaVRKTU9kSE5IdWdfeTRCT19Gd0xjSndoMmZ3cFNBSk0tdTRhZ2FqZ1BfY3Q?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
       "title": "Stock market today: Nasdaq, S&P 500 fall as CPI inflation rises, chip stocks drop",
       "source": "Yahoo Finance",
       "publishedAt": "2026-05-12T17:33:01+00:00",
@@ -20654,6 +20601,41 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "Is China’s Stock Market a Bargain?",
+      "source": "Cabot Wealth Network",
+      "publishedAt": "2026-05-13T06:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ25JX25GazRmZTFDX2VER2o4VkU3X3c3NzdFRXJPTWFXbGNsY2ZRdG9qc0RqOUp4T2tLVGM2cWdiX3o3a0liVFQxZjJud3ppYW5MR3hhaGlWY2FGbGVkRkNXZmw0ZFctdzZSTXVUb3VvV2hlbHJ2RlZYQmZrWUNXMFNOblBhQzZVUkxEZUoxcng?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Wall Street’s record-setting run halts as AI stocks slump, oil prices rise",
+      "source": "minotdailynews.com",
+      "publishedAt": "2026-05-13T05:46:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLUJsTzMtd0h3QnZ2ZFZjUWZCeE01YzRYMlRiNm1sRUdVcDcyTDBSTV9MdlZZS2E0dmJlZnZBazVSeHZ3UzZoM0YtNGJpWUJLU0dGMG96bk5vZ2dYTk9hMUdRQV9qazdNU19pTkdNdGtOQTUweExfVHY4bnlxVVFnSk91M25ZNFNRTGJCVkZvMzhIQU5kNlc4dHdldVhMOHptc1lmR0t6akk4akxNRVkzSl9rdFdQbnFjd0hqcDFhR0hLY3FF?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
