@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-15T17:25:28.034711+00:00",
+  "fetchedAt": "2026-05-15T20:58:12.653739+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 8.54,
+      "ytd": 9.37,
       "first": 6858.47,
-      "latest": 7444.25,
-      "date": "2026-05-13",
+      "latest": 7501.24,
+      "date": "2026-05-14",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -59,7 +59,7 @@
         "vix": 17.26,
         "brent": 106.11,
         "eurusd": 1.1773,
-        "us10y": 4.46
+        "us10y": 4.47
       }
     }
   },
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7444.25,
-      "chg": 43.29,
-      "chgPct": 0.58,
+      "val": 7501.24,
+      "chg": 56.99,
+      "chgPct": 0.77,
       "unit": "",
       "dec": 2
     },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.46,
-      "chg": 0.0,
-      "chgPct": 0.0,
+      "val": 4.47,
+      "chg": 0.01,
+      "chgPct": 0.22,
       "unit": "%",
       "dec": 2
     },
@@ -13637,6 +13637,10 @@
       {
         "date": "2026-05-13",
         "value": 7444.25
+      },
+      {
+        "date": "2026-05-14",
+        "value": 7501.24
       }
     ],
     "sentiment": [
@@ -20588,10 +20592,28 @@
       ]
     },
     {
-      "title": "Bonds, stocks and precious metals slump as inflation fears mount, silver falls 7%",
-      "source": "CNBC",
-      "publishedAt": "2026-05-15T10:47:42+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdHk5NS1weGp1d1dYVE5vWC1OMFVNckgxRjItTFVFQTYwWWtwZTg3ZEtaR1JMYjE5X0J5VjFlZkZrVENKVG9GajRYaVFKRE1LX2c1WGtrYUFyZkF4R1lZV0ZjY2FMWW5VNmZtWjlYZFFFYjZfclZQVnItbDRQcW9oQ0pWNGV3ZFZLWUJqUHp4R0wzSC14M0Jn0gGcAUFVX3lxTE5xREJ1Uy1wRlF1TVU0YnpyUERhM2ljT01WekNBNFJxa0kxazlaWHU0WkI4TVp3cHN4VlkwWTh6UnhEb2tKeVhNU29JNXRMNW9YQW5ieFhLajRsTG1URDVZWFB6TnI4ajhqWXBnT3poYUtvVGlNWHMzUnZhQVphM2RLLVh6akx3VlV0TWx3WklSSGZ5SWtIMU9HSkhCVg?oc=5",
+      "title": "Stocks drop from records as worries about oil prices rattle the bond market",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-05-15T20:21:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPV1lHSGtscHAzdEUwUUlSZFZJbkV0OEswQjkyUTEyb3V2SE5yUWVBQnR1X0J3Q1o1WW9NdmNCTlI3UE50RlpOM1Z4WklDZDdFaG5feVliOGVsbUlqMHZ0QXJXZWFORWdlM0Y2aUxleVpxQWNwczN2d3ZFSHdXV1Rmak8xVFpGWkJfM3RaZjNjZXJ0YUtwVmpkU2RJU2wwa05NLWpaV3ByS2J6aWhkZ0k5VnZ2TDhrVDctMzhqTHVlTFVRYmhfZzY3Z3N4eDQwNlhiVm9hWQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Global shares drop, bond yields climb on inflation worries",
+      "source": "Reuters",
+      "publishedAt": "2026-05-15T15:41:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdXdkc1k2VjFGcUx2RHhvb1BKVW9HNmp3ZnNyTmxQTElPSVY0OERvUThQNVRab0luYVdLbTFkREU1MkZfZVNld3BMNkdwV2RPcWgwTFVrQ0ZCZFRhY2pweVhGUmpOdlotOU96OUhndzdLQWpPdjNNVWdma2NZdzJNYVkwRQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20607,9 +20629,9 @@
     },
     {
       "title": "Stock markets worldwide drop from records as worries about oil prices rattle the bond market",
-      "source": "The Washington Post",
-      "publishedAt": "2026-05-15T15:28:22+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcldyNlk0MjZnY096ejd6czJGSFluRk1uUUNwYXVJeU1nOGI0SlhralBTQ2ZjSE00R1hBZ0FwTTQtQnA2OG5TeE45ZE5BSnlycFQ0YzNLSzAyT1I5VGdGZHozN0xQcVJUbXAxYnh2SzZKNEc3MlBYbjRRdG9HSlEyYVVIZmhzQUJzR1g2NzVjQXNwQXViNlFnb2dMek5sWVFRNGkzN2VKa3QwWUFjd1ZuelpOOEluelZRZThiazN1b2hicWtPQ1BMNy1lS2g?oc=5",
+      "source": "AP News",
+      "publishedAt": "2026-05-15T17:35:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPa1BOUzJhU0pMVUs2bUVZTTY4SkEtbXhBZ0VUcWtrMEdSb1RZNjhncXk0b0ZMNnVUM3lZbm1yaVVvWGVic0g3QUlldEtQVnh6anFYdml4eWJ5VFJqenJ5cldxYkJZMTN3T0lwblZGWk1GZUFucmF2QWl1bDNPUGM0Rmo3TUNIUlNMZWVjTXdCUUxEb3NfWVlYaw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20642,37 +20664,21 @@
       ]
     },
     {
-      "title": "Trump and top CEOs leave a more self-reliant China with few deals to show for it",
-      "source": "CNN",
-      "publishedAt": "2026-05-15T12:15:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY1AwUGlLMXBOcHNNdnhPODVWN0x6dkM5QU1WTE4xaWxHT2pRaUV2UlBoWnNpSk5RNllCRzFhMjNXSHVPc0F4c3RvOXk5OGkta1JULWIzNlVBWHV4MmV5d3liWEhXWjZPWVd4TGFRQnFzNVYzNENmT2huNDFkNk15WVhYTlZBUUVSVkFFYQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Bonds, stocks and precious metals slump as inflation fears mount, silver falls 7%",
+      "source": "CNBC",
+      "publishedAt": "2026-05-15T10:47:42+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdHk5NS1weGp1d1dYVE5vWC1OMFVNckgxRjItTFVFQTYwWWtwZTg3ZEtaR1JMYjE5X0J5VjFlZkZrVENKVG9GajRYaVFKRE1LX2c1WGtrYUFyZkF4R1lZV0ZjY2FMWW5VNmZtWjlYZFFFYjZfclZQVnItbDRQcW9oQ0pWNGV3ZFZLWUJqUHp4R0wzSC14M0Jn0gGcAUFVX3lxTE5xREJ1Uy1wRlF1TVU0YnpyUERhM2ljT01WekNBNFJxa0kxazlaWHU0WkI4TVp3cHN4VlkwWTh6UnhEb2tKeVhNU29JNXRMNW9YQW5ieFhLajRsTG1URDVZWFB6TnI4ajhqWXBnT3poYUtvVGlNWHMzUnZhQVphM2RLLVh6akx3VlV0TWx3WklSSGZ5SWtIMU9HSkhCVg?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stock market tumbles as U.S.-China talks avoid chips discussion (COMP:IND:)",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-05-15T13:31:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ1lQYXJxX1R4V0lyTTJyLTZReFJGREtvRDdJSjJEWnJQa1QtQlU1NmJtaGNTRk0xRjhaTmpMd2VjTHVNNHZnQzFlcjVjQnVSUkJiWkh5SWgteDdxbWFpdEd3N2tvcXJGQzFWTGxrZkdpaGFwQkloMDF2QlozSjBVdDZ2aWRrRDQt?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
       ]
     }
   ]
