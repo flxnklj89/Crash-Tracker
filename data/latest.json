@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-16T09:27:49.239643+00:00",
+  "fetchedAt": "2026-05-16T13:17:29.329271+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20636,6 +20636,23 @@
       ]
     },
     {
+      "title": "Macroscope | Global stock markets are bubbling along on unjustified optimism",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-05-16T08:30:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdVhxU3g0SWw3N1FLUlhsMmdjcGhiUzJWR18zdkMxX0lkTk5MVFlmanJvSTVnaXpTOTE3T3FCZEp0UTRIbHpkakpqNnVia3gxa2VudmQ2a1NLcWlzR0ZCS0lMaFVMdDBvcU44SGxsaEZwdFJNU3kydFY4eG9CbC04Ulk4TVI5Yk8xSEZ4UjlRNXdIWGhKdkJvbWFqVmFnX29GTVZzVzV6QjZ0Qy1rdmtUaXJrdlc3QVpFMm5n0gG7AUFVX3lxTE9YRGlDQjVVWlhDYkZMWGJIRDVES3dyVmhlYml4RWhEZDdVemxweHBZbGRSeHh1SHN3ODR1LUpxbFA4TFp1NlJGbW9QZ19BVTd1d0pzdDIwX3dUb0FyYkdRSDhLeDd0dmthMzZsNkpIWU81UHNCMzNFN0pJVlEwTWZMVGJ3dHJ2dXhXYVpMeDl3V0U0REI0MjEzMGtYZHduTjVuS2xiMk53bm9HdV9uLU8zdUVXMXRacVJnT1E?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "This Week's Market Wrap: Narrow Leadership, Oil And China Trip, And Hot Inflation",
       "source": "Seeking Alpha",
       "publishedAt": "2026-05-16T03:50:00+00:00",
@@ -20669,23 +20686,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "How major US stock indexes fared Friday 5/15/2026",
-      "source": "The Washington Post",
-      "publishedAt": "2026-05-16T01:30:06+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd2x1eWZrdmk0TTI2YVFnRW9LMVRFX0IyRWRzWG9xYjNrT2VacXdaNUVkSmp0SEphRGJId1VsdmRXWW5Ja3BwNkxHV0hTRkhOa05jRk01YmZ0dWtXWEY0QlNIazQzNy0xeUVSUlJvMGZWNGFYN2lmeVZFVkFwX2txY3FVdHlhZlpqLW93aTFpakJnMS1KOHpjODA1Q21BZ0xxeGpXUlNUTEdGc2RzZGRYMWpnSEhQYnl5UEV0NjBtQnJEWTl4ZTVn?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
