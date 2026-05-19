@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-19T02:58:03.594663+00:00",
+  "fetchedAt": "2026-05-19T07:43:07.143127+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20564,8 +20564,8 @@
     {
       "title": "Weekly market commentary",
       "source": "blackrock.com",
-      "publishedAt": "2026-05-18T22:48:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "publishedAt": "2026-05-19T03:48:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUVRpWnpzel9vdWlfUTRyMGZwLVhXN2dmVDBNclBHRzhhNWx4MnVDSFBZNl8wZmxuZzlpZjZPTC0zMTZMRU9Udl9zWTB1X0FFR2ZBMGFQaWgydTVSY21qTzBkUWoyaTlGUHFJeVZybVZnb3d3YWoyRkZHeDVyLWszMmFPLUNZUmh0WUh3UG9ZejBFanRudmt5VV9YNmVSa1hmeWp2TE1CUWgtdw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20597,10 +20597,10 @@
       ]
     },
     {
-      "title": "Nasdaq leads equity losses with oil, borrowing costs in focus",
-      "source": "Reuters",
-      "publishedAt": "2026-05-18T22:54:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSlh5Y3pEUnpYTGgwMlRpWng4QW9kN0RZQzZTTjFJektBc1B5dmowTEZxaUozYkVmY0xiTlViVkRXblc4dmJsbl93dlQ5ZjVTNlR4TzZWaTRRWkVzTF9fRGR0WTI1Vm9pOVpRUE5tWS1xWHp3eGV1REkwTTl0NkhKSFl3YU16UUtlWnBzbm1LWHVfYmlI?oc=5",
+      "title": "Asian shares trade mixed and Kospi falls nearly 4% as oil prices keep swinging",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-05-19T03:19:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQeE9mcld0dlo5T0dSNzlZbmEyM182YUI0bWd4WVZjcWV2MjJHc244T3J4MkhMa0t0ZjZldjFzekxYekg3OUJRb3hmRmtpVW8ya1hQb1M0WW9JMmxwZGphRW12T0xmbXhnU3FtYkJIZ1RaWW91ZmwtSzdBb01DZ3JnMDA1d0pNMGQ1aWRUQ2hhcklBNXJoT1RrREJvYnR1OGRoUS02TEVjZGxyRVN1MmtRV2lNVExNT2dHaXVWUU1FTHZrdXVPaVFDQk1KRng3UDdyMFlpYU5oejRuRW5iczVKN2lOQzVYYkQxQy04aHR1RXFkT2dubFdNbXRNaWhsdktmNGo1a0JQLXI?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20615,20 +20615,21 @@
       ]
     },
     {
-      "title": "Earnings-Fueled Stock Rally Faces Key Test",
-      "source": "WSJ",
-      "publishedAt": "2026-05-18T20:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcVkwSHQtV1d4WXdiSE9rLTU0MTRUb1lycGJLaU1CcnBwR3FnaXM1TzJHZTZpUXVhYzUwbFFyNDZMTkVoeUZBSkR2MlN0M1RzMV9aMUxHMVg2TlVmWWZSbl9mdUhxTzVjcEZnM0xxcm5JQlF2VThMTlMxYVQ5aTJPT2J6X1RpT0ZkOXhiT013?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Stock market today: Dow futures rise as oil falls in latest Iran twist; Nvidia, Walmart, Tesla on watch (live coverage)",
+      "source": "MSN",
+      "publishedAt": "2026-05-18T21:38:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTXc0UHMycFQtOVpDVFZHQm54SUttamhnRXR1cVRtUmxYdHVMelF5djROYU5XQXZuaHpMUVJ4eGZtSXMtZW9rYlpWMkV5Z25Ga2dzNm1qUDdEdG8ySVlxTzk4cDBsMzFrUVJDNVpYOU1IUUxsVkU0R3RxYlJ0UjlTT3VPRFNrcW5Mb2E0WEdlay16ck9hRU41bG1NVENPcTNlTnZJS3hmcmhLSHUtclZReVY0MXJSZmVjSWU0ejI0TVBjNVBHM2h5TWloMWE2QmE3aEdZY1BDRTZRUTlWWGVYZWRXeXNrTXM?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20649,21 +20650,20 @@
       ]
     },
     {
-      "title": "Stock market today: Dow futures rise as oil falls in latest Iran twist; Nvidia, Walmart, Tesla on watch (live coverage)",
-      "source": "MSN",
-      "publishedAt": "2026-05-18T21:38:25+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTXc0UHMycFQtOVpDVFZHQm54SUttamhnRXR1cVRtUmxYdHVMelF5djROYU5XQXZuaHpMUVJ4eGZtSXMtZW9rYlpWMkV5Z25Ga2dzNm1qUDdEdG8ySVlxTzk4cDBsMzFrUVJDNVpYOU1IUUxsVkU0R3RxYlJ0UjlTT3VPRFNrcW5Mb2E0WEdlay16ck9hRU41bG1NVENPcTNlTnZJS3hmcmhLSHUtclZReVY0MXJSZmVjSWU0ejI0TVBjNVBHM2h5TWloMWE2QmE3aEdZY1BDRTZRUTlWWGVYZWRXeXNrTXM?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Earnings-Fueled Stock Rally Faces Key Test",
+      "source": "WSJ",
+      "publishedAt": "2026-05-18T20:48:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcVkwSHQtV1d4WXdiSE9rLTU0MTRUb1lycGJLaU1CcnBwR3FnaXM1TzJHZTZpUXVhYzUwbFFyNDZMTkVoeUZBSkR2MlN0M1RzMV9aMUxHMVg2TlVmWWZSbl9mdUhxTzVjcEZnM0xxcm5JQlF2VThMTlMxYVQ5aTJPT2J6X1RpT0ZkOXhiT013?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
