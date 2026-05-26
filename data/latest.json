@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-26T02:55:21.870060+00:00",
+  "fetchedAt": "2026-05-26T07:42:21.343486+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20574,7 +20574,7 @@
   },
   "news": [
     {
-      "title": "Oil rises, stocks mixed as new US strikes dampen peace deal optimism",
+      "title": "Oil rises, stocks waver as new US strikes dampen peace deal hopes",
       "source": "Reuters",
       "publishedAt": "2026-05-26T01:15:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLUdJaVVrejdzRGFrQTZTY0JUUzY5SEVJUzR5WWJpYjJBdEJHenRtTzJ5dEd0Rkd2SGhrTk1qQ3o5MGhOb3dVSlZSd2gwNVFZV2hCS2VCWkFoUlA2WV8xTEhKbEpyVVhxWnNCMl85dllubTQzU2kwM0Q0WDlKek5YZUE4UQ?oc=5",
@@ -20592,10 +20592,10 @@
       ]
     },
     {
-      "title": "Iran Hopes Lift Futures, Oil Dives; Tesla, 5 AI Stocks To Watch",
+      "title": "Futures Rise But Pare Gains On Mixed Iran News; Oil Tumbles",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-05-26T00:31:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUNENE00Wng2TVMzQnhmVmZQTmg4T2dkZklIMXF4NWxYN29tZm5FUm56VzJwNENHSF9UODh5UUQ3MWFMZG9iMDdzYzdiR21Wdjl2alZHclRpQ25OWXpOQ3ZvUkc1UHVBSHhfTnByQ2FNekUzSUoyMVk1WnRKTmtUb3VVVnM5TDh5c3dhRDZaMzFiMzZNMjJjN1JHdUZoZlQ2Z1I4WHNGUzc2TW5FZW1LYzdn?oc=5",
+      "publishedAt": "2026-05-26T03:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVUhDTHVVWnBUSC1EcDNpa2pRNU1ET0NxS0NTSnBNZm1uUGdGeWpwVDJVYjh6bWlwYW9uUks4RzZWNU9yRGV5V3FOemt2Zjg0M0xxRC1aZ0JKR296N3VENFhlQkFvU1lKcGtIX2N5VWwwQkQzSk9MOWtNbkVoSHB6TUJUQmVidnk1NDRlME9YYlZBWkhsTlJUUktUVmwwQWtraE9hS3B4cDE3bUwzTm5MWA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20607,6 +20607,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Taiwan vs. China",
+      "source": "Meb Faber Research",
+      "publishedAt": "2026-05-25T18:20:17+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWSGVaZHYzai0yWHRBZ2t5ZEFoaHNnZG42Z0N0THJrYUxXUUlBQmItd2t1VzduZHRZa0tQOGVha2J2bTMtcWxJdDJtbXQ0ZmFBVW5zRkVpeFE3Nm1L?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
@@ -20645,10 +20662,10 @@
       ]
     },
     {
-      "title": "Taiwan vs. China",
-      "source": "Meb Faber Research",
-      "publishedAt": "2026-05-25T18:20:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWSGVaZHYzai0yWHRBZ2t5ZEFoaHNnZG42Z0N0THJrYUxXUUlBQmItd2t1VzduZHRZa0tQOGVha2J2bTMtcWxJdDJtbXQ0ZmFBVW5zRkVpeFE3Nm1L?oc=5",
+      "title": "Japan’s stock market is back — for real this time — and AI is only part of the story",
+      "source": "Business Insider",
+      "publishedAt": "2026-05-25T04:02:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS2lQZlBwcTdTUXRjcklUdFhGNy04Y2tJVmc0ZVRsRnJMZTdZZGp0Rzd0aFQzMGdLekhPTjI0OHlNYTM3VlhQYjJjRDNzQ3BfLVhOTFJ3Mjg4c2MxbGc2NllQU05IaWgyRHJaVG9iY21yYVdYTnF1cHJwdUlGcE10dUNGWWliRHNGSzk0WE1fc01lQmtndjQw?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
@@ -20659,23 +20676,6 @@
         "Weltaktien",
         "Währungen",
         "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Asian Stocks Set to Extend Gains on US-Iran Hopes: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-05-25T22:16:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaGkyU1ZYUGtYOXdVTGRlTEpScWlTdVdtTEV6YUVmaHAxRzE5bmlvYUxGUkJodVVnTGt5Mkw0NTE0LW9KQ1B5WjZDXy16X2lySU1XLWhZaGNqVk1mVXRveHVPV3pRajZuc1YtVmdXdVFCdzd4YzJsa0pLcTFXX0EzcWNrMWRsRVptVWVjdWtYNUF2N1Z3dlJJYWEzSW5yU0JCWkhOOEJxMmJ3QUVhTVNPRVptOA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
