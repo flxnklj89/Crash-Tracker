@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-27T03:35:13.354621+00:00",
+  "fetchedAt": "2026-05-27T08:01:12.371715+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20570,27 +20570,9 @@
   },
   "news": [
     {
-      "title": "Past oil shocks hint that the stock market has peaked for the year, a veteran strategist says",
-      "source": "Business Insider",
-      "publishedAt": "2026-05-26T17:37:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOY3ltLVRRcUVPaThuMVJjVTFnQ1JqeFktemRsSWtWU19HQms5WTRySXRJNzhBRWVkajBic0NuRlNGbkFOOUgwUDBuRTE3akVPWGI5NWhkNl9qeUlfeUxSRVUyVTBidVdoeVVVWWx3c0hoZkM1OVpKbGd4TGlYWmJxNm44Ylh6bl9mandQZVFkd3ptSFVMUUxVV2RkX0F6MHBEWVE?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Weekly market commentary",
       "source": "blackrock.com",
-      "publishedAt": "2026-05-26T23:10:03+00:00",
+      "publishedAt": "2026-05-27T05:10:25+00:00",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20605,10 +20587,10 @@
       ]
     },
     {
-      "title": "As US stock market hits new highs, 2 of 3 Americans are cutting back on spending, survey shows",
-      "source": "Audacy",
-      "publishedAt": "2026-05-26T20:37:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSHl6TlI2clk4UG9EOThMQXRtY3J1Z2RUY2lDdGhzLUNqejFMQUhFVExNTnBIbVdPN1Q5Y0VOQnI5N1RaYUlQYll2d2FULWFfQ1FobzFHdFI2NWZ1Q3Fhb2FTTkZYb1VhdTJCbGEzVGdiTU9hSFJldUxNUFZXX2FtNXdxdEJKNHY2aFRBQVU1R2MtUEtKTDk4d3JWZGtSdDlRWWM2RXNubDNlWWZu?oc=5",
+      "title": "Futures Rise After Market Hits High; 5 Stocks Flash Buy Signals",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-05-27T03:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcjBJNmZuc05xanVPS0dhRHhnZUpENW5tdzJ4ek1jY1hRdXpvX29TQl8xc2JwRDAwbm5CanZ5Vm5jelNsOW1DTTlHUXJKZGlsRE05eEJwUVYzNUFDWjJqRzJqcEVjNTZDcm9vMkJwdS1KbzB3TXpLR293UUFkQXBIRV8xQ1pvbUpvVmJhcGc2STBzcmVXN2FlMmVVNHl1SlN4OExtZ0tKSURDdDVI?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20622,10 +20604,10 @@
       ]
     },
     {
-      "title": "Asian shares climb, oil holds gains as markets eye Iran talks, central bank moves",
-      "source": "Reuters",
-      "publishedAt": "2026-05-27T00:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdV9qQk1melo5ZHFLUTQwdUptamlUWFQyVzRzZHNMVTkwVDdWcDgzaVhiYUMwSHZwU0VyTVJZT3lCMTRlTVozVnNEek1aNkNTdW1Ha1JmUXlweHhrbUZCX2dQb1ZZb052bFktd0ROSmhtNDVTblc0RjFpamdUeFFKX2NlRQ?oc=5",
+      "title": "Asian shares are mostly higher, tracking Wall Street's fresh records, and oil prices fall",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-05-27T06:37:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRDVqZXZabjV1N3dvaVJuQW9rbS01SkVRNFRGM183WjdQRldBOWhBNTRNWXctLWdTeU1QaXlMbWVTSDVqeXR4T3N2a1JPUTFWTXMyc3d3Z093NVVqdDlpbkxMZWVIUlh3UlNndDB4ODFwUXJUSUltWlhZSl9KU01TQnlTNzdhWEN1R0dJTHNtZ0NDdEJtMi10dERENDhGeW8?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20640,10 +20622,28 @@
       ]
     },
     {
-      "title": "Stocks mixed as investors shrug off renewed fighting in Iran",
-      "source": "CBS News",
-      "publishedAt": "2026-05-26T13:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YdXVJbDhtYzBFT19QLXJWdDhPTndvS1lOSnFINmJRdElQWWJhenFQM0RBNkh3M29tT0VEYjBQempBT1NaU2oycnJ1NmhHenlPcTRldHVkZjlOVUhkLXd6VUEwaVM2XzQtLTBuN0FUb0dkQdIBd0FVX3lxTFBpbHh5Q01WUkxvcnU1SUwtYmdtckM5dkxZb2pIQmQ1MVZMZmZfc2Q0V0dQNGpNOW1MSlZDeXhOOFlKRjE4MHI3NHhnVmVtQVA1dVpTMDVTazhBNV9UX1l4anBlRjJEQnJKM0VjRm1USDUtZUQ4RHow?oc=5",
+      "title": "Why inflation, not growth, is what really matters for the stock market",
+      "source": "MarketWatch",
+      "publishedAt": "2026-05-26T14:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNHc2UVdYZDR3ZlZyVDd4OWl2UXJnZ0Q1Qk5MSXc3SHFMQ0JEdkJxWU9sUWdHYW40MHhVSVBGdHlwMHFWdFkzM3c2Yk1Tb05FbURMNFNPVUdMTkFiWXV5TWVnajQySXdoUEkxb0JzMDVpN25xM2lpWDdUWElXLXMtQ2VTdUhvZ2xEd2xqMGRwV1JVd1Jxd0pfWldLU2N2d1Vic2Voek5aVElsaEF0WFJOZA?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Shares scale new peaks as markets eye shaky US-Iran truce; kiwi jumps",
+      "source": "Reuters",
+      "publishedAt": "2026-05-27T00:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdV9qQk1melo5ZHFLUTQwdUptamlUWFQyVzRzZHNMVTkwVDdWcDgzaVhiYUMwSHZwU0VyTVJZT3lCMTRlTVozVnNEek1aNkNTdW1Ha1JmUXlweHhrbUZCX2dQb1ZZb052bFktd0ROSmhtNDVTblc0RjFpamdUeFFKX2NlRQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20657,21 +20657,20 @@
       ]
     },
     {
-      "title": "The Bond Market Is Sounding an Alarm -- It Could Mean Big Trouble for the Stock Market",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-05-26T09:48:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU1BhX1ZRdEVpaVh4ZFhfNHdHbjJKOFZjaTVlekxwa292ZE52bGo5N1pxVHl3VjJfSXFxcFI1NUZPRjZLUXBKV29TOUkxQzJLMmtRdWJoblRsRFkxRmw3dTBhVVZmN1NGTmNGZHM5aXNpRm94TUhoOWYtWVlxc1QtQm9wLU4xYUxLdFpITHhTMDBqWWxw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Asian Stocks Set to Rise as Iran Deal Hopes Hold: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-05-27T05:55:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSEg3Zm4yNjJHN3BXZ2tfTGh0MFJDVDQ0UmNmSGQybkVOZU1QQ0tWT0U1c3JHRTQ4d05MM1BiYWZRTWUtRG9pMUhLbG5KcVl2WE5tYW9mUkh4VnlnVXZ1bk9XblFHalRYdUkyRVZvSDY2Wk1nakd4QmVIdVJiTDZ2OHpNakRpSFJRNXdrUUFQRG9tUTJZR0JsNXBkWUU2MVFxMFpRYzVxODN1ZEdzb2tBbWx3?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
