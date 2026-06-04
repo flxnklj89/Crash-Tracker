@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-04T14:55:06.147956+00:00",
+  "fetchedAt": "2026-06-04T18:13:10.461053+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20574,44 +20574,27 @@
   },
   "news": [
     {
+      "title": "The Stock Market Has Been Here Precisely Once Before. Buckle Up as Kevin Warsh Tries to Land the Plane",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-04T17:07:29+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPODVtOEhaU29yR0d2c2l0RGJQUnBSTnBaVk9YUC11MWdiUTJvTVlXOG16RnhwR3pacDBGQWpSZXBMZlpJbEpXQVZFUTZ5U2ZuR3FzSjNEa2M3VEp4LUthSk1xUlI4UjJFWFhEbzNtUm4wRjdTUTNfTi1HWWpDc201M2J4ZzZFUVFXRlROR0tOVXdFUmg1czdsd2xEdkpfWFVxV05UMDVYckRuZjVXTkJ3MEl0d1ZuQmhkNGppdlpJWGtzNF92RUhhSWxBM3JHSkF5TEdZZWIxSTV0UUdqSmc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "The Outlook for India’s Stock Market Amid the Middle East Conflict",
       "source": "Goldman Sachs",
       "publishedAt": "2026-06-03T21:21:30+00:00",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Kevin Warsh Just Pulled Off a Stock Market First — But History Says a Bigger Test Is Coming",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-06-04T14:20:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEowbFRXcDJlVExxUGcyNlJ0eWQtX3Jqa3poSF90ZnRUSlpBczQzZXE0ZmE2Q2QzVXpmNzhqS0VydGVDTWNQR3dTNFFiVkNfR3BMZlZKQjMxMVVsMHF3ZDZaV0F3RlQ2QWlQUHlNaGdxUmpxbTJla3NQV2JZRV9lOXF5S3ZqdlRqLU1MWHFkZ1pyQ240V1o5TE04bGI2d0hiMlBFQUxCeDhqTlVaTkZaby1OaDhoU0hac3Baempsa0hxaGVJV1JzT2VrZnMzQQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-04T10:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20659,10 +20642,10 @@
       ]
     },
     {
-      "title": "Palantir’s New Partner: 8 Key Items Shaping the Stock Market Thursday",
-      "source": "TheStreet Pro",
-      "publishedAt": "2026-06-04T12:46:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS0xPSFVkbi1pYWtvSWZ5LW5rVENfWi1RbWhzemh6QTFvbGVBQ3B6ZXNnTW9TRzJNTC1QdlM0akR1Rmh0QVNIV21wY0FDN01jUEpVbzkwa3BZYTlueG5hX0pWTlpGeDBuRVJVci1nR0daQTJCY0hjWVN6TTFWb3p6RW5YdTNneXR3LWlhcm9ZN3ZpTXY5Rkx5Q01qZVowcHN0aWZWeE9n?oc=5",
+      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-04T10:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20673,6 +20656,23 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Medtronic Stock Is Defying a Market Selloff After Earnings. Here’s Why.",
+      "source": "Barron's",
+      "publishedAt": "2026-06-03T20:45:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LQkNRNW9CbW9UM195Rm41TVctMFlsQjQ5cUNZSUVDeHlpOVJKVkx0TFBhWFV2QmRodmNRQkRhLU8zTnQtZzdOZlByMERlbHg3RTVHVTJUd0RqX09FdEpVdmFnc1oyVWhsLV9RMkNzcHJ2LU5SMVJTaEZWdTM?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
