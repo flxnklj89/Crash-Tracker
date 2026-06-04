@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-04T18:13:10.461053+00:00",
+  "fetchedAt": "2026-06-04T21:39:49.743028+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20574,10 +20574,78 @@
   },
   "news": [
     {
-      "title": "The Stock Market Has Been Here Precisely Once Before. Buckle Up as Kevin Warsh Tries to Land the Plane",
+      "title": "Kevin Warsh Just Pulled Off a Stock Market First — But History Says a Bigger Test Is Coming",
       "source": "24/7 Wall St.",
-      "publishedAt": "2026-06-04T17:07:29+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPODVtOEhaU29yR0d2c2l0RGJQUnBSTnBaVk9YUC11MWdiUTJvTVlXOG16RnhwR3pacDBGQWpSZXBMZlpJbEpXQVZFUTZ5U2ZuR3FzSjNEa2M3VEp4LUthSk1xUlI4UjJFWFhEbzNtUm4wRjdTUTNfTi1HWWpDc201M2J4ZzZFUVFXRlROR0tOVXdFUmg1czdsd2xEdkpfWFVxV05UMDVYckRuZjVXTkJ3MEl0d1ZuQmhkNGppdlpJWGtzNF92RUhhSWxBM3JHSkF5TEdZZWIxSTV0UUdqSmc?oc=5",
+      "publishedAt": "2026-06-04T14:20:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEowbFRXcDJlVExxUGcyNlJ0eWQtX3Jqa3poSF90ZnRUSlpBczQzZXE0ZmE2Q2QzVXpmNzhqS0VydGVDTWNQR3dTNFFiVkNfR3BMZlZKQjMxMVVsMHF3ZDZaV0F3RlQ2QWlQUHlNaGdxUmpxbTJla3NQV2JZRV9lOXF5S3ZqdlRqLU1MWHFkZ1pyQ240V1o5TE04bGI2d0hiMlBFQUxCeDhqTlVaTkZaby1OaDhoU0hac3Baempsa0hxaGVJV1JzT2VrZnMzQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "KBA Tells The Story of China’s Equity Market Evolution",
+      "source": "KraneShares",
+      "publishedAt": "2026-06-04T20:17:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYjRQNk9SWkw1S2QzaHZfQ01lM2dzVERLLWU5MVpLSXNhb0ItblFZMDBvZHRHYThOdzFqT2FDLWd3OXZIX29XbW5mU0FWYVhTOVZQTXBILXh0R2UxeHpaanhvbTB1VVFVQ0JrSTZHZGJETXBYbUZja0ppYjV3MVFab2NCTnc?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Broadcom earnings, SpaceX's IPO price, World Cup worries and more in Morning Squawk",
+      "source": "CNBC",
+      "publishedAt": "2026-06-04T12:07:57+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT09WdTZ2Q0U3Z0ZXNXNzV2gwWTVUbDBLNmJvOHFIZGxQemJCbnJKTm1qR05yeHAzTUNzLUNsLWZJbk5mN3dqZW03X0dMdzNJQUpleW43dWdyZTJIY3V1NjJyelBXVGJJWlh1ZXJFWXNraGRyTHllUGFaenB3T0dSQ3NEaFM3VDBMaTNZ0gGQAUFVX3lxTFBUUGxRaFhWOGRKSzFCc0lEZDZEMFBFS0NMS3F3ZnZvX1I3dTYxUUFERnRham5tajdseXhmNVpqZS0zdUZ6Z204aDZHLTRVVGxGcW1DMU85V0dsQm9kcE1CSDk5clZJdElmbDdOYVJLNVZTUEVMMkJyYlJDUnBWLTBlTlUwZ3JvUHllZmVlU0tOMQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Japan’s stock market hits new record as AI boom gathers steam",
+      "source": "Al Jazeera",
+      "publishedAt": "2026-06-03T06:20:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdW1CX0thdWpoXzhJWHhNX2x1V3lQVGh4MmRlb21jWnZpcXZPSnRuQXZTQUZ2RnlCajJETVp4U1lqc2R2WTFadC1xam9GNU1pNVFBb1N6bjE4X3ZyaXlXME1sVlRscHR4VGVJNk9MS0hKUmlMS2hKYlNaMVJvbEp6ZUVQLXJ5M3NINXRpdmV0VnpIZVpYTzNUT0hDMmxsSEFSaVA5NUZB0gGrAUFVX3lxTE5GWnZHSXFmRjVCbWMzUjlublN3ZmFqYXU2WDI4Z3hjaTZCU0xyQWx1NmoycEdhZEhiVHB3MTlFUTdsSnFsSG9zcllpTnFGSkdkUmk0Z3I5cVJnaGI4STgtWVIyc2tCbjY5NlFUVU13dFprbHZBQVNKU3lMd0ppQV8xTmJkUzBmaHFDOWF5MWNIMjhOV3lGbjZRVTJ0eXpHLTlOSS1FM3gzLXJ6SQ?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Stocks drive record share of American wealth",
+      "source": "Axios",
+      "publishedAt": "2026-06-04T10:31:40+00:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tREZqZEtISDliRTZVeFV4MkhkbW9ueER2Z25YRDRuNXBDaGVGLTlKMC1JUUVfWXFYT2h3YWtwemRuVU9NLVg0Qi03bEdoQlBfcVBmckN6anZtZVVTakstVlVZWWU0bm5YSmUwaQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20605,74 +20673,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Japan’s stock market hits new record as AI boom gathers steam",
-      "source": "Al Jazeera",
-      "publishedAt": "2026-06-03T06:20:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdW1CX0thdWpoXzhJWHhNX2x1V3lQVGh4MmRlb21jWnZpcXZPSnRuQXZTQUZ2RnlCajJETVp4U1lqc2R2WTFadC1xam9GNU1pNVFBb1N6bjE4X3ZyaXlXME1sVlRscHR4VGVJNk9MS0hKUmlMS2hKYlNaMVJvbEp6ZUVQLXJ5M3NINXRpdmV0VnpIZVpYTzNUT0hDMmxsSEFSaVA5NUZB0gGrAUFVX3lxTE5GWnZHSXFmRjVCbWMzUjlublN3ZmFqYXU2WDI4Z3hjaTZCU0xyQWx1NmoycEdhZEhiVHB3MTlFUTdsSnFsSG9zcllpTnFGSkdkUmk0Z3I5cVJnaGI4STgtWVIyc2tCbjY5NlFUVU13dFprbHZBQVNKU3lMd0ppQV8xTmJkUzBmaHFDOWF5MWNIMjhOV3lGbjZRVTJ0eXpHLTlOSS1FM3gzLXJ6SQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stocks drive record share of American wealth",
-      "source": "Axios",
-      "publishedAt": "2026-06-04T09:30:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tREZqZEtISDliRTZVeFV4MkhkbW9ueER2Z25YRDRuNXBDaGVGLTlKMC1JUUVfWXFYT2h3YWtwemRuVU9NLVg0Qi03bEdoQlBfcVBmckN6anZtZVVTakstVlVZWWU0bm5YSmUwaQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-04T10:12:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Medtronic Stock Is Defying a Market Selloff After Earnings. Here’s Why.",
-      "source": "Barron's",
-      "publishedAt": "2026-06-03T20:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LQkNRNW9CbW9UM195Rm41TVctMFlsQjQ5cUNZSUVDeHlpOVJKVkx0TFBhWFV2QmRodmNRQkRhLU8zTnQtZzdOZlByMERlbHg3RTVHVTJUd0RqX09FdEpVdmFnc1oyVWhsLV9RMkNzcHJ2LU5SMVJTaEZWdTM?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
