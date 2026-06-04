@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-04T08:18:45.724884+00:00",
+  "fetchedAt": "2026-06-04T14:55:06.147956+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -18,7 +18,7 @@
     },
     "fedRate": {
       "value": 3.62,
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate"
@@ -50,13 +50,13 @@
       "series": "UMCSENT"
     },
     "tradeStress": {
-      "value": 19,
+      "value": 27,
       "label": "Entspannt",
       "date": "2026-06-03",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 15.77,
+        "vix": 16.06,
         "brent": 98.29,
         "eurusd": 1.1679,
         "us10y": 4.46
@@ -176,9 +176,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 15.77,
-      "chg": -0.28,
-      "chgPct": -1.74,
+      "val": 16.06,
+      "chg": 0.29,
+      "chgPct": 1.84,
       "unit": "",
       "dec": 2
     },
@@ -6888,6 +6888,10 @@
       },
       {
         "date": "2026-06-02",
+        "value": 3.62
+      },
+      {
+        "date": "2026-06-03",
         "value": 3.62
       }
     ],
@@ -20564,7 +20568,7 @@
       },
       {
         "date": "2026-06-03",
-        "value": 19
+        "value": 27
       }
     ]
   },
@@ -20572,7 +20576,7 @@
     {
       "title": "The Outlook for India’s Stock Market Amid the Middle East Conflict",
       "source": "Goldman Sachs",
-      "publishedAt": "2026-06-03T17:32:14+00:00",
+      "publishedAt": "2026-06-03T21:21:30+00:00",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHRRVV9SU0V1SVVtLTRGUkhfc19lOEZRT0haM3U4OGlmM1RPMXRyd0JZU1dnbHd4V2FuUHItcWVkTUZEUlZqN29SVnh3UGpib2YzbU1wTmhLQUMzaGpublpEbUNHZFp0c0cxWVh0UXVDQnhGZktrTEI2X041TVQ5UFRLZXliNDZsd0RwRnlBM1pIczItQWVyNWhRcElWWFJUdDg4VTlQYmtkWGg0aTlIZTRn?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20587,20 +20591,37 @@
       ]
     },
     {
-      "title": "Medtronic Stock Is Defying a Market Selloff After Earnings. Here’s Why.",
-      "source": "Barron's",
-      "publishedAt": "2026-06-03T20:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LQkNRNW9CbW9UM195Rm41TVctMFlsQjQ5cUNZSUVDeHlpOVJKVkx0TFBhWFV2QmRodmNRQkRhLU8zTnQtZzdOZlByMERlbHg3RTVHVTJUd0RqX09FdEpVdmFnc1oyVWhsLV9RMkNzcHJ2LU5SMVJTaEZWdTM?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Kevin Warsh Just Pulled Off a Stock Market First — But History Says a Bigger Test Is Coming",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-04T14:20:58+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaEowbFRXcDJlVExxUGcyNlJ0eWQtX3Jqa3poSF90ZnRUSlpBczQzZXE0ZmE2Q2QzVXpmNzhqS0VydGVDTWNQR3dTNFFiVkNfR3BMZlZKQjMxMVVsMHF3ZDZaV0F3RlQ2QWlQUHlNaGdxUmpxbTJla3NQV2JZRV9lOXF5S3ZqdlRqLU1MWHFkZ1pyQ240V1o5TE04bGI2d0hiMlBFQUxCeDhqTlVaTkZaby1OaDhoU0hac3Baempsa0hxaGVJV1JzT2VrZnMzQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The Stock Market Sounds an Alarm as Investors Get a Grim Update on President Trump's Economy",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-04T10:12:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalFJX1BfVG8tN1dkTlBPV0pnbUd3UUtfZ0pBSDRBdlh2bWlwTC1TSEdIbnQwSGNGNkM2eWh5QUVtbFFXQzhQOU8wRXlUQkk5Y216MUJ1cVl1UklaTTgzejBkTDliR2hLTUtoNFNsdWIzR3lpZ1ZYWDBuVl9TOElRd2I3OEZDZ05PYjhDZXFKUy1fQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20621,45 +20642,27 @@
       ]
     },
     {
-      "title": "Oracle stock may move 12% on June 10 earnings report",
-      "source": "Investing.com",
-      "publishedAt": "2026-06-04T00:28:37+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOVhiQkcza3EtdHlob2VLaGEtZ1VvM184ZUpNcTVIalV6cF9BTzNzeGRBejB4WWJtT1lEaUptVEJrT3RONEppR1lxWlI1TktKalB6Rnp4VDAwdDNKRlpSYXlnc2JZeHlUTVFPYTdHdU5oT01FWnRvcXFuVGdMUjF3NmlTQ3FSWFkwYVd3Qm9MWUY0bXUtYkJ3MG83RjEwQ05pZF9IbFBpTVZVdnVGS0lyeTdQOA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Stocks drive record share of American wealth",
+      "source": "Axios",
+      "publishedAt": "2026-06-04T09:30:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4tREZqZEtISDliRTZVeFV4MkhkbW9ueER2Z25YRDRuNXBDaGVGLTlKMC1JUUVfWXFYT2h3YWtwemRuVU9NLVg0Qi03bEdoQlBfcVBmckN6anZtZVVTakstVlVZWWU0bm5YSmUwaQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
-      "title": "Coastal Financial and Triumph Financial Stocks Trade Down, What You Need To Know",
-      "source": "StockStory",
-      "publishedAt": "2026-06-03T19:30:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSlB5aXZWWjJhM0VFYzloWi1MVi1Jc1kwUHZzQ21DbnVaRnh0ck84V2Y5b3MwZ1dvcjlkbW5odjdEQUxKQWlLTGZLOEN5M3E4LUo4Q2t2M0ZMc3VDYVM2X0pjcTVySVJzS29UWFdWX25KZ08yVWdWaDRuVl9HeVBIRklXODlNeThzMm56QllYclVCaWhrUkEyMS1FSE1JdnhjaGpTUW9NRVdhWm9LWGNYUVlhc1d4WS1YTm9wcHFadzEzU2ZLMEppYzU1YUNOVkR2WkRoZXlhVQ?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
-      ]
-    },
-    {
-      "title": "Stock Market Today, June 3: Stocks Slip at Midday on Fresh Geopolitical Tensions",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-03T18:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWDJnMmJReFA3R2NjWDFMNG1idGlWRG04RXd5TDRrcWw4YVprUEcyMnA2dFhGRzJlMlBrNzVvam5NamlFOE1aOURkQkExekZ3djljeGF6MllFaHd2cExrY3VPSWtHeUR6UG9NczVjd1pLYXpHVlFPNzNOel9GN2dGYlhCWUVIMG5hazVZRHJIV0ozblZUNHhINEdCelVMVXNfMUNQNk9KZHpObXl2NDI4aGh2MF9Nc3RlYzJoejBTSlQ1V3BzRngtU1VWT1RoSU95cDU4R2dTN3RVTWhFZDQ5akF3?oc=5",
+      "title": "Palantir’s New Partner: 8 Key Items Shaping the Stock Market Thursday",
+      "source": "TheStreet Pro",
+      "publishedAt": "2026-06-04T12:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNS0xPSFVkbi1pYWtvSWZ5LW5rVENfWi1RbWhzemh6QTFvbGVBQ3B6ZXNnTW9TRzJNTC1QdlM0akR1Rmh0QVNIV21wY0FDN01jUEpVbzkwa3BZYTlueG5hX0pWTlpGeDBuRVJVci1nR0daQTJCY0hjWVN6TTFWb3p6RW5YdTNneXR3LWlhcm9ZN3ZpTXY5Rkx5Q01qZVowcHN0aWZWeE9n?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
