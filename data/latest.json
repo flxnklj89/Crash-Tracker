@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-08T15:46:00.471506+00:00",
+  "fetchedAt": "2026-06-08T18:24:04.366554+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 10.58,
+      "ytd": 7.66,
       "first": 6858.47,
-      "latest": 7584.31,
-      "date": "2026-06-04",
+      "latest": 7383.74,
+      "date": "2026-06-05",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7584.31,
-      "chg": 30.63,
-      "chgPct": 0.41,
+      "val": 7383.74,
+      "chg": -200.57,
+      "chgPct": -2.64,
       "unit": "",
       "dec": 2
     },
@@ -13633,6 +13633,10 @@
       {
         "date": "2026-06-04",
         "value": 7584.31
+      },
+      {
+        "date": "2026-06-05",
+        "value": 7383.74
       }
     ],
     "sentiment": [
@@ -20570,9 +20574,9 @@
   },
   "news": [
     {
-      "title": "Stock markets fall on tech plunge and renewed Middle East attacks",
+      "title": "Stock market jitters remain amid tech fears and renewed Middle East attacks",
       "source": "BBC",
-      "publishedAt": "2026-06-08T12:40:16+00:00",
+      "publishedAt": "2026-06-08T14:14:11+00:00",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01QWVNQjFNbU01RjRfOWkxQ2pCQnI2MzJEY3ByNW1TM2d2cG01bUt2c0xnR1RwTXMtRzJma1BvdnBQNnpnQjZqVHpEUXdoQ3JTS2g3THgwRzN4Zw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20587,10 +20591,10 @@
       ]
     },
     {
-      "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
-      "source": "The Guardian",
-      "publishedAt": "2026-06-08T08:32:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdWRNQV9jMGlWMFNVeVpoYzcyNGlFVFQ4Zk00N3pYQ3lJZEc1a3g0dml1dmlhTG9CcjQ3V1ZqSk1rT1kyNjFVZS1WWUlaMWdxTFd5Mksta3NpVFlEV0ZZbHFQanJKVXFKWVM1SmotWFA4NU9HdDJ4UEZHS19ja19Tdk9RY1NFdGNHWlp5Rzc1MWtzZXhOaVluRUlrOEtZTURqNW5PR3hPTlZuWW42MUE?oc=5",
+      "title": "The Stock Market Just Got Crushed. Why Citi Is Raising Its S&P 500 Target.",
+      "source": "Barron's",
+      "publishedAt": "2026-06-08T16:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX3N4MExtWW5tZHAtc0c3UEJLQm9DcW0tQ2hiX3duR0RvNHJueEN1N2poLXJIYy1sVlA1NlB6WDlHUEluZDhQQ1dlNExQTm8zNERsYzdZeWVMdFRhckpOVjZST0ZjNFE5bHVIOGJUNkV2bGxLUEQ0UGZ6eUpuY3l6TXFpNzk0S1BMRWlEeVJtZ3g?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20621,10 +20625,10 @@
       ]
     },
     {
-      "title": "Does President Trump’s Bull Market Start Up Again on Wednesday?",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-06-08T14:16:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZVI5WEV0UGYzUDRZRzF0NWE3R0M2ejFrTXQzdFU2Rmd1NEtSZmNXbDgySE5jelJHbnFqcW9xaWVKdFc0NkJXbG5SbzQ5RXQzajU1aXVoTGpBSDRrRG0yWXBfamhVbVlSODY5NHBiQnRtZjJyaGZEUHhPZXRvcmIwZHhxc2lKZkE4TnBTRWNYUjJYN25rN0FRdTdQdzNvMmFmbXB5TlR0WG4?oc=5",
+      "title": "Stock markets fall as concerns persist over tech firms at heart of AI boom",
+      "source": "The Guardian",
+      "publishedAt": "2026-06-08T08:32:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdWRNQV9jMGlWMFNVeVpoYzcyNGlFVFQ4Zk00N3pYQ3lJZEc1a3g0dml1dmlhTG9CcjQ3V1ZqSk1rT1kyNjFVZS1WWUlaMWdxTFd5Mksta3NpVFlEV0ZZbHFQanJKVXFKWVM1SmotWFA4NU9HdDJ4UEZHS19ja19Tdk9RY1NFdGNHWlp5Rzc1MWtzZXhOaVluRUlrOEtZTURqNW5PR3hPTlZuWW42MUE?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20655,20 +20659,20 @@
       ]
     },
     {
-      "title": "Why Do Stocks Drop Even After Beating Earnings",
-      "source": "Kavout",
-      "publishedAt": "2026-06-08T10:51:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamRKd3VacWlCUUVUbWp3LTgwaDl5LUhjRXN4Rm95dTZmaFdlS2Rpby1jb3R2OHNlYmt6ZEsyUUNueU5oYVo5UW1SeFhmSzJYektra1RET1hHVlY5RnVsVHExR3YxNVhHdGxEQlpRTmtxaTFCTW15TzZPc0NCaDk4YnVweXZRUFZ2?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Does President Trump’s Bull Market Start Up Again on Wednesday?",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-08T14:16:46+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZVI5WEV0UGYzUDRZRzF0NWE3R0M2ejFrTXQzdFU2Rmd1NEtSZmNXbDgySE5jelJHbnFqcW9xaWVKdFc0NkJXbG5SbzQ5RXQzajU1aXVoTGpBSDRrRG0yWXBfamhVbVlSODY5NHBiQnRtZjJyaGZEUHhPZXRvcmIwZHhxc2lKZkE4TnBTRWNYUjJYN25rN0FRdTdQdzNvMmFmbXB5TlR0WG4?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
