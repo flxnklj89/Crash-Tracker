@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-09T02:53:18.357536+00:00",
+  "fetchedAt": "2026-06-09T07:44:02.805104+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20587,40 +20587,6 @@
       ]
     },
     {
-      "title": "Asian Stocks Set to Rebound on Iran, AI Optimism: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-06-08T22:11:30+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObXNMajhXamM0WHNTNUkwWFVxcTJ1SVFZekdQdjBoc1NxQll0Q3ZpQ0lpQ25NaWVBT0Ryb0NoM2R0OUhCcmNncnJWV0xZZFptc3BVYlVDekFpR3ZvMlRaVmhLQ2lqay1QSlpSRkJKSU1IVUh3dVdJaGpXNkVmQUJmS1NJaG1jSXo4N3ZkM3dob3BJSUhV?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "5 Things to Know Before the Stock Market Opens",
-      "source": "Investopedia",
-      "publishedAt": "2026-06-08T12:29:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN0R3dktQc1RwelVXV2ZvLXdidTVtcFd5YnlDTU5JYUNsWEZhN0RMRjhVRWlxVnhVb2tUUUN3dUdOUENVT2hhRXlFY1FUVlYxcmN0Wk0yeUFuZlpKVzQtejg2alNRWWctb0hxQWJtNVkzWlVMa1hTZ0JTWlFfN0hRbEpCN0xJX29pMVNuNUt0VDFhcndtV2hrS2JaZ0Q?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "5 Stocks to Buy Before the Next Market Rotation",
       "source": "Morningstar",
       "publishedAt": "2026-06-08T19:34:07+00:00",
@@ -20635,6 +20601,23 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "After Reviewing Every International Developed Market ETF These 3 Cover Japan and Europe Better Than Anything Else",
+      "source": "24/7 Wall St.",
+      "publishedAt": "2026-06-09T02:59:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQajI3OW41VHZsYmtiSkNTZzRjOTNYc3RnM3pKUVlfVGF2WkZfbjVVQTJPRmJ2RlY5VHFJR1RXZDJCMndCUVB4SkJyTmUzaXZyNndsd2ZfNHRlQ2xGRWpZR2tLSmxmVklJU0dfSk0ybVNocTZOTHpjZkFWZ2FJb2dfcXJqdHhDRWNQMUFJclpGQldhR00tbi1DM1ZDUzVkd3VZc0lmRlJCUW1McUdVVm1LQlV2MV9oTGVlZ3RQUVhfa2lXbDQzZXlEa0N2bFFQUFl4M1ZRU2wzNEtKWlpidFhVMDlGZ1E2ZG1RYkk3X093?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
@@ -20655,10 +20638,27 @@
       ]
     },
     {
-      "title": "‘Yet another way in which 2026 is looking like 1999’: Top analyst fears bubble popping with investors and Wall Street out over their skis",
-      "source": "Fortune",
-      "publishedAt": "2026-06-08T06:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWGlZVVJFejFVcEd5RktydDg4QUI0U1RVSjZzTXdQdFJDTU5WQ1c3bGVIZkV2bUR4d194YXotMVBKbXk0MzBXT1V4aWFYOGxfWURGS29NS2JnSVNDNjhoV0F4NmFsdkpHY1M5aG9QVDFoN1NDWXB4WkFkVVVKalBVOTZuZ2tRazVEMk5WdDFVQ3ptSW1kVFpUaWUzMA?oc=5",
+      "title": "Alibaba and WuXi AppTec decline in Hong Kong after addition to US blacklist",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-06-09T02:49:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPX0NNWjhfNy03cmhTVktUbEJVYWlDYUpiMl9xMUVDUUlZQ1U3dzhYNHZqRDAzakdGY3NIaklUUXpFd1E4SWFoSFAycTI5QVEyX2ZRNFhEUUhScl9QSk5BVnRYcmlLVnlOWnRyUGtFX0FPZmpmUnRpSklfdDJwNTVGWjhlN29WaU5Lc0lBU084M1VtZm5rZ2dpeGlKR2czX1p0WGVPN0JjWi03V1BFX0VvRXpjaGZMOHg1Z3lwdGlUSm9JQWtTb3VWdFFn0gHKAUFVX3lxTE9fQ01aOF83LTdyaFNWS1RsQlVhaUNhSmIyX3ExRUNRSVlDVTd3OFg0dmpEMDNqR0Zjc0hqSVRRekV3UThJYWhIUDJxMjlBUTJfZlE0WERRSFJyX1BKTkFWdFhyaUtWeU5adHJQa0VfQU9mamZSdGlKSV90MnA1NUZaOGU3b1ZpTktzSUFTTzgzVW1mbmtnZ2l4aUpHZzNfWnRYZU83QmNaLTdXUEVfRW9FemNoZkw4eDVneXB0aVRKb0lBa1NvdVZ0UWc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "5 Things to Know Before the Stock Market Opens",
+      "source": "Investopedia",
+      "publishedAt": "2026-06-08T12:29:17+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPN0R3dktQc1RwelVXV2ZvLXdidTVtcFd5YnlDTU5JYUNsWEZhN0RMRjhVRWlxVnhVb2tUUUN3dUdOUENVT2hhRXlFY1FUVlYxcmN0Wk0yeUFuZlpKVzQtejg2alNRWWctb0hxQWJtNVkzWlVMa1hTZ0JTWlFfN0hRbEpCN0xJX29pMVNuNUt0VDFhcndtV2hrS2JaZ0Q?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
