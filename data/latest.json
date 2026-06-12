@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-12T18:04:28.575028+00:00",
+  "fetchedAt": "2026-06-12T21:41:23.785512+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -50,7 +50,7 @@
       "series": "UMCSENT"
     },
     "tradeStress": {
-      "value": 30,
+      "value": 27,
       "label": "Entspannt",
       "date": "2026-06-11",
       "cadence": "daily",
@@ -59,7 +59,7 @@
         "vix": 19.44,
         "brent": 97.46,
         "eurusd": 1.1533,
-        "us10y": 4.55
+        "us10y": 4.45
       }
     }
   },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.55,
-      "chg": 0.02,
-      "chgPct": 0.44,
+      "val": 4.45,
+      "chg": -0.1,
+      "chgPct": -2.2,
       "unit": "%",
       "dec": 2
     },
@@ -20572,11 +20572,46 @@
       },
       {
         "date": "2026-06-11",
-        "value": 30
+        "value": 27
       }
     ]
   },
   "news": [
+    {
+      "title": "Newly led Fed puts stock market volatility in focus",
+      "source": "Finance & Commerce",
+      "publishedAt": "2026-06-12T18:38:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaXA2bWJUb2FvbEVRMnVrMnBWY2RDQ1ZtZENqVjBqd25pNGFMOWNTa1BIaVlOYlVJSFlMWVhjMjlsNkg3T1BtTGRnbkdaV3JyV2ZwMmpVYmNWcXQwNU1DU044cEtYbWVyZGxmbzNhLU9FMFlZM0NVQ1ZTMDM2Tkw3a0ZaYlNyOU1rMEtZYi1B?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "VTI Is Cheaper Than Its Own History. Is The Market Missing Something?",
+      "source": "Trefis",
+      "publishedAt": "2026-06-12T19:02:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTVhTSWx4ODZKaFpVRGxxRXFEU0VVc1ZvSWN3ZFR1bWl3MzM0NnI0dlNlQ1JVeXdPbVk0WjFJNTdYM3l5VTItNm5xdHZ3OGFkU1RWZ2JTYjlkbnpRcHlwSEhZMlo1MU44MHZLa0EzVlNQX05wT3J2M1FpNEdOQk9NUWJCcVZGbzJYbnZUa0x6TEQ1N19Wa2dBUWZtOHptSnFWZ3NSWHhEQkVHNHZnLWVHaFAtMnNNWWJkaE1vcTk2Nl9FWFR1Qnc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
     {
       "title": "Dow Jones Futures Rise, Oil Skids On Iran Deal Hopes; SpaceX IPO Indicated Higher",
       "source": "Investor's Business Daily",
@@ -20593,23 +20628,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Wall Street drifts ahead of highly anticipated market debut of SpaceX",
-      "source": "The Morning Call",
-      "publishedAt": "2026-06-12T13:47:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9uUi00MV81Q0RkakY4eDJpYkVZSW00RFljZWY3LTAwejN2LXk4QnNYa05UX2dVYl9NaDhUcUhjeW5iaUhORmdQTzRTcGI4V1ZwV2NBZU1CRTh6NTUwSF82dzNB?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -20630,10 +20648,10 @@
       ]
     },
     {
-      "title": "US Stocks Drift as Oil Falls and Wall Street Waits for SpaceX's Debut",
-      "source": "U.S. News & World Report",
-      "publishedAt": "2026-06-12T14:03:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPXzRseGlGZFBSclhQOGNxQTg4ckxmMmhIb2FmS19zRjN0VVkxRG1YQnM3anhpNW4tWm94V3FCNkV5ckYtNW51dTMyTmdPcjdIeHU0aVlrU3djVjRtbERxcGNrUlo4Mk9TZ0hGWXdjRkRiM191VXJjcWhxcjBoWU1MQ0FYZlpLQzVjX3FmSWlVSGszSXg4bENZOWMtR3FyQ1VsWkVncU92Vm1DSTFWcWFza25nUlFEWjl1UXJvajM3Mkt1eEtVSkZSR1NLaGFZWFpZU0xUOWd6bXZNbHpxaE83UQ?oc=5",
+      "title": "US stocks drift as oil falls and Wall Street waits for SpaceX’s debut",
+      "source": "ABC Columbia",
+      "publishedAt": "2026-06-12T15:17:02+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV01IZHJNa1NzWnE2cXhINWNkenBCYUpzZ1Z2R0JNTGFqZk9sYm15ZkwwMVBPMlVQay1qdmhxWUR5T0JaN3ZYWWt3Vk5EY3BnVEhaMEl3TGp5MUluNmI4RDY3aGZ5N1BNWjZOSFd2RTZFd2lxZzZoTUJ2NlQ1dlJIS0lZY3I5QmdFVk1fV3FvcXpjTkgtQjVmY2NpLVRGQUhxbmVqWUQwMXp3X3V2?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20648,10 +20666,10 @@
       ]
     },
     {
-      "title": "SpaceX's arrival heralds a wave of new stock",
-      "source": "Axios",
-      "publishedAt": "2026-06-12T11:33:55+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WeEwwOEFWWmFuR1dNbzdsdXYzeE9zUVVOckYzNWliWTBvQVBQT250OG1tci1mT3ppbHJVSmN4ZExDdy1XRFoyRmY0MEdqUGdLaEdPTDZkUV9TemRRZHczb3htZm9ESjZKY0VydnpHS2FrRWdX?oc=5",
+      "title": "Wall Street drifts ahead of highly anticipated market debut of SpaceX",
+      "source": "Hartford Courant",
+      "publishedAt": "2026-06-12T13:46:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zN3NiTVlmUHJYMFB5eGZhUUh6cnBVUV9ETFk4VG9xTEtWVkVqa2c5bHpSZ0ZGa29RdW8xaHFGdGthSUZ1aVZSOWw3SWlXelR1YUZvMkxFZl9LSS14dFRQekttZXk?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20662,24 +20680,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Stocks rise as oil slides on Gulf peace hopes, SpaceX market debut in focus",
-      "source": "Reuters",
-      "publishedAt": "2026-06-12T00:40:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV1pjRmJPbG9FY2Q3ekpEY1dDQTI3aWU0MzdqR0tMbDdKNjdkWHNDRGk3TEdFbDVzeHBZODUyS20yNnpuWHR0N2xPRHFPWHN4QlA3QzNUM1BONlRJakJfdGpTOWYybHU2ZTBfM29JamNOc096OWgzd0FRa01GN1BWbzNraw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
