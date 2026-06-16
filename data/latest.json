@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-15T22:16:37.959016+00:00",
+  "fetchedAt": "2026-06-16T03:52:52.492266+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 8.35,
+      "ytd": 10.15,
       "first": 6858.47,
-      "latest": 7431.46,
-      "date": "2026-06-12",
+      "latest": 7554.29,
+      "date": "2026-06-15",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,7 +52,7 @@
     "tradeStress": {
       "value": 27,
       "label": "Entspannt",
-      "date": "2026-06-12",
+      "date": "2026-06-15",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 35.0,
     "label": "Stabil",
-    "date": "2026-06-15"
+    "date": "2026-06-16"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7431.46,
-      "chg": 37.16,
-      "chgPct": 0.5,
+      "val": 7554.29,
+      "chg": 122.83,
+      "chgPct": 1.65,
       "unit": "",
       "dec": 2
     },
@@ -882,10 +882,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-06-16",
-        "value": 0.09
-      },
       {
         "date": "2020-06-17",
         "value": 0.09
@@ -7619,10 +7615,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-06-16",
-        "value": 3124.74
-      },
-      {
         "date": "2020-06-17",
         "value": 3113.49
       },
@@ -13641,6 +13633,10 @@
       {
         "date": "2026-06-12",
         "value": 7431.46
+      },
+      {
+        "date": "2026-06-15",
+        "value": 7554.29
       }
     ],
     "sentiment": [
@@ -14362,10 +14358,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-06-16",
-        "value": 28
-      },
       {
         "date": "2020-06-17",
         "value": 28
@@ -20573,6 +20565,10 @@
       {
         "date": "2026-06-12",
         "value": 27
+      },
+      {
+        "date": "2026-06-15",
+        "value": 27
       }
     ]
   },
@@ -20613,6 +20609,24 @@
       ]
     },
     {
+      "title": "Stock Market Today, June 15: American Airlines Group Jumps After Oil Prices Drop on U.S.-Iran Peace Agreement",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-15T21:49:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOc3I3ZWMwV0Y3d09UdE5mSXF4anR3b09YR0wwOFFjYlVmLUJYcDNfX0FHcWVmUU15YXVENTRPeU1mNC14RHFzWnZEaUN0Rm9EY0lxaHJfWTJtUDlQbVhpSi1sblZLY1dyLXJlOFF3ZnV1bEFXRUV6b2dpSHY5VGpGTDYtaE1OWW9CbzdlVllWdWR5X2l1SkRlOXc1V0tjaGVIcEJTNDhOUDVCOEpSaFV4Q1VDc19QVDZNTThDeEp4UDZ3VXRQdEd6Y0RfZThTQTFxaG0zbmZpMGFDeFhYT0ZOM0JEMW16NEVrQVlpRWxaRzdMNFR6eGhrd1RrOA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Why the stock market tanks when the economy grows rapidly",
       "source": "WAMC",
       "publishedAt": "2026-06-15T16:52:00+00:00",
@@ -20630,42 +20644,6 @@
       ]
     },
     {
-      "title": "Stock Market Today, June 15: American Airlines Group Jumps After Oil Prices Drop on U.S.-Iran Peace Agreement",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-15T21:18:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOc3I3ZWMwV0Y3d09UdE5mSXF4anR3b09YR0wwOFFjYlVmLUJYcDNfX0FHcWVmUU15YXVENTRPeU1mNC14RHFzWnZEaUN0Rm9EY0lxaHJfWTJtUDlQbVhpSi1sblZLY1dyLXJlOFF3ZnV1bEFXRUV6b2dpSHY5VGpGTDYtaE1OWW9CbzdlVllWdWR5X2l1SkRlOXc1V0tjaGVIcEJTNDhOUDVCOEpSaFV4Q1VDc19QVDZNTThDeEp4UDZ3VXRQdEd6Y0RfZThTQTFxaG0zbmZpMGFDeFhYT0ZOM0JEMW16NEVrQVlpRWxaRzdMNFR6eGhrd1RrOA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil prices sink, stocks soar after Trump announces deal with Iran",
-      "source": "CBS News",
-      "publishedAt": "2026-06-15T13:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TanMwME5ZWGQ0RTI5UjAwWlVpSTBqdk1yc3k1LWxUTURWazFTY3pZUkN2bUNiOHhlSl9DVkUxZ0xBQmhnV2g1SWdobHJleXFvMzVwQUh2aGxXQkdEZjhmMjNQYW9sNzBlTXB3WVJ6dHNTRzl2VTR2cDBjaHI?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
       "title": "Morgan Stanley’s Wilson Sees US Stock Market Rally Broadening",
       "source": "AdvisorHub",
       "publishedAt": "2026-06-15T19:41:23+00:00",
@@ -20680,6 +20658,24 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide",
+      "source": "Reuters",
+      "publishedAt": "2026-06-15T23:38:33+00:00",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajR4UzdaSXRuUjREVE5uZDBySzllNTdibzhobEdmbXJaMDNBX2ZmTFBnUUxzRy04WkZ3RUZCSEJkSURNcE5vUERPbGlBdVNwNDEzU3FwUWZmTnhreGRVeU9EeEpCTVZQT05fNk5scUZ5Z2RGY09idlFCRTY1T3NkQ2wySllpNXlSZmg4MUI3MUNIbGgzalRFUlNZV08tTktl?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
