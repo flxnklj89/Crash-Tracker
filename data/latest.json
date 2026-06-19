@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-19T04:04:25.802320+00:00",
+  "fetchedAt": "2026-06-19T12:04:00.465184+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -73,7 +73,7 @@
       "name": "Europa",
       "score": 34.0,
       "label": "Stabil",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -86,7 +86,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-06-18",
+        "date": "2026-06-19",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -20574,6 +20574,24 @@
   },
   "news": [
     {
+      "title": "Oil prices are falling and stocks are up. Traders worry they’ve gone too far",
+      "source": "CNN",
+      "publishedAt": "2026-06-19T09:00:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRXl5UXdOanhQVGxnekUxRC1pSHZKLWxCbmRkbTMzTENwY3pUVFF2V2lUN0htUDB4c2ZmcW5TRzdrMm44OU9SWC1yTGk4aWFYOEVDRkNaSEZzdGVoZFVKOFJHX3laUEpxYXFraTRVR2Y2d2ZIZk1EbnpQX2dvWjNST1RfVGdLdw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "Federal Reserve policymakers show support for rate hikes as Warsh reins in guidance",
       "source": "AP News",
       "publishedAt": "2026-06-17T21:54:00+00:00",
@@ -20589,6 +20607,23 @@
         "Aktien",
         "US-Dollar",
         "Gold"
+      ]
+    },
+    {
+      "title": "World shares are mixed and US futures fall after a tech-led rally on Wall St",
+      "source": "KSN-TV",
+      "publishedAt": "2026-06-19T10:34:08+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRXJLRHZhOVVPOW1zVVJUQUJabGppSUpKN0g3bFhuT0s1UnBoemxHeURDNVRGWkRGN0xWNkxha3d4UVlkN2hlZGhzTUxuaUU5ZUxpcjZNWVUxQjN2S1pPX29iMi14ZDl5MzhjSDZLZTVMaVJ1QTYtakN4VUhiMmozRWlNa3c2UWY2ZFBCeTFhc3ZHZVgwTE9rejR4aTRMQ204Mm44YjF3c3hqR0pqR1NEUHltb250MnPSAbwBQVVfeXFMTzVYWGhYSE1ZYXI4MDBoWnVLVDZ4M2hiY0hTQTQzUDNTZjROMFllRGc2SWMzeE5nYzBIcnN6U015U0lyLVNZdC1UN1JSTUNIR01WRGxLNnM5U0V3SmdiYXZKTktReEtJYWJiNzZoTFQtV3N2YWREbFo1ZnIzVHlwUzFNTGNQRk9aOEZ1YzY5bzRoY3ZIemZrVEs5RzBLeWhTV0FrRUNPa2wydlkzQmUxNjZ3S1BIN01zb1htbEI?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20609,10 +20644,10 @@
       ]
     },
     {
-      "title": "How the stock market became Trump’s most favored adviser",
-      "source": "The Washington Post",
-      "publishedAt": "2026-06-18T17:00:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNXE3Z3pOWVZHNnViVUx0eTR4VEhYaXVlbjZRMjNRRVFzV29jamJfNUFCRkRERnNOeXQ0cmJoRlZmVE1Cbm9ReTFRUm1oa0RBNFlOSzM1ZjNUNktNcy1TOHJPa0duaV9OQUJtV3BhVnREYnppWDdZbzhrMVNyajlFbkVwVHh4R091N1hjel82REp1dGp1RTZENzJjWDlzSnhDbTd4Y3VIcW11OWJGaXc?oc=5",
+      "title": "What to Look Out for in Economic Data This Week (June 22-26)",
+      "source": "Kiplinger",
+      "publishedAt": "2026-06-18T16:22:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20626,44 +20661,10 @@
       ]
     },
     {
-      "title": "Stock Market Today, June 18: Netflix Edges Higher as Investors Weigh Pricing Upside Before Earnings",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-18T22:07:56+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPeTYyQm9oaENaYVNMczJ6MFprOFoyM0dTVVd2T0loMzQ2d1dLTDhCYVVaQTYtbkRwUDM1YjJjRWtremVzTUtNRmF5a1VLZ25MNVJhb005UV9lUV9HZ0NreUpUNXlOaGw5YkMwaE9fc3ZiZU9LMG13MjVsOVl0RWlPX3gzUUNWLWRHWk40cnRVc2I3UzBqSVQ3RFB2WXdxaW16YzE5QmxYU2ZnZ3lxbFJmVUh0SUJMUHQ4Tml3TEpRR041Umx4Qm5iRjRqRHpMU1RoRGxVcURFNDhqSzlNZk1EdTB4ejlzaTJXUS1jNFBhcw?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock Market Forecast For Next Six Months: Why More Gains May Lie Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-18T21:02:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeTFDTVlOLU9tckVpTGRXVDVPZV82elNENmpvN2pQSkpISk1iQmJoZXg0QzFCb0Zhb1ByNVR2eGhLSDZWU2thRVcydG9GTTZyY2tOOXZTdENHTW5ac3N0VERtVkZUdG1HbVV1aFVHcS1kdWtuLUN4S1MtSmlSQ0w3Mk5rbHl0bjJ2ZE5VeA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stocks rise on Wall Street, erasing much of their loss from a day earlier",
-      "source": "Pittsburgh Post-Gazette",
-      "publishedAt": "2026-06-18T22:30:22+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmNrdm5GTzd6NkM2dGJYbExKRWI4UmJvTEQ0TzJxU04xa3JfVDVOdktfTDBYRDMxVFZVcjBjem1YbmtZUl9xTktjQkpVakNFZXktLTE1blhzZXB6ZU1oVGxiaHRPdmJxNE5EcXllQU5RU1dIeXY5cGVFR1pBRkw4dzlGU3Z6T3NtTE5vNGxITWY1VXFNZE5Pd1ppXzNRczdBQ1B0MXRJRzlJTmM?oc=5",
+      "title": "Stocks climb, reversing most losses from day earlier",
+      "source": "The Arkansas Democrat-Gazette",
+      "publishedAt": "2026-06-19T06:44:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUXRwa3hFOXFmUnRCTHZScEI5OXExRUJxQXlnd0JpZVJoM1JReWdWS0wtTHkzaFZVTzRQNWVVVC1EZmdaZWd2dmh1dmdieWI1Ykh1OFBhZ0tsUklWVy1JTnlTZWotRXp3NG5WQ2tMLTA3T1UtSWxoVXRSRFcwa1VGYUxPMTJiLVdRbzh1R3hVVjZoZDU1cDlZ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
