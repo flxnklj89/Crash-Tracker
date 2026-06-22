@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-21T21:11:48.295597+00:00",
+  "fetchedAt": "2026-06-22T03:59:27.584637+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 35.0,
     "label": "Stabil",
-    "date": "2026-06-21"
+    "date": "2026-06-22"
   },
   "regions": {
     "europe": {
@@ -882,10 +882,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-06-22",
-        "value": 0.08
-      },
       {
         "date": "2020-06-23",
         "value": 0.08
@@ -7614,10 +7610,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-06-22",
-        "value": 3117.86
-      },
       {
         "date": "2020-06-23",
         "value": 3131.29
@@ -14359,10 +14351,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-06-22",
-        "value": 28
-      },
-      {
         "date": "2020-06-23",
         "value": 28
       },
@@ -20574,6 +20562,24 @@
   },
   "news": [
     {
+      "title": "US Futures Slip, Oil Climbs on Renewed Iran Threat: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-06-21T22:08:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU3ZMVXh1eVRpWWc0ZWFzRThVengtRlZXUFVPSngtbTJEMEpRVUlBMktMQkhfd18xYWpuV0RMSUtReXlvU25lWVZUMThLYUNLYU1xNGZaS0c5TUVKMnFLQzFlZjI2U2Q5Nk8tR2tlTEZOSElIZnJFRm1aYmdkT2tEaHU1VGxVWmVFaENjdHltWkthbnZTeGhzZXl4eEc4MlNBQkU3UGxfQy1yU3dxRUtYTnRONA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
       "title": "What to Expect in Markets This Week: A Post-Fed Inflation Reading and Earnings From a Hot Memory Maker",
       "source": "Investopedia",
       "publishedAt": "2026-06-21T10:00:00+00:00",
@@ -20609,20 +20615,20 @@
       ]
     },
     {
-      "title": "Dow Jones Futures: U.S.-Iran Talks, Nvidia, SpaceX In Focus; Micron Earnings Ahead",
+      "title": "Dow Jones Futures Fall After U.S.-Iran Talks; Nvidia, SpaceX, Micron In Focus",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-21T18:08:00+00:00",
+      "publishedAt": "2026-06-22T03:17:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPc1NIUjVtbWI5RXdHR012UnFDUGtMRlFwWnp5QlR2WFBRSGw4NnFJNFZXWnlXWnAwUk84Q254ZUI1QWlaTlZHeVl5WFlMWVJrU0duUDBmajAtT01PSkdQek5ZdjNhbDB1V29YcE1wUmhVOXZpcUQxTTJ4bGNLVlZkTkRseDdRdHVVRXBJY1IzaVJRN3VVX3BqcWdQbkFRUkZLVkZtbUJJV0lKbTRCd0tzNzFtQkJQcVV1VVE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20644,38 +20650,20 @@
       ]
     },
     {
-      "title": "Stock market bounces back to finish winning week as tech leads recovery",
-      "source": "eciks.org",
-      "publishedAt": "2026-06-21T11:04:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9YS1lVMmdVaUQ0ZDl3Ynk0d0cyNUJXRmhwTzRYSGxjX1JpNHZrbkdlMEVEYWNzUFNRSmtJZXZodlZOeWFSUmh5ME53UExzZ05Wd0czd0plRVdyc3F1N182bnY4TUpNU19OZ3NzUHpjZWJRQlhwMjhLNg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Can Earnings and AI Keep the Bull Market Running?",
+      "source": "IndraStra Global",
+      "publishedAt": "2026-06-22T03:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0lMQjhKMDlxclRTMTNmbnNUNkNfWkpFZXpRVWo5ejVlVkl5NWxWZVFjRzFETy1jTEkzczQxQWJTWGFYZXh5NjJ4clBIeFpfRlJUX3p6SFVNV1dsUm5rUmItOVpIRHRpTlNuSG5QUE9xU2NIZ05fbmJ1YTZ4OG5INA?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Oil Falls to 3-Month Low After Trump’s Iran Deal. What It Means for Inflation",
-      "source": "24/7 Wall St.",
-      "publishedAt": "2026-06-21T20:31:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZFp6Q1oxUmwzblppSkZycTJFMTdGX3FyTVRrOHNJMWx6R3pxdGluT1NVelk1SDF1ZElib2d5a0I5QjNhMnhzcUNCRVljSUVadGs5UFVtOTFhQ3BoVHdrQl95bEpYS0JST1Fxb1BCc1pMblphdTdRTVp2WnhObmpNVDl0RDFVb25YSG9IN094dmZ2RWNoeE1udHRPOW9kUDhqN2dsMlMzVVhVM21FVG9UdzlfTENIVFBoYm1N?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
