@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T17:51:00.446503+00:00",
+  "fetchedAt": "2026-06-23T21:41:38.679508+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -50,7 +50,7 @@
       "series": "UMCSENT"
     },
     "tradeStress": {
-      "value": 21,
+      "value": 24,
       "label": "Entspannt",
       "date": "2026-06-22",
       "cadence": "daily",
@@ -59,7 +59,7 @@
         "vix": 17.28,
         "brent": 84.36,
         "eurusd": 1.147,
-        "us10y": 4.46
+        "us10y": 4.51
       }
     }
   },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.46,
-      "chg": -0.03,
-      "chgPct": -0.67,
+      "val": 4.51,
+      "chg": 0.05,
+      "chgPct": 1.12,
       "unit": "%",
       "dec": 2
     },
@@ -20564,11 +20564,29 @@
       },
       {
         "date": "2026-06-22",
-        "value": 21
+        "value": 24
       }
     ]
   },
   "news": [
+    {
+      "title": "Markets Recoil in Global Sell-Off Driven by Tech Stocks",
+      "source": "The New York Times",
+      "publishedAt": "2026-06-23T20:14:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTNJNHI1N2NmTjJITTkySzlabHgxazlCdGVDLVFnMEJwTnZRZmthbTFTTlh5VmFYUFJuM0ZzdUotNjdLeGUxWWM5eWlkY3dvNk1MWEpubktfazVYdTM2d19FWTNkd3ZUOHhCaXN5VU5RNEMtQ0xqVEJJMlo4eE0wRGlsbF9DLUE3NjZEcVh1RXJwLTlNLUs2dg?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
     {
       "title": "Markets tumble worldwide as Fed resets expectations: $400 billion wiped off SpaceX stock",
       "source": "Fortune",
@@ -20588,27 +20606,10 @@
       ]
     },
     {
-      "title": "Tech Stocks Drive ‘Unnerving’ Sell-Off in Global Markets",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-23T13:48:03+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTNJNHI1N2NmTjJITTkySzlabHgxazlCdGVDLVFnMEJwTnZRZmthbTFTTlh5VmFYUFJuM0ZzdUotNjdLeGUxWWM5eWlkY3dvNk1MWEpubktfazVYdTM2d19FWTNkd3ZUOHhCaXN5VU5RNEMtQ0xqVEJJMlo4eE0wRGlsbF9DLUE3NjZEcVh1RXJwLTlNLUs2dg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Market mixed as oil prices ease, tech stocks sink",
-      "source": "Northwest Arkansas Democrat-Gazette",
+      "source": "The Arkansas Democrat-Gazette",
       "publishedAt": "2026-06-23T07:21:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMnFCQUZKTEV6VE5ycUlsLVNmM1lTN2JoaE5TTlNOeXU4Q0hueHE5MHZ4RXd1OERDSE1LUDF0d2J0ZlFxSEhGSWt4cEVqeUk2Z1dPSmMyamhJbXVXN1IteFp3WU16Si1DaHBOcmJmcWFuc3NIaFlQZl8xYi0zUDUxVW9vaFRLcWZ2dW9pWUV1akNIQ3RUZDE5eDgtV1NFTGZXbmxB?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblFLa25EbXZlT1JlR3A5c3VZdGtxZXk4TURkOUVfdG5teFhOd01PWUxlY2xYMTJ0QmN0czFFNGZ3SWpKQm1iUm5XZDYzYi1PemQwRFY2WUFlcXNlWWVoem94TE9jTXEtLUFYMnk3MFBqV1QzSWgzTXo5aGhEalBvV0pNQzBCbzAwUlB3d2ZaY2RZMHByYzdPQzRGZ0VFQQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20623,28 +20624,27 @@
       ]
     },
     {
-      "title": "Stocks fall as chipmakers and tech slump on rate bets",
-      "source": "Reuters",
-      "publishedAt": "2026-06-23T01:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Stock Market Today, June 23: Micron Falls as South Korea-Led Memory Selloff Raises Earnings Stakes",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-23T20:57:01+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaU1QbUNMRXZuMWVzTlZxTDFfSnc0U3l5dDRVTGVPeS1lc01pVW5PZ3VqQzNUeWZBa3BsTElBT1U2UVFmR210bkZHZ0dadnQ0b2xtVjNGS3FpWFVPVzA0Tm1xbk8tZnBEUWZZSkc0dlpMOG90eE9ZTWtKa2taUjZWamZaRTFkaXN0dy1iczVHcEVYcFRoTFlkb29GV0J2RHhFdUhFU2VtUmplYTlWMmkybE52RHZUQkV1NUhnZG90X21wdEVxRlRUakwwVkhqQ0czZjZEUW9CMDhEZ2V1ak5oU21GWFUtdFZhREl2TDhB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Staatsanleihen",
         "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "Wall Street is getting trampled by an AI sell-off. South Korean market plunges 10%",
-      "source": "CNN",
-      "publishedAt": "2026-06-23T12:10:31+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xWi1vbVJfRVl3SlVIX0xzRGpoS3pzMFBNYUJreWZsTVpRaUhwY0NFQlVvbGFzRWJRRnlNTWNYaHlTeFF4TUVBaTlkVmxSZ1h3T2tzTk5iRmpnNVZLZURiSkpoaGN0blFvVzMteEJxWFZTT0tOUXRrZlh3VWY?oc=5",
+      "title": "The Stock Market Is Not A Leading Indicator: This Is...",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-23T20:08:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVm1pMm1LLUs5TFRaWXdic0lkY0xSSGJWM3lsUUluYmduU1NqX1RxcFBlR2djVkFlWDFRVUJ0emk0ejhEOVZiNzRVdDNZT3pMSlVjVjl5ZUNmejI5QWNkOFdkZUd2allRMmlGTi05S2Q4U1FjcVRUbUYyOHdBMG9hMzIwd19sM19WLV91S1FrbGJTTE50cjQ4?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20658,10 +20658,10 @@
       ]
     },
     {
-      "title": "Why the 2026 Stock Rally Is Getting Narrower and Riskier",
-      "source": "Barron's",
-      "publishedAt": "2026-06-23T17:19:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUy1wTENqVXZ2ZjFobjJTWDV1UW9oWnA1MWJYX29Ed2pPSVFVMDEwOEFPZE1WZnhIS212SXMtVGR0aE1KMWk3ejJqelMtT1JWU0xoV1B5MTlJTDNvdFpMYUJESjdtOE82bjlJNXRES0RLTEEzbnJKS3d0a2Z4d2w1ekNGMTF1VGVuMW5ZTA?oc=5",
+      "title": "Stock Market Today: Nasdaq Falls 580 Points; Micron, Sandisk Are Big Losers (Live Coverage)",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-23T20:33:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdTlLM1lDeXVTdURPaUNaRS03ejJwdEx2dWE5MEZlTWdSYU5yTzZNcWc2TzkxdzYxeDI4M0QxOTVNXy1fQndxU2RNR21ETmNFc2g4WFN6ajBxZ1JqM1JFOGthMk5iRncwT0Y4VWJnUmFGU2R5ZlpyUFRxVzE0VEY1cHhQOEpkQ0Vnb0d3MGJhTWxvWTFoZVAzTkZobVhCM25yRHpLdHpn?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
