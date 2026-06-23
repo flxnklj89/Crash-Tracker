@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T07:45:25.798052+00:00",
+  "fetchedAt": "2026-06-23T11:13:45.708324+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20566,45 +20566,10 @@
   },
   "news": [
     {
-      "title": "Alan Greenspan, former Federal Reserve chairman, dies at 100",
-      "source": "KYOU-TV",
-      "publishedAt": "2026-06-22T11:49:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR2REMGgtYURFcDBmaUN4VkxzbERKNHhmV0hhc1hmSlJTVnVlM19ybFJ2Y3hVa0xHTjZDeWVvRlNjeXJqRjdrUVVoMFp5TmFtWTdkRWxQRlVZMjlrTTJuUjBGcHJiOWNSTTNWNmJnaEdLN0pKNmN3YXVYT2lSMTlKMDBjVGNsMU9zeVMwb2NhbERrcWo10gGoAUFVX3lxTE1BZ0lMUS1RXzQwNjM1dUxmZ3NDdTBuQ3RmcHdpdU5RdHR1OE1mX3kwb3ZkT3FWc3p0bUgwc2djVzFLSkhZR2pXLTV6R3FudWdMQUVRZGo3b0pyTS1BR0hkZU52SnZFbUgwbTVxVm1YdnI5TU1vXzhkM1M5Vmt1emtBVkkxM0lEd3lDRDRGOTRFYWNZS3BzMjNDcy1zNV9PZ0p1TTNKMVpYUQ?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "‘REMARKABLY STRONG’: CEO Reveals What’s Driving Surging Stock Market Bbc New (UHIavYJCT4)",
-      "source": "Mshale",
-      "publishedAt": "2026-06-22T08:43:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5faG1XNDBSZktneGpCSWUyVWpxVm41RGwwY2pBdTRrdkwzVE0wSGlabkNXQmIyQk9VenlMUTdfY2VhenFYNThFVXdSb1ZTS0dQWmx4QWFDLTI2bVk?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Oil falls on progress in peace talks, US stock futures mixed",
-      "source": "MSN",
-      "publishedAt": "2026-06-22T18:14:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcDR3OWc2ZVpVNlJvWVNzNkpZZy14VWpqc2I5eEdjRnV0SnVkeHh5LWtHSlg0ZU1WTlVZem5MQUJ4WlVCMlJLSzdHUDNpRU00NXdNNUZ4SjVzSmZXMWlQdUR4NUpMeEVTXzF3cHQxNzRLQng4bEYwcm1UYm1QdV9iXzhNNGdLdzc1UGZ5UWRKZ2RWUk1vMUZadm1EcUFnWkUzWXZ4QjJhQjI?oc=5",
+      "title": "Stocks hit by Fed rate reality check; oil slips",
+      "source": "Reuters",
+      "publishedAt": "2026-06-23T01:30:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20619,56 +20584,91 @@
       ]
     },
     {
-      "title": "Key Global Macro Events to Watch in the Fourth Week of June: Fed Speeches, Micron Earnings, and US PCE Data",
-      "source": "CryptoRank",
-      "publishedAt": "2026-06-22T01:13:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0ZEF6UTdGVi1JUElDV0RsejFQenJvSUg3SjJKU3ZUU1hyRHVvSEQybUZPSW04U0pLVHh3bWtYd3VJSjhnR1VSQldtUGoxcTY1M21ndjZlNENFc01QUU1pOHhEczJuVHYtSEhZVHNpNVNSSWI5enNZX3NfTWE0WUU?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "Market mixed as oil prices ease, tech stocks sink",
+      "source": "Northwest Arkansas Democrat-Gazette",
+      "publishedAt": "2026-06-23T07:21:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMnFCQUZKTEV6VE5ycUlsLVNmM1lTN2JoaE5TTlNOeXU4Q0hueHE5MHZ4RXd1OERDSE1LUDF0d2J0ZlFxSEhGSWt4cEVqeUk2Z1dPSmMyamhJbXVXN1IteFp3WU16Si1DaHBOcmJmcWFuc3NIaFlQZl8xYi0zUDUxVW9vaFRLcWZ2dW9pWUV1akNIQ3RUZDE5eDgtV1NFTGZXbmxB?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "The Federal Reserve's hawkish pivot reshapes the dominant theme in foreign exchange markets, triggering large-scale unwinding of carry trades.",
-      "source": "富途牛牛",
-      "publishedAt": "2026-06-22T03:59:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeEgyNWRsd2dQbTktRXJ4NDg4REY5RGVWa3hiZEl5QnFia0h5R0Q5MVRLRnE1eGJpeTNydl9mLXp4RV9CTFlhNy13RHZjWjBKdm9ULVcxY3c3aUlLckt2Nk02cUE0TTNGcU5jUDVLOTh5T0MzbE81MURjRzdBVGduNWtuaXZidkduTDZGWDNwQ0g2RGJ4Q2dNMUJScHluaU1LYWpCWmYtZw?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "title": "‘It’s Unnerving’: Markets Recoil in Global Sell-Off Driven by Tech Stocks",
+      "source": "The New York Times",
+      "publishedAt": "2026-06-23T10:33:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTNJNHI1N2NmTjJITTkySzlabHgxazlCdGVDLVFnMEJwTnZRZmthbTFTTlh5VmFYUFJuM0ZzdUotNjdLeGUxWWM5eWlkY3dvNk1MWEpubktfazVYdTM2d19FWTNkd3ZUOHhCaXN5VU5RNEMtQ0xqVEJJMlo4eE0wRGlsbF9DLUE3NjZEcVh1RXJwLTlNLUs2dg?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "US investors see Micron earnings as pulse check of AI rally momentum | Gulf Times",
-      "source": "Gulf Times",
-      "publishedAt": "2026-06-20T21:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMEZiYnBHNGJhTHFoQ3hPeDQxaEFnS2RGRmJJMG1BZmEzZVExQWUyYVBSQ2Iyai0tazJjektHeXQtMGVaWFZoU1NYblIzSjJvN0pSMU03M1pGNGhVVUNDcUhsTjZTdFFiLW5ZVGJQcUgtNXBQTm9nZEVqUjhsNGhIZzgwTWJNWmM4Y29WOU45V1hQUU1ZQ0dNcDNRZ3IxUGFCWnA3cjNZSU9kbDI4a2RJWUZLV2FjbEx1aTBoZFRVMHfSAcABQVVfeXFMTjBGYmJwRzRiYUxxaEN4T3g0MWhBZ0tkRkZiSTBtQWZhM2VRMUFlMmFQUkNiMmotLWsyY3pLR3l0LTBlWlhWaFNTWG5SM0oybzdKUjFNNzNaRjRoVVVDQ3FIbE42U3RRYi1uWVRiUHFILTVwUE5vZ2RFalI4bDRoSGc4ME1iTVpjOGNvVjlOOVdYUFFNWUNHTXAzUWdyMVBhQlpwN3IzWUlPZGwyOGtkSVlGS1dhY2xMdWkwaGRUVTB3?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "BYD Stock and 5 More Ways to Play a China Recovery",
+      "source": "Barron's",
+      "publishedAt": "2026-06-23T05:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdE15ZE5jRW5IYWE1UFRhRTdCV19NZnZ4bEJRNW94aTZYUVIxbjZnV0VrNmpNY2lMa2ltLU9MODRMaUtGX0dtd3FXaGFQdXNQMHgtSDlQdmU5YVJ4c2xTV3pFREFnc3ZFa2hYTVJuM1VmUTRrWWd3T1A5WENwR0tCWGpMUFQ0WWM?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Japan stocks lower at close of trade; Nikkei 225 down 3.46%",
+      "source": "Investing.com",
+      "publishedAt": "2026-06-23T07:08:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0ExVE9zWlJFeXl1NExUZklQQW10TGpXM0VLQU9hQ2I0cEhlQXNybXFZS1NvSHJkZlNVeUJJSld1TmZKT1JrQlRvWTEwcTh4LWFfRFFsOVI3QloyenFsNzNIdzl0NGV0U2NvM0JLSnBTcmhPY25HNVBBeVFLNk9IcjkxWUNlYXdEOTBQNHViRjdEQWFZRnhPc2JCUE1hM01kdGRCUm5BTG1jOTlKdzZDUVpNYw?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Oil Prices Are Falling, but the Fed's Decision to Hold Interest Rates Steady May Challenge Opendoor Stock",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-23T08:14:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcGswUFlydDhSM3pwU0VpMnc1MWIzRUJBMGFVeWtYaTgtempzaWdaMWVKXzFNYnczOGFOODNNbk9PSy1IMk9lX29EOXplcXUySDlpb0xuR1gwNUdvNzRHMzQxWmZnUmh1T1E0Mk1pV0FqZTBPZUlubm5EcEtqc3dqaEQ5bkFKblYxbjNnbmp4eDNhMll5WkdQSA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
