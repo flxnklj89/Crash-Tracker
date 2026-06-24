@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-23T21:41:38.679508+00:00",
+  "fetchedAt": "2026-06-24T02:58:36.893478+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 8.96,
+      "ytd": 7.39,
       "first": 6858.47,
-      "latest": 7472.79,
-      "date": "2026-06-22",
+      "latest": 7365.46,
+      "date": "2026-06-23",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,7 +52,7 @@
     "tradeStress": {
       "value": 24,
       "label": "Entspannt",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 35.0,
     "label": "Stabil",
-    "date": "2026-06-23"
+    "date": "2026-06-24"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7472.79,
-      "chg": -27.79,
-      "chgPct": -0.37,
+      "val": 7365.46,
+      "chg": -107.33,
+      "chgPct": -1.44,
       "unit": "",
       "dec": 2
     },
@@ -882,10 +882,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-06-24",
-        "value": 0.08
-      },
       {
         "date": "2020-06-25",
         "value": 0.08
@@ -7615,10 +7611,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-06-24",
-        "value": 3050.33
-      },
-      {
         "date": "2020-06-25",
         "value": 3083.76
       },
@@ -13633,6 +13625,10 @@
       {
         "date": "2026-06-22",
         "value": 7472.79
+      },
+      {
+        "date": "2026-06-23",
+        "value": 7365.46
       }
     ],
     "sentiment": [
@@ -14354,10 +14350,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-06-24",
-        "value": 28
-      },
       {
         "date": "2020-06-25",
         "value": 28
@@ -20565,14 +20557,35 @@
       {
         "date": "2026-06-22",
         "value": 24
+      },
+      {
+        "date": "2026-06-23",
+        "value": 24
       }
     ]
   },
   "news": [
     {
+      "title": "Tech selloff drags global stocks lower",
+      "source": "Reuters",
+      "publishedAt": "2026-06-23T22:15:43+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Markets Recoil in Global Sell-Off Driven by Tech Stocks",
       "source": "The New York Times",
-      "publishedAt": "2026-06-23T20:14:51+00:00",
+      "publishedAt": "2026-06-24T00:19:08+00:00",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTNJNHI1N2NmTjJITTkySzlabHgxazlCdGVDLVFnMEJwTnZRZmthbTFTTlh5VmFYUFJuM0ZzdUotNjdLeGUxWWM5eWlkY3dvNk1MWEpubktfazVYdTM2d19FWTNkd3ZUOHhCaXN5VU5RNEMtQ0xqVEJJMlo4eE0wRGlsbF9DLUE3NjZEcVh1RXJwLTlNLUs2dg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20585,6 +20598,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "US stock futures rise after bruising tech selloff; Micron earnings on tap",
+      "source": "Investing.com",
+      "publishedAt": "2026-06-24T00:31:50+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZDdEX08zUDltdVB0SVlDazZuWk5iOERGNUVaTHIteURMeUNheUJydXVEc3JKNm9FYUtBYXE5NUlWWjJ1RjVOcnkwOTBoVUx0MVY2THRhWFV4WFVEOTRUREFQMEdsb2lIR2xaaklCVzM5TG1WUzRYNnhmZXhWZUtWNnpMQ2NEcWxZRjF2dHFTY3JIa1FLTWNJRDVReVhsYlRtNm1Qc3lHNjl5RHFfR3pES3Vsa0gwZ2k3UHJCM3F2QnQ2a2tEV0wzbg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -20606,6 +20636,23 @@
       ]
     },
     {
+      "title": "Stock Market Today, June 23: Micron Falls as South Korea-Led Memory Selloff Raises Earnings Stakes",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-06-23T21:43:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaU1QbUNMRXZuMWVzTlZxTDFfSnc0U3l5dDRVTGVPeS1lc01pVW5PZ3VqQzNUeWZBa3BsTElBT1U2UVFmR210bkZHZ0dadnQ0b2xtVjNGS3FpWFVPVzA0Tm1xbk8tZnBEUWZZSkc0dlpMOG90eE9ZTWtKa2taUjZWamZaRTFkaXN0dy1iczVHcEVYcFRoTFlkb29GV0J2RHhFdUhFU2VtUmplYTlWMmkybE52RHZUQkV1NUhnZG90X21wdEVxRlRUakwwVkhqQ0czZjZEUW9CMDhEZ2V1ak5oU21GWFUtdFZhREl2TDhB?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Market mixed as oil prices ease, tech stocks sink",
       "source": "The Arkansas Democrat-Gazette",
       "publishedAt": "2026-06-23T07:21:00+00:00",
@@ -20621,57 +20668,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Today, June 23: Micron Falls as South Korea-Led Memory Selloff Raises Earnings Stakes",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-06-23T20:57:01+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaU1QbUNMRXZuMWVzTlZxTDFfSnc0U3l5dDRVTGVPeS1lc01pVW5PZ3VqQzNUeWZBa3BsTElBT1U2UVFmR210bkZHZ0dadnQ0b2xtVjNGS3FpWFVPVzA0Tm1xbk8tZnBEUWZZSkc0dlpMOG90eE9ZTWtKa2taUjZWamZaRTFkaXN0dy1iczVHcEVYcFRoTFlkb29GV0J2RHhFdUhFU2VtUmplYTlWMmkybE52RHZUQkV1NUhnZG90X21wdEVxRlRUakwwVkhqQ0czZjZEUW9CMDhEZ2V1ak5oU21GWFUtdFZhREl2TDhB?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "The Stock Market Is Not A Leading Indicator: This Is...",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-06-23T20:08:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVm1pMm1LLUs5TFRaWXdic0lkY0xSSGJWM3lsUUluYmduU1NqX1RxcFBlR2djVkFlWDFRVUJ0emk0ejhEOVZiNzRVdDNZT3pMSlVjVjl5ZUNmejI5QWNkOFdkZUd2allRMmlGTi05S2Q4U1FjcVRUbUYyOHdBMG9hMzIwd19sM19WLV91S1FrbGJTTE50cjQ4?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Nasdaq Falls 580 Points; Micron, Sandisk Are Big Losers (Live Coverage)",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-23T20:33:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdTlLM1lDeXVTdURPaUNaRS03ejJwdEx2dWE5MEZlTWdSYU5yTzZNcWc2TzkxdzYxeDI4M0QxOTVNXy1fQndxU2RNR21ETmNFc2g4WFN6ajBxZ1JqM1JFOGthMk5iRncwT0Y4VWJnUmFGU2R5ZlpyUFRxVzE0VEY1cHhQOEpkQ0Vnb0d3MGJhTWxvWTFoZVAzTkZobVhCM25yRHpLdHpn?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     }
   ]
