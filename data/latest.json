@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-24T02:58:36.893478+00:00",
+  "fetchedAt": "2026-06-24T07:37:38.808564+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20566,27 +20566,10 @@
   },
   "news": [
     {
-      "title": "Tech selloff drags global stocks lower",
+      "title": "Asian stocks under pressure, oil near four-month low as volatility risks highlighted",
       "source": "Reuters",
-      "publishedAt": "2026-06-23T22:15:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRmhDU00zNnJxQ0g3SWFxOFJ0RVlnTl8tSHl2cS1sRS16eTJtVmxHOU15dkRqR2NKU3BRMUZtTEx1RjFzSVFwRzRWVFpQdnNBU1VwMDM5RFpBTU1HRzJiV2tFUXhvdGRSenhPcTVVVldGV2pDd0lEZms2UVMwUmE4RzJLYnhJYWloLVJUNA?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Markets Recoil in Global Sell-Off Driven by Tech Stocks",
-      "source": "The New York Times",
-      "publishedAt": "2026-06-24T00:19:08+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTNJNHI1N2NmTjJITTkySzlabHgxazlCdGVDLVFnMEJwTnZRZmthbTFTTlh5VmFYUFJuM0ZzdUotNjdLeGUxWWM5eWlkY3dvNk1MWEpubktfazVYdTM2d19FWTNkd3ZUOHhCaXN5VU5RNEMtQ0xqVEJJMlo4eE0wRGlsbF9DLUE3NjZEcVh1RXJwLTlNLUs2dg?oc=5",
+      "publishedAt": "2026-06-24T01:44:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVVhrUmdEOThuTVBvZ2hvWXR5QjJXLXRnb2NicWtJX0hBcWJNRV9yVHlONk5CWkcyeG1rcjJweXdkVDUzYmtUU3o2MHhfM0MyVVZJNEUwaUJQYzh2YWlCTWtiZF85OFJDWTNIRktqVk9jZ1hyRjAyX1NTVzNqakVBdDVYTQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20615,6 +20598,24 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Trump boasts of stock market and oil prices coming down",
+      "source": "WKYC",
+      "publishedAt": "2026-06-23T20:51:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMl9xc19SbGpHbFkzTVdjQ29NNGd1YW5RZGpqeGs1OXhLT19YakxWX255UTlIV1dXTzdlMEdXYWdzc09SM28tWGl6NVo4U3dBOTdwU3J2Z3dTcDJVV1prUjNNMTl0YVAwY0FhV0lLNF9IdWFodk9OTGNXYm1UUXVKREQ2MVlROGNHdFZuclNDbmt4ZTlIV243eWFrekRKTjN6ODZIYkdyeVRhaXZfc3F5YmRYeTNSdGZVSFI3LTlYc2FOQWxsWWc?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20653,21 +20654,20 @@
       ]
     },
     {
-      "title": "Market mixed as oil prices ease, tech stocks sink",
-      "source": "The Arkansas Democrat-Gazette",
-      "publishedAt": "2026-06-23T07:21:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblFLa25EbXZlT1JlR3A5c3VZdGtxZXk4TURkOUVfdG5teFhOd01PWUxlY2xYMTJ0QmN0czFFNGZ3SWpKQm1iUm5XZDYzYi1PemQwRFY2WUFlcXNlWWVoem94TE9jTXEtLUFYMnk3MFBqV1QzSWgzTXo5aGhEalBvV0pNQzBCbzAwUlB3d2ZaY2RZMHByYzdPQzRGZ0VFQQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "The Stock Market Is Not A Leading Indicator: This Is...",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-23T20:08:34+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVm1pMm1LLUs5TFRaWXdic0lkY0xSSGJWM3lsUUluYmduU1NqX1RxcFBlR2djVkFlWDFRVUJ0emk0ejhEOVZiNzRVdDNZT3pMSlVjVjl5ZUNmejI5QWNkOFdkZUd2allRMmlGTi05S2Q4U1FjcVRUbUYyOHdBMG9hMzIwd19sM19WLV91S1FrbGJTTE50cjQ4?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
