@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T14:20:04.134368+00:00",
+  "fetchedAt": "2026-06-26T17:45:01.945004+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -44,8 +44,8 @@
       "series": "SP500"
     },
     "sentiment": {
-      "value": 49.8,
-      "date": "2026-04-01",
+      "value": 44.8,
+      "date": "2026-05-01",
       "cadence": "monthly",
       "series": "UMCSENT"
     },
@@ -14351,6 +14351,10 @@
       {
         "date": "2026-04-01",
         "value": 49.8
+      },
+      {
+        "date": "2026-05-01",
+        "value": 44.8
       }
     ],
     "tradeStress": [
@@ -20570,10 +20574,10 @@
   },
   "news": [
     {
-      "title": "The memory crunch, Supreme Court rulings, 'inheritourism' and more in Morning Squawk",
-      "source": "CNBC",
-      "publishedAt": "2026-06-26T12:18:19+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbC1iNklXNHBjelZqRS1TSTlRVTJwTEhvb1VOVF9KZTFrcEpYcVJURmQxT21CeXlvcEZYNkNmcjQ4M1VVcU9pMHc4V3VJSnJMWUZ3enRnM3F3d1dFSGJ2dExjMlpLS3IwXzA4NUlMUHh3eW9SU2RLWmVHd2EzMkZYbkRZR2RJaWh1b2dhelRTY1_SAZABQVVfeXFMUGwtYjZJVzRwY3pWakUtU0k5UVUycExIb29VTlRfSmUxa3BKWHFSVEZkMU9tQnl5b3BGWDZDZnI0ODNVVXFPaTB3OFd1SUpyTFlGd3p0ZzNxd3dXRUhidnRMYzJaS0tyMF8wODVJTFB4d3lvUlNkS1plR3dhMzJGWG5EWUdkSWlodW9nYXpUU2Nf?oc=5",
+      "title": "Hang Seng Index caps worst week in over a year amid tech sell-off",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-06-26T10:50:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdlZzVXo1eFI0bnZaakhNN3RvMGdOY3cyQjY4OG1WaS04VGVOT0RnMjc1MmhsUG12bGVWeDVrTnJldlZQNHVLS1hEUkdXaGdvanpzQXdJYzkwN3ozWE1MZ1BqYVNxdEZ1NlpodXl1MmFEOXU2MDdXc1QtcC15dDBXeFEwdWx4UC1EbkxMVTVqOUlvN1BQTWNObTZTdThMUFhwTWhWYzBLTm5QZ0dWVnNpRlE0bnVNekFNQjNjbWw0UlZGcjd3Y0xELWVMSF9EaHRx0gHQAUFVX3lxTE5mdlpXT2JYa3hWR1RsS29zai1EUjd0T2dXd2tEU1BJNEJ0dWhGXzhIY0czYjlxU0pKSW1JZ2l4dHdfODdIZEstdHVwTHNEa0J6eTJudDNrQ0xjZFZHemQyUDhOa0JfVjdra3lhLXBZN1BscUd5M3lvbXlTdHV2QWpPc1lrRVJkZFVaRlhvNUlLYkZQekk0YnRTd2g5R3BBZjBCVEF3WUM2RmF0c2lPYUF1NWR1VDhlaTRQMEdZT2xUekVScmpWNmM0eTIyR3NWc2I?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20587,10 +20591,10 @@
       ]
     },
     {
-      "title": "What to Look Out for in Economic Data This Week (June 22-26)",
-      "source": "Kiplinger",
-      "publishedAt": "2026-06-25T20:49:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
+      "title": "Stock Market Weekly Review: S&P 500, Nasdaq Below 50-Day Line; Micron, Apple In Focus",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-06-26T14:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iQWczQTdyUU5HS2RqWEo4cldKRHdWRWRwaFpiaXRSZThCWVdIYXA1eVBhdng2Zm4yMWJXbVN0aVdILWFrQXNTZk9fSTIyMnNkWEs5YTdzTW5COUlNdmZLQ2VHcWZxYUFpU1pETTllTGV5Sk16Vzh4bzZXcw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20604,10 +20608,10 @@
       ]
     },
     {
-      "title": "Why Do Stocks Drop Even After Beating Earnings",
-      "source": "Kavout | AI",
-      "publishedAt": "2026-06-26T08:35:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamRKd3VacWlCUUVUbWp3LTgwaDl5LUhjRXN4Rm95dTZmaFdlS2Rpby1jb3R2OHNlYmt6ZEsyUUNueU5oYVo5UW1SeFhmSzJYektra1RET1hHVlY5RnVsVHExR3YxNVhHdGxEQlpRTmtxaTFCTW15TzZPc0NCaDk4YnVweXZRUFZ2?oc=5",
+      "title": "Stock market stays ‘very solid’ thanks to strong earnings amid ‘AI fatigue’ – Ed Yardeni",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-26T16:34:04+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXJ6bUxQQlM3TEFsY1R3dlRnYUVYbHlFS3JscTZacFJmQ1dPZHJnQkkzUzdjVXJlSmc4OWUwdHE1RVh5WlJacW5sMHJWVnpqcWhIdnFZRnRDVS1NcnVVV2xhS1djX0ZjMUFDN0dGeTlfdEhia21lR0ZGSk44YWl2YUMxNENEUlkzQWFBc2lwV1ctRmhZZ2tLUnZDU25wem5wTGxLS0dVNUpYQUVLRVQ3bzFOcTREa1JqbUZCdg?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20618,6 +20622,23 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Tech stocks fall globally as report of OpenAI IPO delay deepens AI fears",
+      "source": "qz.com",
+      "publishedAt": "2026-06-26T12:35:09+00:00",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IOHNlMnZwYjRuSVdDR0pIT3Itai1fSkQ0TzN5Vi1pLVNQRlVwdWpoTEM3QURUaGRsRGpQNFdZMktDZnZOekotbjlXOVRKOTItNjFXeWVyY2lXbnUzdG92bGd1bjVpbHkwcF85N1RUT3ZDTDA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20654,24 +20675,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Oil prices fall, tech sell-off hits S&P 500 and Nasdaq",
-      "source": "qz.com",
-      "publishedAt": "2026-06-26T12:01:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9IOHNlMnZwYjRuSVdDR0pIT3Itai1fSkQ0TzN5Vi1pLVNQRlVwdWpoTEM3QURUaGRsRGpQNFdZMktDZnZOekotbjlXOVRKOTItNjFXeWVyY2lXbnUzdG92bGd1bjVpbHkwcF85N1RUT3ZDTDA?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
