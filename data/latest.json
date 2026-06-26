@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-26T07:49:39.933316+00:00",
+  "fetchedAt": "2026-06-26T10:48:54.420501+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20566,6 +20566,41 @@
   },
   "news": [
     {
+      "title": "Stocks slip as Apple price hikes fan tech jitters, oil slides",
+      "source": "Reuters",
+      "publishedAt": "2026-06-26T02:22:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQ3plX1VFX3pHcHl4UU1KTVJQbE9QSjdINDd3MGRIZU1JQlhkS19CRl9zbnVKWGpyN0ZBMEZsS1BUSzlMVHJlUFotX09QN3FXeFQyS3dtUlVaYmh3dm54QkQ0VTNMWlRoTjVURXVsMEdZTEpQU1d1YWF0amVsMjRKdHlncw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Hang Seng Index caps worst week in over a year amid tech sell-off",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-06-26T03:42:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdlZzVXo1eFI0bnZaakhNN3RvMGdOY3cyQjY4OG1WaS04VGVOT0RnMjc1MmhsUG12bGVWeDVrTnJldlZQNHVLS1hEUkdXaGdvanpzQXdJYzkwN3ozWE1MZ1BqYVNxdEZ1NlpodXl1MmFEOXU2MDdXc1QtcC15dDBXeFEwdWx4UC1EbkxMVTVqOUlvN1BQTWNObTZTdThMUFhwTWhWYzBLTm5QZ0dWVnNpRlE0bnVNekFNQjNjbWw0UlZGcjd3Y0xELWVMSF9EaHRx0gHQAUFVX3lxTE5mdlpXT2JYa3hWR1RsS29zai1EUjd0T2dXd2tEU1BJNEJ0dWhGXzhIY0czYjlxU0pKSW1JZ2l4dHdfODdIZEstdHVwTHNEa0J6eTJudDNrQ0xjZFZHemQyUDhOa0JfVjdra3lhLXBZN1BscUd5M3lvbXlTdHV2QWpPc1lrRVJkZFVaRlhvNUlLYkZQekk0YnRTd2g5R3BBZjBCVEF3WUM2RmF0c2lPYUF1NWR1VDhlaTRQMEdZT2xUekVScmpWNmM0eTIyR3NWc2I?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "The Stock Market Just Got Its Worst Inflation News in 3 Years. Here's What History Says Investors Should Do Now.",
       "source": "Yahoo Finance",
       "publishedAt": "2026-06-25T11:35:00+00:00",
@@ -20581,23 +20616,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Hang Seng Index heads for worst week in over a year in tech sell-off",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-06-26T03:42:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdlZzVXo1eFI0bnZaakhNN3RvMGdOY3cyQjY4OG1WaS04VGVOT0RnMjc1MmhsUG12bGVWeDVrTnJldlZQNHVLS1hEUkdXaGdvanpzQXdJYzkwN3ozWE1MZ1BqYVNxdEZ1NlpodXl1MmFEOXU2MDdXc1QtcC15dDBXeFEwdWx4UC1EbkxMVTVqOUlvN1BQTWNObTZTdThMUFhwTWhWYzBLTm5QZ0dWVnNpRlE0bnVNekFNQjNjbWw0UlZGcjd3Y0xELWVMSF9EaHRx0gHQAUFVX3lxTE5mdlpXT2JYa3hWR1RsS29zai1EUjd0T2dXd2tEU1BJNEJ0dWhGXzhIY0czYjlxU0pKSW1JZ2l4dHdfODdIZEstdHVwTHNEa0J6eTJudDNrQ0xjZFZHemQyUDhOa0JfVjdra3lhLXBZN1BscUd5M3lvbXlTdHV2QWpPc1lrRVJkZFVaRlhvNUlLYkZQekk0YnRTd2g5R3BBZjBCVEF3WUM2RmF0c2lPYUF1NWR1VDhlaTRQMEdZT2xUekVScmpWNmM0eTIyR3NWc2I?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -20618,20 +20636,20 @@
       ]
     },
     {
-      "title": "The Market Surges on a Triple Dose of Summer Optimism. Can Stocks Finish June Strong?",
-      "source": "Barron's",
-      "publishedAt": "2026-06-25T11:25:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPelNyM0VvWXVnRng3OFRCNmtidno1ZlI5RnFHRXUwQWNKV2JvWkxsN3p0Tkc5NFU2TkVqQ1d4M3ZSMWlKV0FaSmxEOHlqTVV4UEk4aXRxWWtHZkdRUTF1a3Z3ZWlZMDAyR2R4amRuTkwxWnZhTUNHeWJOTFpWTF8yeHBB?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Why this earnings exuberance may be a problem for the stock market, according to this Wall Street veteran",
+      "source": "MarketWatch",
+      "publishedAt": "2026-06-26T10:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOazBrXzhwX2hJcTAyaDRGcmtHS3B6X1VoYmlqQUhfb2pPOEtuZFBiNzVIRTVHWjl6Zm9kaG0yaFBjTlRobUxLQW80S3oxOVdxemZxRzIxdU5JYWVfX1RzVnFyV18tRkg4Sm1XMllqc0s2TmRUc3VZQ18zSExpeG45WUV0b3F4WHVmZEkxcndvNWhXN1JxLV9FT2VjdEd1T0pjUkwyZURyZjQ3a0NDMDM3V0tXSnlFMHA3NzFROWs4Qm9kczhzZGhnbkVGM3BWYTlGMXlwN3h0eDZEcVQzaG9USA?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
@@ -20650,23 +20668,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stock Market Forecast For Next Six Months: Why More Gains May Lie Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-06-25T21:37:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeTFDTVlOLU9tckVpTGRXVDVPZV82elNENmpvN2pQSkpISk1iQmJoZXg0QzFCb0Zhb1ByNVR2eGhLSDZWU2thRVcydG9GTTZyY2tOOXZTdENHTW5ac3N0VERtVkZUdG1HbVV1aFVHcS1kdWtuLUN4S1MtSmlSQ0w3Mk5rbHl0bjJ2ZE5VeA?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
