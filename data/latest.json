@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-27T06:50:17.792923+00:00",
+  "fetchedAt": "2026-06-27T10:05:34.542626+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20571,9 +20571,9 @@
   "news": [
     {
       "title": "Oil costs’ fall buoys Wall Street dragged by AI losses",
-      "source": "Northwest Arkansas Democrat-Gazette",
+      "source": "The Arkansas Democrat-Gazette",
       "publishedAt": "2026-06-27T06:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTkRxeGswX0IxV2w2djdIcXJldWF0MEs4RjFwR0ttbUE4bWNXX1hlTlhia3NDMkk1NTZybzJYZFZfblRZNmxQRnJvLW9mV2QzS1FNSFhIcnhZeHlwakdZUHJOTF9FdEZLTE5ZZGVCUWVxVWRVN19hTjhza2dEVjVPcHcza1VfSGJUM0k3S050THNTUzFRYzJNTkZGOFh5VnRh?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbVhvRDdBSFU0MFh3dXVJU0piU0VNcFU2WlI4ZVJ2WlJ3bXB5d3VZQWVVRHVNRk1PaXluUDEydzl2UmF6bkxMYlhKcWNGMmVnZk9fVEJpcWVJQ2lOeXhqRnRIeDZ1OU9RSXltSmZqeGZndzhzNHJ0NXZDQnlUTUdpNzZlc2JXdDFYelBzMWt5UG0ydU96aHMzVGU3NA?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20623,23 +20623,6 @@
       ]
     },
     {
-      "title": "Most of Wall Street rises, but sinking AI stocks send it lower for the week",
-      "source": "Los Angeles Times",
-      "publishedAt": "2026-06-26T20:26:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZHZ2YnB0NTI4TmY5eDBDcC1kSzl1am1nbE8zbVo5QWx1eG5ndHNfNmdjM2Mwcl9vcVFEWVdXQjFoMzRWaTdWTDl0Ym1MbEhEZGxhVUZLS1MxMFcxMjRXRzdudUhTTXNmZmJJN2NxMjlIVXl2UkEwX21oUzh1Uktkd2dUR2xUeUFCQ2dkMkJ6TWhTTnN1cVZoLXVYZDgxMFp5cmR5RkNYWHU4TDdKcmtwZ0M3Unk1WUtpVWxyQQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "JPMorgan doubles down on stock market, S&P 500",
       "source": "Yahoo Finance Australia",
       "publishedAt": "2026-06-26T17:47:00+00:00",
@@ -20657,10 +20640,10 @@
       ]
     },
     {
-      "title": "Hang Seng Index caps worst week in over a year amid tech sell-off",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-06-26T10:50:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdlZzVXo1eFI0bnZaakhNN3RvMGdOY3cyQjY4OG1WaS04VGVOT0RnMjc1MmhsUG12bGVWeDVrTnJldlZQNHVLS1hEUkdXaGdvanpzQXdJYzkwN3ozWE1MZ1BqYVNxdEZ1NlpodXl1MmFEOXU2MDdXc1QtcC15dDBXeFEwdWx4UC1EbkxMVTVqOUlvN1BQTWNObTZTdThMUFhwTWhWYzBLTm5QZ0dWVnNpRlE0bnVNekFNQjNjbWw0UlZGcjd3Y0xELWVMSF9EaHRx0gHQAUFVX3lxTE5mdlpXT2JYa3hWR1RsS29zai1EUjd0T2dXd2tEU1BJNEJ0dWhGXzhIY0czYjlxU0pKSW1JZ2l4dHdfODdIZEstdHVwTHNEa0J6eTJudDNrQ0xjZFZHemQyUDhOa0JfVjdra3lhLXBZN1BscUd5M3lvbXlTdHV2QWpPc1lrRVJkZFVaRlhvNUlLYkZQekk0YnRTd2g5R3BBZjBCVEF3WUM2RmF0c2lPYUF1NWR1VDhlaTRQMEdZT2xUekVScmpWNmM0eTIyR3NWc2I?oc=5",
+      "title": "AI boom may be on its last legs but will first surge in a 'blow-off phase' before bubble pops",
+      "source": "Fortune",
+      "publishedAt": "2026-06-26T16:09:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjZTVWtCQXhBRkFjX21wQUdKQmZ2MUxHTnE1Y1UxbmE3MDQ2N2hTRFpOdDRjZTdldVp2U3RyVk9Vc1BMbTBGOU5sVGpxem5xa1pLazFFQWdmSUhwQy0zeFkwUmlnSW1rd1U1LUM2ME1JOG16aWtoWGpIbDF3enJIazAxUXhadm9Ua0FqaXNrcFRUTHlJcDhsMHpPeHMtWmdHZ0FYNXpvQjBGMjR5UTdYSWRGcw?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20671,6 +20654,23 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "Micron Earnings Present a Major Test for the Stock Market",
+      "source": "TheStreet Pro",
+      "publishedAt": "2026-06-24T12:09:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMmxoWnlFWm5WdWJicFR4aDFLeWdGNXhNeWhiVmM2d24zaEpyUllIazdaRm1Gc0JLMkFNVEM4NWl2UjFsbUZzN2JnZkNTRzNyMHdqZ0tETzNyYXhsVmR0Zkh2YlVFYkFOSG10V3ZXNTEyWFNGNkpJaFJua0gwZGxKUDlLM1d2RHVFZVlQblZaX2tDc2dkWC1Gd2FwSm5aYUZsSnNZ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
