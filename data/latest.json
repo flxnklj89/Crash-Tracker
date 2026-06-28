@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-28T07:48:47.345520+00:00",
+  "fetchedAt": "2026-06-28T10:25:40.095402+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20570,58 +20570,6 @@
   },
   "news": [
     {
-      "title": "General Motors Stock Faces Fresh Pressure As Oil And Inflation Squeeze Demand",
-      "source": "simplywall.st",
-      "publishedAt": "2026-06-28T06:19:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMHd3OHJsWHBpVllZaHh2anFYY1VSSm9WSEh4YnFYdTBIc2hKeVVtLVlYN0NRMHdLWEZtYXVVbURuYUthVks2dlJjZUxNajI1aXMtSFhXelE4anlCaS1BdDBqeGRJbXNEZ01PX2ZUeTdpM0tmVHBVekdYcTYyVnhOTlVNMExLeThLeWk1U0VKYVd4ZEgtbS1OeTMycnV2d2huWlVkUGZHcXZQenRSLXl6QzJYM25OQTg3a1NFV3Q0T000NEFzN3VJSm9neG_SAdIBQVVfeXFMTXhTS0l5bzJtczJacjZ4WlY5YlBueUticlpTaThwSzVYZ3NXTkQ1ZWQyUnNJVFdGQ2ZXNjJma3NWUXd2anpfT191YjBVVmZQQUtCMl9XV3hXdFF3bE9hU3JsbnVRY2xUbE9tc19yU0ZxRmF2TEhjUEFpY1F6ams1Q290cm5NNlhSV2lqMnRqWG1hbFJ2RlVfTmVZdmJUblk0bC1OdzlpVGRGNkdhWWRZSXdGMnVVYWR2X2VPaVlxQWxQZFBSbVZVU3dKbUtyaFRYdWpR?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Why Do Stocks Drop Even After Beating Earnings",
-      "source": "Kavout | AI",
-      "publishedAt": "2026-06-28T01:33:34+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNamRKd3VacWlCUUVUbWp3LTgwaDl5LUhjRXN4Rm95dTZmaFdlS2Rpby1jb3R2OHNlYmt6ZEsyUUNueU5oYVo5UW1SeFhmSzJYektra1RET1hHVlY5RnVsVHExR3YxNVhHdGxEQlpRTmtxaTFCTW15TzZPc0NCaDk4YnVweXZRUFZ2?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Why Korea’s chip-heavy stock market isn’t overheating",
-      "source": "The Korea Herald",
-      "publishedAt": "2026-06-28T05:34:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4yVHhYSGs4YUYxc0hxQUNVU2M1Z0pGd3ZZZmFwYVlHUy0zMm85RUlxR3d3TS1jLW43Q192Q2F2UnBqNEdaMlM2NGJhNVplUV9TSFBZaEpUYw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Why US Stocks Could Climb Higher",
       "source": "Goldman Sachs",
       "publishedAt": "2026-06-26T21:24:02+00:00",
@@ -20671,6 +20619,58 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "U.S. Strikes Iran. How Oil and Stocks Are Reacting.",
+      "source": "Barron's",
+      "publishedAt": "2026-06-26T23:46:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ18xTWhJNXM3cVZqQ0lFRTVId1J2X1ZOMHlPekFyYi1lbklTMDJxMGhUTmUwdUFDWmpBRUw4UUJTMHUzSE1SYjZBN09wbXdySV9qNENUN3FUeGlFYlMyWGo2aUxEdmp0bWwySDNfYXRwUDREU0h4RjhSQ3VTZjRpRQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Why Korea’s chip-heavy stock market isn’t overheating",
+      "source": "theinvestor.co.kr",
+      "publishedAt": "2026-06-28T08:52:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GaTlLQUhHQlNIajJOaFNDeE0xdWpldDAzX043X2d6djZfelJmN0NEWlV5b3FiTDJpTXdlUElvZXNZeHhUV2ZJTWxGMjY0T3N4eldqQUpFU2pLUQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Hang Seng Index caps worst week in over a year amid tech sell-off",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-06-26T03:42:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdlZzVXo1eFI0bnZaakhNN3RvMGdOY3cyQjY4OG1WaS04VGVOT0RnMjc1MmhsUG12bGVWeDVrTnJldlZQNHVLS1hEUkdXaGdvanpzQXdJYzkwN3ozWE1MZ1BqYVNxdEZ1NlpodXl1MmFEOXU2MDdXc1QtcC15dDBXeFEwdWx4UC1EbkxMVTVqOUlvN1BQTWNObTZTdThMUFhwTWhWYzBLTm5QZ0dWVnNpRlE0bnVNekFNQjNjbWw0UlZGcjd3Y0xELWVMSF9EaHRx0gHQAUFVX3lxTE5mdlpXT2JYa3hWR1RsS29zai1EUjd0T2dXd2tEU1BJNEJ0dWhGXzhIY0czYjlxU0pKSW1JZ2l4dHdfODdIZEstdHVwTHNEa0J6eTJudDNrQ0xjZFZHemQyUDhOa0JfVjdra3lhLXBZN1BscUd5M3lvbXlTdHV2QWpPc1lrRVJkZFVaRlhvNUlLYkZQekk0YnRTd2g5R3BBZjBCVEF3WUM2RmF0c2lPYUF1NWR1VDhlaTRQMEdZT2xUekVScmpWNmM0eTIyR3NWc2I?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
