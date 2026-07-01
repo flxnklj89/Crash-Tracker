@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T21:26:15.714379+00:00",
+  "fetchedAt": "2026-07-01T03:35:42.179846+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 8.49,
+      "ytd": 9.34,
       "first": 6858.47,
-      "latest": 7440.43,
-      "date": "2026-06-29",
+      "latest": 7499.36,
+      "date": "2026-06-30",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,7 +52,7 @@
     "tradeStress": {
       "value": 14,
       "label": "Entspannt",
-      "date": "2026-06-29",
+      "date": "2026-06-30",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 35.0,
     "label": "Stabil",
-    "date": "2026-06-30"
+    "date": "2026-07-01"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7440.43,
-      "chg": 86.41,
-      "chgPct": 1.18,
+      "val": 7499.36,
+      "chg": 58.93,
+      "chgPct": 0.79,
       "unit": "",
       "dec": 2
     },
@@ -878,10 +878,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-01",
-        "value": 0.08
-      },
       {
         "date": "2020-07-02",
         "value": 0.09
@@ -7607,10 +7603,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-07-01",
-        "value": 3115.86
-      },
-      {
         "date": "2020-07-02",
         "value": 3130.01
       },
@@ -13625,6 +13617,10 @@
       {
         "date": "2026-06-29",
         "value": 7440.43
+      },
+      {
+        "date": "2026-06-30",
+        "value": 7499.36
       }
     ],
     "sentiment": [
@@ -14346,10 +14342,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-07-01",
-        "value": 22
-      },
       {
         "date": "2020-07-02",
         "value": 22
@@ -20557,10 +20549,31 @@
       {
         "date": "2026-06-29",
         "value": 14
+      },
+      {
+        "date": "2026-06-30",
+        "value": 14
       }
     ]
   },
   "news": [
+    {
+      "title": "Why did the stock market soar in the first half of 2026? Experts explain",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "publishedAt": "2026-06-30T18:52:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMHpHRFBsaldOdE9hQTJsRDFPZ2ZBc1dHQ1hleE1tRl9oWFhpT2hSZ1hWSGZ6d1hneXBVemRaTzlZWXpoMVp2UU4xckFVb0VYWmxtX2Q0OXZmdjB3UVZVS0hwdko3anA3Y3BKTGI4TE1YZXl3N0E5dUh0d0VrLUFoWVIwVDFiTlY2dWJrUDNRLWlNd0RoLUHSAZsBQVVfeXFMT2NHNW9oSDRDeVE1Y1cxb3dMU2hEb3k1eGJNcjVBcHc0X3RwNExjTHFWZHFDUzFTUzNvR0dRZVRxNy1UcGl0eXFnMEpWeEZmR2RZZ2hMck5qb2ZwTTNGTmdETkZZY3RybW4zaU56dG1UNURacmFvUnNyYy1kV2NZVXF4Zmt5SmVFNFY1XzJXalI4OV92Uk5aVE5DTmM?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
     {
       "title": "Japanese Yen Collapse: How It Impacts the US Stock Market",
       "source": "Barron's",
@@ -20579,10 +20592,10 @@
       ]
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq waver after record-setting session",
+      "title": "Stock market today: Dow hits record, S&P 500 jumps to cap best quarter since 2020 amid massive chip rally",
       "source": "Yahoo Finance",
-      "publishedAt": "2026-06-30T13:47:47+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPREItR3dJZGJwa1NHSUdiZFZoZXI5RVBNR3JaVENZSmhWWEEwdVpQYUEtZlVzVG0wcWZ3NlRNMjdvSDVCQWFwVkpSRE03YjRteGE3ckNCYjhkTXBrV1gwV3ZEc0xBdUJCYkJ0d01yd0EtNXN6djU3U210eC10SncycmtVek5xTTFvV2k0MTBOT2MxeW85VEtBMC1LOWZuZEdMbUFYck9JSU5vUmpzeDE2dDRoUnhhV2lOaHg1VTVGUWFfRGs?oc=5",
+      "publishedAt": "2026-06-30T20:03:21+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxObVhOMHZ6bXFMU0lFU2J6S2R4b2w5YkthUmRYdWh1ZmRna3Nqck9QVzJUU0RESmtJQ1ZyeHRZelhBaEQwMFVYcjlpbkgxWGtnejJ3NVE5ZHo1MHdndE0yRm11ZmptWXk4Yk5yTnlFdGh0ckh5bVJlRU9zNFhFb0QyOHBOZGp5NXVadFA5RUFDZ0JOSVlzckpqc2FDb21YbG1YZTJyVjFIcHJHdXFXOFdRRHNvSlQ5R2JMQzJxdTNBRV9IZjhKck5SeHpXWC1IY1JlTE9tVHc4SWdDMVZEcEl0Tk45bXFwcDBRYUp4RA?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20632,26 +20645,9 @@
     },
     {
       "title": "How many Americans own stock? The top 1% own more than the bottom 90% combined",
-      "source": "Tacoma News Tribune",
+      "source": "Modesto Bee",
       "publishedAt": "2026-06-30T20:44:02+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9LWEFRTW5RMkpnajNuNWFybVNWTWlfa2xfaWNheXZ2Yi1Vc19WRnV0N3BJdkVBLXNJX3pJdUVSNjVfN0YzWVJEam51cXRWcEpKdU1QWnV4c2RBNlVfSXg2WWZZQlJiRjFJS1pRaXlQbE5sOHl2?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Why did the stock market soar in the first half of 2026? Experts explain",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "publishedAt": "2026-06-30T18:40:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY0c1b2hINEN5UTVjVzFvd0xTaERveTV4Yk1yNUFwdzRfdHA0TGNMcVZkcUNTMVNTM29HR1FlVHE3LVRwaXR5cWcwSlZ4RmZHZFlnaExyTmpvZnBNM0ZOZ0RORlljdHJtbjNpTnp0bVQ1RFpyYW9Sc3JjLWRXY1lVcXhma3lKZUU0VjVfMldqUjg5X3ZSTlpUTkNOY9IBmwFBVV95cUxPY0c1b2hINEN5UTVjVzFvd0xTaERveTV4Yk1yNUFwdzRfdHA0TGNMcVZkcUNTMVNTM29HR1FlVHE3LVRwaXR5cWcwSlZ4RmZHZFlnaExyTmpvZnBNM0ZOZ0RORlljdHJtbjNpTnp0bVQ1RFpyYW9Sc3JjLWRXY1lVcXhma3lKZUU0VjVfMldqUjg5X3ZSTlpUTkNOYw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DNXNrWUhvUzllclQzeUE5c3hERkdFZjQxTnMyVWRDaGNtODVfUkh0S3h4ZnZWVkE4QWZfRHp6d0YyVVNEMlZkZHZMTXRxcUV0djQ4STVZMndHTkp0enJjUVIwQlJpQzJUUmc?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
