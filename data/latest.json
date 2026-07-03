@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T10:32:53.176348+00:00",
+  "fetchedAt": "2026-07-03T13:57:50.499428+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -18,7 +18,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate"
@@ -73,7 +73,7 @@
       "name": "Europa",
       "score": 34.0,
       "label": "Stabil",
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -86,7 +86,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -6884,6 +6884,10 @@
       },
       {
         "date": "2026-07-01",
+        "value": 3.63
+      },
+      {
+        "date": "2026-07-02",
         "value": 3.63
       }
     ],
@@ -20584,10 +20588,10 @@
       ]
     },
     {
-      "title": "Cooling US jobs data buys the Fed and stock market more time",
-      "source": "Reuters",
-      "publishedAt": "2026-07-02T19:42:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTGg2SFp1b01MWjdIT3J0dDdEd2ZkRkNnZmJDQkVzQ2tTa0hubXN6cmthRjVWd2FGUE1fcHNpQjhWYlY3UXdodjNiUGFQaXlnSVc1TmFudURlLVduQTlOakEwMFk2MG16WWlKM0hySnpUNlNtd3RHdWtjSEU2bEN4VlVSc1F5dFRqdHFKcnNoWVJ1N2xlbEtUMm15RWNKdw?oc=5",
+      "title": "Investors look for Fed clues, earnings signs as tech wobbles",
+      "source": "whbl.com",
+      "publishedAt": "2026-07-03T13:30:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaC1zZUxEZ2VZM2FXY2dnbGU1al8xeDRWa2h1Zk5XUnJZam13OXBoRDQxR3ZtY2RWbmtpTlRJS1A2dDZYelI1LXNpMWRFMkVaa1p4MDBCRlJES3lFWXBkNUlOSDdjZVczSkdBdXVFbVl6d3NPSkdKZllfSnRJVlVJZlNZMkZaOURVQmpmNUdzVUUtQQ?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20619,10 +20623,10 @@
       ]
     },
     {
-      "title": "Stock Market Today, July 2: UiPath Gains as Agentic Automation Strategy Faces Earnings Test",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-07-02T22:34:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPN0Z3NzRSaFpHWUQ1QkhTOGt2aFFweFo2eGZ1dVhQRm1vaTAxTnR4VGFocmxPNnN4VXZRSlZEemdjVTlVMGJKbGlvS0tlQ1k3OXNacUxSMmN3a0ozenE3dm55UF81TTdfdkN3NjJ4YWIzbmxHR0FCSlNscVdWR0pEdkUzS3JOcjcwVHMzU2ozNktVcnl5QlNxYWNlcEk1WnNRSnRCRTZjb3hSYmU3UmJaOERnT25vaDFHbHRkWlhVUFNyMHZiSlFKX2hOY3F3ZUtWNzd0UEJBcHF2SUhTSlA4em9qVHo?oc=5",
+      "title": "Cooling US jobs data buys the Fed and stock market more time",
+      "source": "Reuters",
+      "publishedAt": "2026-07-02T19:42:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTGg2SFp1b01MWjdIT3J0dDdEd2ZkRkNnZmJDQkVzQ2tTa0hubXN6cmthRjVWd2FGUE1fcHNpQjhWYlY3UXdodjNiUGFQaXlnSVc1TmFudURlLVduQTlOakEwMFk2MG16WWlKM0hySnpUNlNtd3RHdWtjSEU2bEN4VlVSc1F5dFRqdHFKcnNoWVJ1N2xlbEtUMm15RWNKdw?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20639,7 +20643,7 @@
     {
       "title": "Asia stocks rebound as chipmakers recover from selloff; weak oil boosts sentiment",
       "source": "Investing.com",
-      "publishedAt": "2026-07-03T04:01:41+00:00",
+      "publishedAt": "2026-07-03T04:35:48+00:00",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQd2xielhmUzB0YTlQNTRJM1VBdUF3TTMwdGhPcTA4dVBKUUQ2eE1nVTQzbmNTQVZfTWlWcGY5VkE5aXpoWGJSMTkxcURWQ2d3SzgxTERqanNwbnhvS0k3NzBiMExfRXBXZ2lQZlRabGdjbmxVb2pGbk42Nkt1V2daNlF2UmJld1JiS2xhdjJoMDFFaEx6VzhTUlNtNVNNY1FqdGtRdmFxaWVGMGZJX002MWpDNE5vVnVIaFRESE1BQTRaaS13S29LVzFteEdWNjVBakdj?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20655,10 +20659,10 @@
       ]
     },
     {
-      "title": "The AI infrastructure boom is sending these 5 stocks soaring",
-      "source": "Business Insider",
-      "publishedAt": "2026-07-03T07:59:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPckI5Rnl3blRuUmFUVnlnUEFud2lyVXF5aDlYN3hjY2FENTl4cVlRemdndllMQzRCdTU5NnFhQ3c1WlVlck02NllpOVF4VzhaeUFZa2wtWU1JaS1mT1Q4V0JjWU1LODZ1UHlhNlZzclo5UXJXcEZmejJ0QnhiQWs4Q1FsMXBmdHF6X0xZUnRWaVc3SHdWaE8yUE9Faw?oc=5",
+      "title": "What to Look Out for in Economic Data This Week (July 6-10)",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-02T14:35:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MeVNwMVVnVmhvRWo4b0N4WkhCRXQxTVRtb2ZmTWhCSmd4eERsN3Nfdllwejg0eG5ueFFCRUdPTzVUaXh4dEFZaWJqN3FFZnlFWTBlZ2ZvVkFFRzVScTR3TXRhZGl6MHp2RUF1clppVDRvR1lveC1FaXNCeXQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
