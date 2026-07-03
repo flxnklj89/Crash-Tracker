@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T07:18:05.608964+00:00",
+  "fetchedAt": "2026-07-03T10:32:53.176348+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20602,6 +20602,23 @@
       ]
     },
     {
+      "title": "Is stock market open today, Friday, July 3, 2026? Is stock market closed for 4th of July holiday?",
+      "source": "IndyStar",
+      "publishedAt": "2026-07-03T09:11:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPNzFSVm9BdjNJRl84b0dJZURlTTRYa0RhamxCM1R4bXVQdkJ0Y3JsWlg4SFlvbXFyRW5feXpsUHNOLUg1eUlSR1pPOVF4VzI4Nk9vN3Jnc3BjNXZOZ3g5OE1XWnBLQVRsa1BNVGFaZi1YVXZFUm9ZaXA2cWQ3c1EtUEJJSVNBbVg3U2RzRzRrVjl4ZExDY0RlWG1IVlRfbDdvaUdSZjRSai1ab1pFMHJoM3FTdURFcExyVGhyZThfc3dzUkpIZlJVUEllUXFWZ1lXUjdqUFJNS2pwNlplMG93T2NVQVFKbnFRdWZEWEh5anJzbTg?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Stock Market Today, July 2: UiPath Gains as Agentic Automation Strategy Faces Earnings Test",
       "source": "The Motley Fool",
       "publishedAt": "2026-07-02T22:34:00+00:00",
@@ -20620,41 +20637,6 @@
       ]
     },
     {
-      "title": "Stocks Stabilize After Tech-Led Selloff, Gold Up: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-07-02T22:10:18+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbFp2a0lWdU9xbS1UbTZUeE9lWEQyNGsxTHB6LUJVVVJoSkJuWFA1enVrLS1CeUdqOHpKVlo0a00yN0Z0V29aSHdLdk9LMzVfaXpvRUMtZFpXd0FqZ1RWSjVGWTM2VUludFl6eEYwMnp1TnB6ZWNHVVJNdG1TUXNIMkJ1VW9TQzQ1YXBQOGw4Znptd21a?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Trump Made Hundreds of Stock Trades One Day Before Pausing Tariffs",
-      "source": "The New Republic",
-      "publishedAt": "2026-07-02T16:11:14+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX3ZRRkN1LVNud0g1eHNWNGQ1b3I3ek9pVHBZcVJfZVVkYmdTN3dlVTRwV0hmWjQ2YTlSWF91YmZYZWh0ZnpIVmZmekZKY2JoZmk3V3RLUFRmU2h2OFB3eEotT0JxamJiclZCWFY2WkJDRHRtbUI1YklQVzNNSmpWX08zTXlzWmI0V09v?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
-      ]
-    },
-    {
       "title": "Asia stocks rebound as chipmakers recover from selloff; weak oil boosts sentiment",
       "source": "Investing.com",
       "publishedAt": "2026-07-03T04:01:41+00:00",
@@ -20670,6 +20652,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "The AI infrastructure boom is sending these 5 stocks soaring",
+      "source": "Business Insider",
+      "publishedAt": "2026-07-03T07:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPckI5Rnl3blRuUmFUVnlnUEFud2lyVXF5aDlYN3hjY2FENTl4cVlRemdndllMQzRCdTU5NnFhQ3c1WlVlck02NllpOVF4VzhaeUFZa2wtWU1JaS1mT1Q4V0JjWU1LODZ1UHlhNlZzclo5UXJXcEZmejJ0QnhiQWs4Q1FsMXBmdHF6X0xZUnRWaVc3SHdWaE8yUE9Faw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
