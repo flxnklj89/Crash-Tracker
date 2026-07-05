@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-05T10:10:03.957907+00:00",
+  "fetchedAt": "2026-07-05T13:25:40.616337+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20587,23 +20587,6 @@
       ]
     },
     {
-      "title": "Samsung Earnings, SK Hynix Nasdaq Debut to Decide Market Fate",
-      "source": "조선일보",
-      "publishedAt": "2026-07-05T04:49:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUVBKV0pNbnR1WVlSQ2lub3d1bWVJdnpOTDdOaTRnbElTZGowclo0U2RJbktMTDV1d2htNHlpN0h0Q2g5SmdIRDVaUlE3TzMyQlk3V2pqSkdsU2NFUXpXZzI2SlhGQmZzZ1VoY3A3TFdMR29jZHBWQnFvRkk1WUJsdmZOaWYtMHY0OGpHcHV3?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
       "title": "Is the stock market open July 3? What to know about Friday, and if its a federal holiday",
       "source": "NBC 5 Chicago",
       "publishedAt": "2026-07-03T11:55:25+00:00",
@@ -20640,6 +20623,23 @@
       ]
     },
     {
+      "title": "Are banks, post offices and the stock market open July 3? What to know",
+      "source": "The Journal News | lohud.com",
+      "publishedAt": "2026-07-03T08:50:15+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTUZLQkNtNmNDemN6MExyV0pzQzV2aFQybGtjU3JzZDAyRURRQ2tPU0g1emtweW5nYktmanYzcGwyOXdQSjR5ZE9FemNpdmdCRmxKXzhkOVhVUGYyM2I2eFVkbkJpdV9ETGFDb3BOeTRIT0pMSmhxdXllUkFEd045WGt3QWprUndaczhqSUt2WmhzOGpHVmlMdDdlcEFJYlNPWHlaV2c5dl80TFBtcHc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Key events next week: China inflation data, FOMC meeting minutes, SK Hynix's U.S. stock market debut, and Zhipu AI's MiniMax model release",
       "source": "富途牛牛",
       "publishedAt": "2026-07-05T03:39:00+00:00",
@@ -20658,20 +20658,20 @@
       ]
     },
     {
-      "title": "Are banks, post offices and the stock market open July 3? What to know",
-      "source": "Lohud",
-      "publishedAt": "2026-07-03T08:50:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTUZLQkNtNmNDemN6MExyV0pzQzV2aFQybGtjU3JzZDAyRURRQ2tPU0g1emtweW5nYktmanYzcGwyOXdQSjR5ZE9FemNpdmdCRmxKXzhkOVhVUGYyM2I2eFVkbkJpdV9ETGFDb3BOeTRIT0pMSmhxdXllUkFEd045WGt3QWprUndaczhqSUt2WmhzOGpHVmlMdDdlcEFJYlNPWHlaV2c5dl80TFBtcHc?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Equity in earnings of Vicore Pharma Holding AB – NASDAQ:VCRE",
+      "source": "TradingView",
+      "publishedAt": "2026-07-05T08:41:32+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTm5CcHlndVl1ZV92OUdkRFVGakpCTWpNNGloWWZQMVZGR3IzWkRNbFpTNlp0ZmtuX2FDOFlneUp5YUdWcHRNSzBJaXlHZlpBSDZxazJhOU4zcmRKSWxMbUwyd2ExbWU5N0pxTTNmVDF3alJtdGVERUFzMWRqZTBaYkxHOUk2RTFQLXBwZWFuc1pXZ2p1bDhOamVMVQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
