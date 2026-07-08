@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-08T13:58:55.621988+00:00",
+  "fetchedAt": "2026-07-08T17:26:25.697436+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -57,7 +57,7 @@
       "method": "proxy",
       "components": {
         "vix": 16.13,
-        "brent": 71.59,
+        "brent": 69.56,
         "eurusd": 1.1448,
         "us10y": 4.48
       }
@@ -185,9 +185,9 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 71.59,
-      "chg": 1.43,
-      "chgPct": 2.04,
+      "val": 69.56,
+      "chg": 0.88,
+      "chgPct": 1.28,
       "unit": "USD",
       "dec": 2
     },
@@ -20566,27 +20566,9 @@
   },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq fall as oil surges, Trump declares ceasefire 'over'",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-08T13:21:33+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQb1BEZlpsTHFzLVdzNHFRUmJ5Qkw4NFo1Q2FNZFh4SjJWanA4dlVDVjdCd0VEaDQxWEN0ZFpIbmMyWV9kNm00VTBHMG5RalJmeTZ0a0RSNGlSMEFhcFNNTEhuMnE0amUtU0JWbGJXem0waWdiNkZKT0FISUlIa0p2a1JrT0lydURhVTNuQ0hULTVmX1FBQWdaSWp5Mmk?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Oil prices surge 5%, stocks tumble after Trump says Iran ceasefire is ‘over’",
+      "title": "Oil prices surge, stocks tumble after Trump says Iran ceasefire is ‘over’",
       "source": "NBC News",
-      "publishedAt": "2026-07-08T13:20:51+00:00",
+      "publishedAt": "2026-07-08T15:45:40+00:00",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcFJGM3EyYnhPN3ZsY2hPcmpBMHlaNExqUXJEb0M0QktaazczNDdWSXJ3TFZMY0xsczBHVzktS0tScnVqbzdBVVdZUDFsRDVkcFhyZWF5U1NiV2JWdmxidlh0WmhabmhLc0FoRWdFdWF4dWVWMTBvcU1zMi1wR05xaGF1TmdmMnZWOGZxbmUxaUtfU2JJVkM1SUhmbUhzR01tVWRDSU9QOGlXSVJ4VzNzZWZPMzJlS1NUMlZfcVd3?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20602,10 +20584,10 @@
       ]
     },
     {
-      "title": "Dow Jones Futures Tumble, Oil Prices Soar As Trump Says U.S.-Iran Ceasefire 'Over'",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-08T10:46:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQm51Z1V5NVdYMkxPYnZXYm9mQUZqNlFTZWhLYXhuU3BIaHFVdDdBRVpQSWV4NTF2QXo0bTdlVUhTSG5FUFZCcG9CbER1dGVhZzhoTWJDR0hORUFGRzNiR3lkMlNHZUgxRUV1WDBwSDJwMGloSnVMNlEyZUZQQ0VQZVpvck85c0xfUkY3UWtkaFJfMEFVVkhYLTByOFFuNnF4bmdSa3RGQTZHUkpuemxJZXl1aG5WWHRYU0ZsNVRB?oc=5",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq fall as oil surges, Trump declares ceasefire 'over'",
+      "source": "Yahoo! Finance Canada",
+      "publishedAt": "2026-07-08T14:04:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZ0d2THVqR0Q3OTBMSlNTMldwUnV0Qmsxb2N6ZGkxU2Q4aGo5UWM2YzJ4Z3RlYTVWZU13Tm1ob245V2tHbXZ5X0xTU1BSTWtRRmlpLTZ2M0U0eU1QSHZOUVV2cGR4OHI1UHNndEhGTVJTcDJPdEdoWUloTUVHWEVWX2hGcmJHejlrdXZ2cGtZWVJseXJ6UnBTUXU1MGtyTkgzd25hcXQza0I4elBQblJtU1VnTktKelYwOTY1Y2hzckY4WmNZX0U2VmNhQ1ZkZWJw?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20620,10 +20602,10 @@
       ]
     },
     {
-      "title": "Oil jumps as Trump declares Iran ceasefire over, European stocks slide",
-      "source": "Euronews",
-      "publishedAt": "2026-07-08T09:14:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTUR6NlVSYjdCaFRfREhOZnJUVmpPQUJJUk1tOGE3N0Eya09XRXh4NUdyVm9FNUlfU0dta3I0bnRBZjBtdldJRDNPNkVfZEI0UDc4UHVNZFdEcWNSYWNSTXlXSENXNHM3M0tqak43QmFqNFFrdjItUW1TQUxWY2JzM043WEp5UU1PNVlsSjY0bHlZTm1TRHBMaGtVZFJNeC1vT0tTYmRRZlBqcUcteUsta0N6THd4bjRlNi1TMlBkYw?oc=5",
+      "title": "Stock market drops, oil prices spike amid Middle East uncertainty",
+      "source": "FOX 5 New York",
+      "publishedAt": "2026-07-08T14:54:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04bUU5cDItbG1NUEJzcExrUTRXSVJmS1haRlFrRFlZSzZVYlJLMTQ1a09uZXhCT0RMSTdDbXd3RTg4a0x6MWhVcy1ueFFyckZZSHZ6aUE5THhMcXVZQ2fSAWNBVV95cUxQem1yT3VVWVRPcGgyMUFIMkVNWmZNaUZlc1JHNGY5dTdlZlhNbklhUnp3SEtQY0xaekJDeW40SFBrSm9uWjE5U2FyaUhJeUZHM3hsVzlvclhVa04xa2lWNG1vSTQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20638,10 +20620,28 @@
       ]
     },
     {
-      "title": "5 Things to Know Before the Stock Market Opens on Wednesday",
-      "source": "Investopedia",
-      "publishedAt": "2026-07-08T12:05:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ0w3SG5SU1NfcUNGc3k1LW9pQ0piYThTUjhmVWxSdlNhWWZXRFhTRHY1NVdXV3BkVzRzRHhSTUFaNzc4YkhKZHJHLUZzdnZieWlzN1IxYmxlTEdGVkE1M1QwWTNnakVqMnp5aHZLdExwZ1BCcE96YXhqY1ZIUnc4Z09haGFLMHZ4d0NKTldfMnhDakNhMFpzTy1nWlpocmJSZnM1SmFET0xLVlpPY3c?oc=5",
+      "title": "Investors get inflation 'wake-up call' as Trump fires up oil prices",
+      "source": "Reuters",
+      "publishedAt": "2026-07-08T16:54:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOUlsWGRCWlNlNDNKOWRucV85aUlzWVRwaUpkanJjbGltWURSSWlFbWUwaFpwX0JjbXRfa2Z0cHk4WXJ2QlJiSDNOeG9PcXphYUNnRDZTQmdkTks4MDVqV3lRODZrVE1oSU02c0h5RkItN1FtMG45cDVwQUoyYko0elhIaGoyY3Y1RFhERA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Tensions with Iran add fresh uncertainty to an already shaky global economy",
+      "source": "NPR",
+      "publishedAt": "2026-07-08T17:07:22+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbDFmM0ZZZnhUYlNOQnJWWmMyS0Vqd2ozTEM1ekhTMjlVLWNPd2RFMG1CVFNxMl81bFZOODduN0FDTXpseldRWlN3bHpCc2MxMFFUbDVNZEZPcHhfRXV5TTc2d2xmOHl4N1lwOFVicUFxWFU3SnJXTTV6MzlQYlNOLVZtOElvRjV2NFctOXdZcXd4SHZIZVBBS1Bn?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20655,10 +20655,10 @@
       ]
     },
     {
-      "title": "Stocks set to slump while oil surges after Trump says Iran ceasefire is over",
-      "source": "CBS News",
-      "publishedAt": "2026-07-08T12:32:26+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWHJFZEFEQmZ2UVRtanhvNkRJTmdwZEpmMWRydnpnZUw3dVV3RkRHSkk2VGJQV29FOTZKV0lxWGc1V25maXc4ajJ2cW85ajk0ME9wdzFMZWF0a3lfWW5uTUJ3aF85c05DTmg2SzJ2MjlwT0Z6cVpnSzBJYmpaUWc4bQ?oc=5",
+      "title": "Dow Jones Futures Fall, Oil Prices Soar As Trump Says U.S.-Iran Ceasefire 'Over'",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-08T12:10:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQm51Z1V5NVdYMkxPYnZXYm9mQUZqNlFTZWhLYXhuU3BIaHFVdDdBRVpQSWV4NTF2QXo0bTdlVUhTSG5FUFZCcG9CbER1dGVhZzhoTWJDR0hORUFGRzNiR3lkMlNHZUgxRUV1WDBwSDJwMGloSnVMNlEyZUZQQ0VQZVpvck85c0xfUkY3UWtkaFJfMEFVVkhYLTByOFFuNnF4bmdSa3RGQTZHUkpuemxJZXl1aG5WWHRYU0ZsNVRB?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
