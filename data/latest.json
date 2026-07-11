@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-11T16:54:33.267469+00:00",
+  "fetchedAt": "2026-07-11T20:43:11.465529+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20572,5 +20572,108 @@
       }
     ]
   },
-  "news": []
+  "news": [
+    {
+      "title": "The U.S. stock market is becoming ‘too big to fail’",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-11T15:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0w4WVRxd0RGY3Nva0ROSXBWemZBT3A0VnNTcWctd291VUw3MVBqeDh0Uk93c25jbTJ1Z3YzLUMxdER3UHpySm1pTHZkQ2haZm80aWVSMkRWOV84MTJlcXh0bVJBbnhUY0JMZHdJS19wTmt4d2RBMkdjRzlHaEh4UktETkdQLXJKU0JzTDNEWmF0ZG80eUE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Market Sets Up, 5 Stocks Near Buy Points; Big Earnings Ahead",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-11T18:19:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNelVxeE1aOEEwd2hrc1RQazVvMWFNampFVXdNeUtFQmlnMS12empNVTZ1NEZGNDA1Q2I1U1RBeGYweWZaWE5JbFE5Sy02YnI2a3NyRjZwQ3VXNDNVeHFoWEVUbEZNRk40V2NJWVRYekVBZGNFWnRtbHBuRHJvU0d6SkQ5RlhHV1p6NS04SzRfUWtFVlNqTXJraWYwUzRvaUVsWGdiYmVneWtQUVliMnBkeHJWV0tKLXF3U256REFrTlJad3NtUy1FZjk5OXhCeXNYSDljbFRneEc2OU0?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "The stock market looks pretty cheap based on future earnings expectations. Don't be fooled",
+      "source": "CNBC",
+      "publishedAt": "2026-07-10T16:05:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZHNROFNfRzdPM3p1UVVsUDJNckZMdVJiaktQNGk3NUUyeE9QUXBqa0V1ZDBFUm5yVXRqeml6YTZMMm1xNGhmYlRjWnVfdGk0RlFMS2VDcEF2dUJmQ053QkRKOVhJeFZUQjFiOFVhVU8yOV90NDU5NXREbERrNlROeFY3MXJ2SmNaZG1oS2Iwdk1RQUpGYjRDb2J1QklTX1AyWGkycVMyZFk1RDhQUjA3ZE1qSVhKQnItd1B5ZWRTRWJINFU?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Are US Stock Market Valuations Outpacing Fundamentals?",
+      "source": "Goldman Sachs",
+      "publishedAt": "2026-07-10T19:01:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVm1LUGF1eHpVcVlORmRMWHlrS0x4My1FQ2lldWdQUHlxMXFTMkRSQlJUVzA5UDROeDdfNkpIVENuUUxGeFVSdlhnMHFBOVU4T0YzUnNNeC1HQ1lWaFdGZzJsemRMREdRR1Uzc0RrUnFTbWo1SnE1RDhGdVZnX0RZdG50XzVadGhZVkhZOTBCcWtURVpmNGpWV3VrSk96NnIyYkE?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence (AI) Stocks Have Crushed the Broader Market in 2026. Here Are 2 Top Stocks to Buy Before They Soar Higher This Earnings Season and Beyond",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-07-11T19:46:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQnYxaGh0Y2NyTnRpWXRTWEZUN002Nkl2d1hEV25GaDJUSDM4ZEdUMko2Z0JwN3dkQUM3MmVMQ3VNYXVGNXFkSlRTN09pVHFfaUdTSHBfam5NVUZ4dXp2NWJRaXM0ZzdnZC02VDNiYllfUEQ3RXBoQ0c3dGVRQVFDTkxsRlZMLV96eDRPWEJmOXBEVW5sZmVnZg?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners",
+      "source": "AP News",
+      "publishedAt": "2026-07-10T20:48:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUE94dmZybFcyTlJhRnZNYi1BVGJ0VnZhZURrYnpVT0NGOGo2WTdXZ252aXZTZ3hvTEYwTWdWT0lJQklMODBreW1FYjVISWhXNTVVWGEtNTgyUGk5ampEMlBIbTE4TGx3c2VJS2kzOE05cW1XNHY4dERoeTFvRWVzUHZveld4Ri1kR2JXWXozVTVBbVU?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    }
+  ]
 }
