@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-11T06:10:56.981375+00:00",
+  "fetchedAt": "2026-07-11T09:26:02.799408+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20608,6 +20608,23 @@
       ]
     },
     {
+      "title": "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-10T20:11:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnhVOHFZRW8yRUU3U2hRQTdrRkVjQk5nVUVJVEZTek1KOUFNX0JndEZ3MjJzcEdxRTRCOVFXTlVEdmlLOExGMDhUSzRzSGdaQkV5Vko3WjF3RU8xMXlCczZzU3ZKN1RFaXdyVHA5bnhuOW04NGNkMDRJUVg0YmxSalpGczlKaVFCSkh0dC1DSl9fcm5KRnJVQ1pEQjlxVV9ETzJCR2sxS1FKQXBfcU42R2M3WjI?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
       "title": "Are US Stock Market Valuations Outpacing Fundamentals?",
       "source": "Goldman Sachs",
       "publishedAt": "2026-07-10T19:01:05+00:00",
@@ -20627,7 +20644,7 @@
     {
       "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners",
       "source": "AP News",
-      "publishedAt": "2026-07-10T20:48:00+00:00",
+      "publishedAt": "2026-07-10T21:17:57+00:00",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUE94dmZybFcyTlJhRnZNYi1BVGJ0VnZhZURrYnpVT0NGOGo2WTdXZ252aXZTZ3hvTEYwTWdWT0lJQklMODBreW1FYjVISWhXNTVVWGEtNTgyUGk5ampEMlBIbTE4TGx3c2VJS2kzOE05cW1XNHY4dERoeTFvRWVzUHZveld4Ri1kR2JXWXozVTVBbVU?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20639,23 +20656,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Meta Leads Again as Markets Look Forward to Earnings: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-07-10T20:11:38+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnhVOHFZRW8yRUU3U2hRQTdrRkVjQk5nVUVJVEZTek1KOUFNX0JndEZ3MjJzcEdxRTRCOVFXTlVEdmlLOExGMDhUSzRzSGdaQkV5Vko3WjF3RU8xMXlCczZzU3ZKN1RFaXdyVHA5bnhuOW04NGNkMDRJUVg0YmxSalpGczlKaVFCSkh0dC1DSl9fcm5KRnJVQ1pEQjlxVV9ETzJCR2sxS1FKQXBfcU42R2M3WjI?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     },
     {
