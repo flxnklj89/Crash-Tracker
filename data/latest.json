@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-17T13:22:05.799686+00:00",
+  "fetchedAt": "2026-07-17T17:08:32.798752+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -50,13 +50,13 @@
       "series": "UMCSENT"
     },
     "tradeStress": {
-      "value": 16,
+      "value": 24,
       "label": "Entspannt",
       "date": "2026-07-16",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 15.67,
+        "vix": 16.73,
         "brent": 81.62,
         "eurusd": 1.1438,
         "us10y": 4.55
@@ -64,21 +64,21 @@
     }
   },
   "globalComposite": {
-    "value": 35.0,
+    "value": 31.0,
     "label": "Stabil",
     "date": "2026-07-17"
   },
   "regions": {
     "europe": {
       "name": "Europa",
-      "score": 34.0,
+      "score": 22.0,
       "label": "Stabil",
       "date": "2026-07-17",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
-        "value": 3.14,
-        "date": "2026-05-01",
+        "value": 2.73,
+        "date": "2026-06-01",
         "unit": "%",
         "cadence": "monthly",
         "series": "CP0000EZ19M086NEST"
@@ -176,9 +176,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 15.67,
-      "chg": -0.83,
-      "chgPct": -5.03,
+      "val": 16.73,
+      "chg": 1.06,
+      "chgPct": 6.76,
       "unit": "",
       "dec": 2
     },
@@ -20564,13 +20564,13 @@
       },
       {
         "date": "2026-07-16",
-        "value": 16
+        "value": 24
       }
     ]
   },
   "news": [
     {
-      "title": "Global stocks drop on growing semiconductor rout; oil set for weekly gain",
+      "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
       "source": "Reuters",
       "publishedAt": "2026-07-17T01:16:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTBUX2ZaNk9EY2M2SU5BaEw4VkRFXzF6OE1MeENrcVRwT1hnd2gtbzVDODJ3VUh2ZXdOYi03b2ZobHhhdlMzSE1fOWM0b3lWTlh1Q2VENEFFdHlKWmNuOVltd0R4X254aFM0SmNjZ3RIWVNqREU3OXlHSFNsUGtBUXYyUQ?oc=5",
@@ -20588,20 +20588,21 @@
       ]
     },
     {
-      "title": "This Chipmaker Just Crushed Expectations Again. So Why Did the Stock Drop?",
-      "source": "inc.com",
-      "publishedAt": "2026-07-17T11:24:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaUFTNWsyLUxaSzFqelNOY1BNZUotcFpVS3drbHh3UWhpVlU4T1NBbWxobTduaVF1S2dvOGdMMlRTMzhjUUtEYTByTUpyRzdVR1dIRjItQ1hUd3gzYlRlUmJJZlFvOHNXVHZQTlkySV9CUDBpUjVkLVREUXVVanVtRGNXcHQ3NGlCU2JBTVo0TjN5Mlo4dmNZ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "AI stocks keep falling, while oil prices keep climbing",
+      "source": "Boston Herald",
+      "publishedAt": "2026-07-17T14:25:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iOHZnU3Z6T0FLVnV1MS0xdFRSaHBsUlFibHRmcjdVY2U5Nll2NW5qWVAyRTVaUlRxc1BLNWVodmZ3dFVPWXQyaGZLYWRUU1hYbEctcy1peGprQms2SW5jeEE5MlBpWWZVTmpFVWdUZlRLODdkQmJHbExSUlZhUQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20623,54 +20624,56 @@
       ]
     },
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq rise as Big Tech stocks rally",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-15T18:57:46+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVp4LWZyMUlpNGV3T2MwYmkwT1RLY01BSzNnTkpRaUJRZ2dXWGpOVEJDdEJqN0xLTUdMT0hvYzczREpVZmZWUzlpVkZoWGMzcVpTZHgtd0ltdDJINFBnWXBEaTRHa1pvYjB3ZHQ5dWNyRHlLZUJJWHVZd0Q5aU5CcnVydGpNcmlzQlFtbGZ4aVZVWTRERGFqenN5OWdleEpYeHIxYmhVX3o4V0xhdWZ6SFdLc2MxUQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "The global sell-off for AI stocks is deepening, while oil prices keep climbing",
+      "source": "LancasterOnline",
+      "publishedAt": "2026-07-17T13:47:41+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQWldUQXMzOWFRM21xd05kOWpiSDBsWS1ybWZCbU13a0hrMDJhMlBacVRNUU9tR0Qxa1dzWXVvcVd0cE5UWGtKRjdMV2NNelM2b1JEbzVGRlk5ekQ3YlNYUXUxRGVCQWhKcjAxc0FXOHZna2lMMy0tSnhEc20xbzAweVVydHBRSkU0ZnZNeGdEMHN5YTJodGJ2RHV6VlI5NEt4WUdQWF8ydF9aVVk1bThHbWg0VmdRSnJYX2Exa3ByTmM4ZjFkWTJGZHYtc0hKNXdTWm9QdWI4WlhlT0paWHJUajY2N1c4UDM5amFONzZzYmFMcE1zRVc1UFEzclVPaWlYRXpvWWIwWXQ?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "'Bloodbath': Analysts react to Asian shares sinking on tech selloff",
-      "source": "Reuters",
-      "publishedAt": "2026-07-17T07:27:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSVJOZngtYmRxdXlreVFWNDhPaFpsZ254UkJxT0ZhMk9jSlR0RkhWeEtMNHgwZlk1TWk0dG8yaTQ3TVJfaXdoY2lpQ2lLTV9TX0djRVRwUkp1cDFjSzBIOXRIeHozeHZBcl9neWV1T0RQVms2Z2xrV3pHelRjQTVaUDdiWVdLQnFB?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Tech Rout Deepens on China's AI Shock, Crude Rises to $81: Stock Market Today",
+      "source": "Benzinga",
+      "publishedAt": "2026-07-17T16:34:51+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTWJDUnZzM3BmZXpaNU1xaVRMTGtPaTFUT0ZBZmk0SWRSWUt3eVBrRWpuQk9VVjdRbkpoZ0hsZ0lxWEJhS3hhY3ZWRm15cEF6OXRGem9oRnUzOXZkRTZuclRqa244dG1sNkE5UFZNNE9kczlBTzZWbWxCMnBvSnQzc2xQQmlmZ2k4TDktV05jVlRnT21NbF9iWHc1LUwzNnkyei1vN05RYlRYQUtRNzVMSmdTSFU?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
       ]
     },
     {
-      "title": "Alphabet, Intel results in focus for AI trade as US earnings rev up",
-      "source": "1450 AM 99.7 FM WHTC",
-      "publishedAt": "2026-07-17T10:26:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOazdVUy1GNXZvSUo3aGl6YUEyM2l4NVlPNWhqMm5hbG92QndXZmJoWXlnSThNdU5WTWxRTG01UjNVTDNVdFJMaEZKaGZGYnYxUlpwc2lZam5tYWtHeE5Ma2J3UVpNakp3RVhQenJkNWhDZXlma0Q2dk02dTRVZmdsS3p3NWZ3azhUQ0F5WFJvN1BqNEFpVUREbzNFSQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Swings for AI stocks whipsaw markets worldwide, while oil prices keep climbing",
+      "source": "The Daily Reflector",
+      "publishedAt": "2026-07-17T14:52:07+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQb3hJUlI1Mm5qSFdRZVF6cDh1dk9wZ2s1U3NnUnRpUmFDTHR4U3cxSjRsMXVPVzNxbllEN2p1dG12d0VISm5sU2hpM1pjODRMakNRa2t5Nnp5eFhlaGl4aGhJUXRiekFrRFdhNkl1NjVSZmFLb2ZROTZvT3YtVnplbTRlSGpyWjRVeVNPWDF5dzVjQTVDSHpoeVRmRVZIM1F0djkxb1dwdmpiMTRDOElZOWlYanVXLU8tTjBSZWtqWUZLOW0xVEg1aFgxNEZSb0dlNFdhdDZXWHdkTmM5Wm5SWFhOZUU1cEZmWUZqZHVNczdWZ0hhMTBGNUxB?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     }
   ]
