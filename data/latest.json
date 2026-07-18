@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-17T20:51:13.951415+00:00",
+  "fetchedAt": "2026-07-18T02:11:02.198824+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 9.85,
+      "ytd": 8.74,
       "first": 6858.47,
-      "latest": 7533.77,
-      "date": "2026-07-16",
+      "latest": 7457.69,
+      "date": "2026-07-17",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,7 +52,7 @@
     "tradeStress": {
       "value": 24,
       "label": "Entspannt",
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 31.0,
     "label": "Stabil",
-    "date": "2026-07-17"
+    "date": "2026-07-18"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7533.77,
-      "chg": -38.63,
-      "chgPct": -0.51,
+      "val": 7457.69,
+      "chg": -76.08,
+      "chgPct": -1.01,
       "unit": "",
       "dec": 2
     },
@@ -13633,6 +13633,10 @@
       {
         "date": "2026-07-16",
         "value": 7533.77
+      },
+      {
+        "date": "2026-07-17",
+        "value": 7457.69
       }
     ],
     "sentiment": [
@@ -20565,14 +20569,35 @@
       {
         "date": "2026-07-16",
         "value": 24
+      },
+      {
+        "date": "2026-07-17",
+        "value": 24
       }
     ]
   },
   "news": [
     {
-      "title": "AI stocks keep falling, while oil prices keep climbing",
+      "title": "China AI Fears, Netflix Earnings Sink Stocks: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-17T20:08:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUHNELXhjTkhXMFhuSDFZWjNiX1V1eG9nSGo0VnpLZ0lhSU5HQ3lCdFhqd0pRTGgtWjhwSy1BZkpxVXM4NDlzaEd0UXBOQkQzcDktX0JtUWdNMGQ5VXhOd3c2WUZWRlJYV2RvUUZQbGRUSndHekJ4cWlqLVJ0TXVnQWIyRDVtNV9EeTNQc3E5dUZodzNwTW1CU0JTUEpfdjM3MnV1S3RlejI?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "The sell-off for AI stars worsens, while oil prices keep jumping",
       "source": "Boston Herald",
-      "publishedAt": "2026-07-17T17:47:03+00:00",
+      "publishedAt": "2026-07-17T20:22:30+00:00",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iOHZnU3Z6T0FLVnV1MS0xdFRSaHBsUlFibHRmcjdVY2U5Nll2NW5qWVAyRTVaUlRxc1BLNWVodmZ3dFVPWXQyaGZLYWRUU1hYbEctcy1peGprQms2SW5jeEE5MlBpWWZVTmpFVWdUZlRLODdkQmJHbExSUlZhUQ?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
@@ -20606,10 +20631,10 @@
       ]
     },
     {
-      "title": "China AI Fears, Netflix Earnings Sink Stocks: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-07-17T20:08:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUHNELXhjTkhXMFhuSDFZWjNiX1V1eG9nSGo0VnpLZ0lhSU5HQ3lCdFhqd0pRTGgtWjhwSy1BZkpxVXM4NDlzaEd0UXBOQkQzcDktX0JtUWdNMGQ5VXhOd3c2WUZWRlJYV2RvUUZQbGRUSndHekJ4cWlqLVJ0TXVnQWIyRDVtNV9EeTNQc3E5dUZodzNwTW1CU0JTUEpfdjM3MnV1S3RlejI?oc=5",
+      "title": "Going Into Earnings, Is SAP Stock a Buy, a Sell, or Fairly Valued?",
+      "source": "Morningstar",
+      "publishedAt": "2026-07-17T16:56:45+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRERIZ3NJOWZ2UEJoMXF5UUk3d21raUd6QjduT05FNDZzZURreWhDUmwtSjQ2OGhCSDZKbzJnRmhkN3FMNEJ5cjRZLTdIdnBQWWpHS3g1dG5lWDE2UVl6OFJfNWhyb2ROcGtnZGVwSDNrVUx6c1ZRbXJQRGJIbUVUcHdrSERMdUtsdzJpMDd2amE0ZWlrX2JYaDFTU2NNSE1LYUlYQg?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20638,23 +20663,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "This Chipmaker Just Crushed Expectations Again. So Why Did the Stock Drop?",
-      "source": "inc.com",
-      "publishedAt": "2026-07-17T11:24:51+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaUFTNWsyLUxaSzFqelNOY1BNZUotcFpVS3drbHh3UWhpVlU4T1NBbWxobTduaVF1S2dvOGdMMlRTMzhjUUtEYTByTUpyRzdVR1dIRjItQ1hUd3gzYlRlUmJJZlFvOHNXVHZQTlkySV9CUDBpUjVkLVREUXVVanVtRGNXcHQ3NGlCU2JBTVo0TjN5Mlo4dmNZ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
