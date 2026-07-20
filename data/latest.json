@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-19T20:42:34.407080+00:00",
+  "fetchedAt": "2026-07-20T02:43:44.530026+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 31.0,
     "label": "Stabil",
-    "date": "2026-07-19"
+    "date": "2026-07-20"
   },
   "regions": {
     "europe": {
@@ -882,10 +882,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-20",
-        "value": 0.1
-      },
       {
         "date": "2020-07-21",
         "value": 0.1
@@ -7614,10 +7610,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-07-20",
-        "value": 3251.84
-      },
       {
         "date": "2020-07-21",
         "value": 3257.3
@@ -14359,10 +14351,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-07-20",
-        "value": 15
-      },
-      {
         "date": "2020-07-21",
         "value": 15
       },
@@ -20578,6 +20566,75 @@
   },
   "news": [
     {
+      "title": "Oil prices surge, stock futures inch higher as fighting between U.S. and Iran intensifies",
+      "source": "MarketWatch",
+      "publishedAt": "2026-07-20T01:18:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRGZOeTVJN09iVkpUYkY5bW44ZjhDSEV2UmRNVjJCZkxsakQxY3ZaWElPWkpiTWpXLWQxYUUxY3I4RUhKUjJ0Y1psOENlMjNDQko3dDhPQkMyaTI0eHdETHBrRTZFZEdDUmhHcElyN2lXdFdxRXNxdExfWG5aak1uTFhNSlpZZVYtMmRqMlZud0hzOEpTZ044N09tWEVNTnJTRUZtSWNtT0dTRmllSHhQMUVid3dIVks4QkhUMlU4Zw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Futures Mixed Amid Iran News; Big Earnings Due",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-20T02:32:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay15SVFtNmJpekhoY2gxVk5ZaFh5YkMzYmY4NWtkM3ZtVVN6b2lrQ3NBUW5fQUhuUVYzY00xNjJIblREbVpNUmVwV3V0SVpMaElYdHJKUnp1bGFjWDkwMTB3WDlRd1hueVJ3OTdQWDZrU1lMT2h4LW1nNDlOZHhUQWdvbnRRRWhiNGo4WGtEbmxXb09MZ2tsYkpjT05pMmJCWExvSndRb1I4VGdWNmVjRHdNR0lBaDFLWXlRZ2JR?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "China Steps Up Efforts to Stabilize Its Sagging Stock Market",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-20T01:09:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdml0UkJLZEthNlpuR0VSRkZCaEN3U3BPMXJ3WEtlWkhKaXRSVFZGdWxzdHNxU2xQOUtJNXozT3ZfYy1OZWdLQXNsc21Hczd4MEZNTkdYTkNKSC02Z0dBM3JyWTh2QVpMN0xBaV8zbVB5WVliZl9KVHlvUDRsU3dLNUZFN0RMMnJPZTNlSEdxR1Z5NW0tNU1aWUNNX0xubHVfUC1WbjM2TjFuNmt5V1dSeg?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "China securities regulator to hold market stability meeting, state media reports",
+      "source": "Reuters",
+      "publishedAt": "2026-07-20T01:33:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONUxqNHh1b3NQeGJheFI3QjhzUDlSNnQtNEc1TUNtSWVrUFZCb1lmdWtNXzV5MTJiWlZ3UnJuRmw2Z0t5dXVQX3hXLURQd3NYYUhUYVBYRjdPajZBa2o0MTNaWmlKaDJ3V3MtVTJBNmRpWjRYSHdUamxscFJKSWlIQ1hBRU9rNXJLM0ZJbENacjh6cXNWaHFDaUhSUVlFaWpCRERJeHd2S1NRNmZJNXpJYkdkLUxtZmZoOEJ0LUxSdTJKbUdvMENnMA?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
       "title": "Big Tech earnings test tech's big rotation: What to watch this week",
       "source": "Yahoo Finance",
       "publishedAt": "2026-07-19T12:23:59+00:00",
@@ -20592,23 +20649,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Can the ‘Magnificent Seven’ save a stock market that might be doomed without them?",
-      "source": "MarketWatch",
-      "publishedAt": "2026-07-19T19:06:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMEpJSEM5dXctN0F6ZTBVS0RWaHdnTWpoQ01Vc2hzcEI4cTh0SnBlV09RbkNESUdmeExudE9qTWNrYjNFQW5VWHhiblNlSFBYQ01uZGRndWdRZmdDYUFyc3REakRZbUVQNExhTXMyOE00a3ZCRjhpMDZFZmwtd1JuSEVzMkNOSWVpb25IMV84UWpRSVN3dEVZdHo2ZTh4RUN1Qjk5Nms0ZGpoVkZROFk4VzVpQkdvU3ZNeGdnZ09qZw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -20627,57 +20667,6 @@
         "Aktien",
         "US-Dollar",
         "Gold"
-      ]
-    },
-    {
-      "title": "Dow Jones Futures Loom As U.S.-Iran Attacks Escalate; Google, Tesla, AMD Ahead",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-07-19T20:26:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOay15SVFtNmJpekhoY2gxVk5ZaFh5YkMzYmY4NWtkM3ZtVVN6b2lrQ3NBUW5fQUhuUVYzY00xNjJIblREbVpNUmVwV3V0SVpMaElYdHJKUnp1bGFjWDkwMTB3WDlRd1hueVJ3OTdQWDZrU1lMT2h4LW1nNDlOZHhUQWdvbnRRRWhiNGo4WGtEbmxXb09MZ2tsYkpjT05pMmJCWExvSndRb1I4VGdWNmVjRHdNR0lBaDFLWXlRZ2JR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "A strong start to earnings season will be put to the test next week",
-      "source": "CNBC",
-      "publishedAt": "2026-07-17T20:22:07+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNDZFVGZuSnktTE9rX1NXanp4YXdHaHBSM2xRUy1jWEw1QUV2aHZwZ044cXRvNjRWVFQyNFFGZktCVUVoOEM3U294a2xIanJHSkx6Q05VTkFXTjJ6ZUNCT0tJZjFsVFpZMEdzZkROV3ZSR0NSc0xobGNGQ2FOcFRSSExadlcxLTRrSDZ3ZGh5eTU?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
-      "source": "Investopedia",
-      "publishedAt": "2026-07-19T11:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQSGswUG1qY1NfN2lyWk5uMGVEVnFhRElhTjlNc3Z1ZldGMmw2bE5ya3l0WlVNZ3hjSUFObi1xb3QzQ1JIbG1FVnFfQXhFWWhUV2Nmal9BenRHWnRaLW9rS3pKZ3pNYWZkd1NjdE9IWU1reUZUcXlBOGVQR2Riellac0x5R3FKVDRkeDFLc0RTMVczUllvUGNvRjN4SlB0d0cwSHdQN093QVVBYTJGMjNwYTVvYTVCWU51dVhvbXlFTHgwb2NZcFJKSGZIUWxkQQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
       ]
     }
   ]
