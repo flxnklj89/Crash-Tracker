@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T21:07:06.890360+00:00",
+  "fetchedAt": "2026-07-23T02:30:33.886688+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 9.49,
+      "ytd": 9.34,
       "first": 6858.47,
-      "latest": 7509.2,
-      "date": "2026-07-21",
+      "latest": 7498.96,
+      "date": "2026-07-22",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,7 +52,7 @@
     "tradeStress": {
       "value": 24,
       "label": "Entspannt",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 31.0,
     "label": "Stabil",
-    "date": "2026-07-22"
+    "date": "2026-07-23"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7509.2,
-      "chg": 65.92,
-      "chgPct": 0.89,
+      "val": 7498.96,
+      "chg": -10.24,
+      "chgPct": -0.14,
       "unit": "",
       "dec": 2
     },
@@ -882,10 +882,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-07-23",
-        "value": 0.09
-      },
       {
         "date": "2020-07-24",
         "value": 0.09
@@ -7615,10 +7611,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-07-23",
-        "value": 3235.66
-      },
-      {
         "date": "2020-07-24",
         "value": 3215.63
       },
@@ -13633,6 +13625,10 @@
       {
         "date": "2026-07-21",
         "value": 7509.2
+      },
+      {
+        "date": "2026-07-22",
+        "value": 7498.96
       }
     ],
     "sentiment": [
@@ -14354,10 +14350,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-07-23",
-        "value": 22
-      },
       {
         "date": "2020-07-24",
         "value": 22
@@ -20565,49 +20557,35 @@
       {
         "date": "2026-07-21",
         "value": 24
+      },
+      {
+        "date": "2026-07-22",
+        "value": 24
       }
     ]
   },
   "news": [
     {
-      "title": "Stock market today: Dow, S&P 500, Nasdaq slip as oil prices rise, Alphabet and Tesla earnings loom",
-      "source": "Yahoo Finance",
-      "publishedAt": "2026-07-22T20:05:16+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTXBKajBzM0pqZExjOW05NlBGdkRKQzY3b3gwT0lkSHJJVm5jTDJRNVBBRno5cnpUMnRzbnRSdEUxel9MZGtuazZDV2FPUlpuVlllUjBIYy1mWm00RmtvMUZkd0JDNmFITVVCdnpOOXZqc3FpSXU5N2h0c1M2cUxJWko2dktldUV1U2VhbWlHN295TUVsV1dGbkt3cHRVaXlvQnFHZ1U2a1pLS2NXNnNQRll2d0J5bS16U2JjWHFNNjFMZ0p5MEtTZ3BiSjQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Tech Earnings Will Put a Fragile Stock Market to the Test",
-      "source": "Barron's",
-      "publishedAt": "2026-07-22T15:37:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeTZvdzRMQU1ueVFHNV9BdGZ3WFh3N1NNUDRxZ1lsX2pSal9raTh3ZzBnMG9KZ3ZjanM0NVNYRTJHUTNuQ1JKRzRtSlN0bnRxR2dVNkNtTjd3YWdpYzhndTRTR05aYUVSM1BKWmhBY04ySHNNajAwY2NqMFFLTGRKMUt1RjVFWF9mZUVtTFhDWFptZU1pekZKcDV5MDA2bG5T?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Futures Fall; Google's Pain Is AI's Gain",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-07-22T23:59:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNlAweGpTejZLSld4UHh1WklPcHF5aXcybHJRN1dLVk1QaDJ1eEFEdndiallicDduZjV2OVFOWEYwUWxsZzVweHBYNjlnVldUSUNpcTNxcWd1cFM2MXFFQ21tVm00cFdLZ1Y4enpaX1hQOEhxMnNsUm5JOUVBa2s2OWh3ckx6QW5fVTRHZXFsRWNTLUJSVjhuYzN4VUV6eW8?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
       "title": "Stocks and the Economy Are Increasingly Relying on the A.I. Boom",
       "source": "The New York Times",
-      "publishedAt": "2026-07-22T14:15:41+00:00",
+      "publishedAt": "2026-07-22T15:46:49+00:00",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pd3lUdFg5TkpBanp6YTNIZENreTk3bDBLVnVBZWw4VzlFdXlGUWxjcDRFQ3NBYktza2NmcWRjLWdfZlRrVWtvYmMwUFNfNENqb2Y0SkprYklCVnhyN1NhNnBYcTFodlk3MjZyUndUSW41SDQ1RUNxQUc3eDAycXM?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20622,10 +20600,10 @@
       ]
     },
     {
-      "title": "Stock Market Midday, July 22: Markets Brace for Alphabet Earnings as Hyperscaler's AI Debt Comes Into Focus",
+      "title": "Stock Market Today, July 22: AT&T Beats Earnings on Strong Wireless Subscriber Growth",
       "source": "The Motley Fool",
-      "publishedAt": "2026-07-22T17:19:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUzZOY0lxTXBqdVdTT2pSU0ZFWklzbkRmcHk5OXg3TVAycGQ3TC1na0dEQmdrMkdSUk83Rl9CWWtIZjMzejBXYUtQVVNZSmFDekN5U3VucUNLZDJ3X3JGT1drbzlVRDhVR0RKT09XdzctaHpXem1qeE4takRsYk5McHU1TDE4ZWZDamE3RTBWNjNfMEU2Z29PdTFkQ1FoRjVUSzNERjBfalNwZEYyY056NEpoOVRucWZ6Z3VmUGlucGlWci1qYlJvUWp4OElVeUpKSnQzZ2N3LUU5NFQyYndWUTJXQ0o1UEVFVDBsRVVvY2tXamstRlZVcDJtM0ZkRktR?oc=5",
+      "publishedAt": "2026-07-22T21:22:54+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ2c4cnFwbXZ1WVNZRXhVMG9McGhITWdId3dLbmViWmFqMWxPR25QSkZMUERlc01XcjF4XzZzd1pFNnJfNFQ5WWUxdnF2WVozNDNOcjR2dUR0LXRUeGVvZi1LUjBZeDc0cExEU2E3SjEtVGJEc3NwLWczMXVjYWoxT3llTnlsbWxjVWtXalR4b2xfb0MzWU94S25kdmktMnpkcXRhNVZKNHRmcDRucmdyVzFwbGRSa0hxVTdQM3RRY0MyU2hKTWFTVWhYM1d1dXd3UzJaZmFnYUMxOFk?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20640,9 +20618,27 @@
     },
     {
       "title": "Oil prices rise another 3%, while Wall Street drifts in mixed trading",
-      "source": "WRAL",
-      "publishedAt": "2026-07-22T16:11:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOd29UZkFZcEctRzhvcGZJMlpRdTN1cjU5TmFpbFFoU1B0QW0zb3oyb3Y4WUR3SXpCWHJ1cmFhRXhjSnlrN3pPdzlHT3cydVlsa1Q2S0ZuczZtNEk0VXU4V3NKSV9Zc0c2Tk82OW41c09hZW9jSFpRR2czSW4yRmYyTTlLWGE0enJuNWpRR3prUzVCVDNrbGZFSGtmdlNteW10MDltSm1OYkFLcVBSeFJvdWxMTVNxZw?oc=5",
+      "source": "The Washington Post",
+      "publishedAt": "2026-07-22T16:49:39+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPanFyTS1QMjVOQmI2ZmJydTVHbmdhdWR0c1V6NExsN1ljQ1BaLTlkYUdVakxZd1ZjdkZvU1NQX0RTUEc0d09VNk9Eb0wwRjZ0OVRYal9fRzlRMTZGUlNKNHIxc25jdHMxdmUxaUlRLWxuNmNZRTZZVVFJcTRQVi1lM092QjgzOVpFNlppc3FXOWdWcl9yeDNMLUx0WDBMaDZKNHhiYVM3aXkzaFdTdEhpMEotSHFXZzNSUGhUWVpZUGtia2lHT2c?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "US Stock Futures Slip on Alphabet, Oil Advances: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-07-22T22:12:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdXE2ZW9PcjVqTG5idHBwdnBCNzNpQVo2WGZKaVdrZVhrNENlUWlQeXI3ajk1MG12ZUVOYURBdDVzUThwRnAzTkZ6c3FSUWpOOE51Y3MwVFptLTdyZXh5OC0yRVdTdzVoQm1ndEpIclhTNjh2dlRIbDVzME1CaHBJMnllUWhlLWoxd0JMNVRfSkFaYmRH?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
