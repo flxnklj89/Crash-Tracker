@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-02T02:31:58.044679+00:00",
+  "fetchedAt": "2026-08-02T06:30:06.201425+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20570,27 +20570,10 @@
   },
   "news": [
     {
-      "title": "Dow Jones Futures: Market Rebounds, Now Watch For This; SpaceX, AMD, Sandisk, Eli Lilly Earnings Loom",
+      "title": "Market Rebounds, Now Watch For This",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-02T00:17:00+00:00",
+      "publishedAt": "2026-08-02T03:06:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOGZ3cDIxS21VRGQ1eVFZWDF5enNNQmplMC1Sc3hyajJGR05Kd1hJc3VpVEo3X0VCYnNrQUtPckg1clUwMkl3Nk94cFF5NGJjLTBXVERyNlV0ZGZ0WDFfYlVTcVNUdE4wOTFnVXczQVo5aGZ6eTNMWUV2TkxHcE5GQVZZdnNwcVVQaldqdG5pZWh4bHRBbmxVaUlBWXk0eXNYLXZvSENRVTdlUGZ2UU00a253MXVrdG9GN3A0?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stocks finish wild month with Amazon rising, Apple sinking and Seoul's best day ever resulting in a 22% loss",
-      "source": "Fortune",
-      "publishedAt": "2026-08-01T12:42:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ULVJ3b3pjUTFZdzdWbEpzRzRRODBnRGNtcDJsSkxNaVJKTFFRRzBsSmJoaGRGUzU3SXJqV2RhN2tCNnJwNFRncVRpclRMd2RZYTBGRl9zWS1CNG1XUk96UVVTZU9vMWNJanJnRExHQkpfeUExRFo5YnRfSQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20621,6 +20604,23 @@
       ]
     },
     {
+      "title": "Stocks finish wild month with Amazon rising, Apple sinking and Seoul's best day ever resulting in a 22% loss",
+      "source": "Fortune",
+      "publishedAt": "2026-08-01T12:42:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ULVJ3b3pjUTFZdzdWbEpzRzRRODBnRGNtcDJsSkxNaVJKTFFRRzBsSmJoaGRGUzU3SXJqV2RhN2tCNnJwNFRncVRpclRMd2RZYTBGRl9zWS1CNG1XUk96UVVTZU9vMWNJanJnRExHQkpfeUExRFo5YnRfSQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Microsoft's best day since 2008 leads US stocks, while inflation worries remain in the bond market",
       "source": "AP News",
       "publishedAt": "2026-07-30T21:13:00+00:00",
@@ -20639,10 +20639,10 @@
       ]
     },
     {
-      "title": "Stock market ends volatile July with gains as Big Tech earnings boost sentiment",
-      "source": "eciks.org",
-      "publishedAt": "2026-08-01T07:36:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YSzY4RFdrdVp5Rm5DdFJCWmQyUlNJWTFLU3B1MGRVWnEweFdDUlZwM1lZLTRyRDBFelJIMGZsbk9VcERzLUFWb0ZrWnUwNWhKWjR4OFkzUHVlcENFMkV1d2M1cDI2OERlQURR?oc=5",
+      "title": "Stocks Rise on Big Amazon Earnings Beat: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-07-31T20:12:16+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVm9aZFJTTFNMdFVndVFzaUs4dldmTEMtdlVoWHpzN0ZZZFF4MVlUSlVVUWxkOEdQUW9CUVVDaE1ObDEyaW1KbUVxRHVremxveG02UF9kVnROWUFrdEVxb1JXV1pKRGwtcl9zWGRYbDVlbVMzX0pPbjJISl9nNS1tWE9LbUgyMVNiMEduYlRuZlNYdTAxVGdPZGtKUFNiZ21NejlJ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
