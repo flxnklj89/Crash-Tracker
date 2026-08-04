@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-04T10:35:14.999372+00:00",
+  "fetchedAt": "2026-08-04T14:04:12.718387+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -18,7 +18,7 @@
     },
     "fedRate": {
       "value": 3.63,
-      "date": "2026-07-31",
+      "date": "2026-08-03",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate"
@@ -56,7 +56,7 @@
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 15.99,
+        "vix": 15.86,
         "brent": 91.82,
         "eurusd": 1.1519,
         "us10y": 4.75
@@ -73,7 +73,7 @@
       "name": "Europa",
       "score": 22.0,
       "label": "Stabil",
-      "date": "2026-08-03",
+      "date": "2026-08-04",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -86,7 +86,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.25,
-        "date": "2026-08-03",
+        "date": "2026-08-04",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -176,9 +176,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 15.99,
-      "chg": -1.1,
-      "chgPct": -6.44,
+      "val": 15.86,
+      "chg": -0.13,
+      "chgPct": -0.81,
       "unit": "",
       "dec": 2
     },
@@ -6884,6 +6884,10 @@
       },
       {
         "date": "2026-07-31",
+        "value": 3.63
+      },
+      {
+        "date": "2026-08-03",
         "value": 3.63
       }
     ],
@@ -20598,10 +20602,27 @@
       ]
     },
     {
-      "title": "Dow Jones Futures: Trump Sparks Stock Market Rally; Palantir Soars On Earnings With SpaceX On Deck",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-04T02:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTkF3SWhJTWdNVWRlTlBSV09tbTg2bTZIakRNTUx5cmhGekw0UUlDSlBSdXktVExFa0VURjBaeGZ4YWVCQ3FHTjlMVG5TQ1Jad19rOVFTUTJWbE9Md3NMX3pxNjdiSjNvcUNYZm1IR3JMX1hDb18zbVhTNW5UWjkyTURWbDM5VDlCVmNHYlpZM0JvLWJBZ3ZWZUlqdWxaek5jUVY2SEwzMDlNLVRVd0dNMmpNcjFVenJzTllaTThib1FYZ0J3V01Xc1YxMnNCcjg?oc=5",
+      "title": "5 Things to Know Before the Stock Market Opens on Tuesday",
+      "source": "investopedia.com",
+      "publishedAt": "2026-08-04T12:18:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbFd4X1pyYmJpOXhJeHZYX2E3ZnpWMnRtNGpMRVJYNHZhSTB6anBlZkk3VFRocUt5bEZOM0FudDk4ejVTNkVwZXZUd3FuTENtT2d4bWxoV1V5S253WG92UmVEVmJ1UkY1WnlUd3hXUlNlTkFKRzFlRGFjWFRvQml3WUJIUEh3b3pkR0NpckNCRW1MeUdFM1B0bVRaSHVuNnlhbXJ4c1ZXMno0dWpXenc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures coast higher as earnings roll in, Palantir stock soars",
+      "source": "AOL.com",
+      "publishedAt": "2026-08-04T10:16:59+00:00",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xTHlBT2hUbmdZUVdFR3FGd2EtZG9HbTg5X3dMby03RXRYQnd0YWVfZG43b2VRM2IwcUR5S0xOcGtRTnAyMFFWLVZuNVBsMjRhV2hodk9mQ2hkZnpadkh2XzNKU1dia2M0NmZRWFAwNVEzWF84VWVZ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20615,45 +20636,27 @@
       ]
     },
     {
-      "title": "Stocks rise despite Iran tensions, oil up, yen eases",
-      "source": "Reuters",
-      "publishedAt": "2026-08-04T00:38:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FbUhCcDNQSE1IQ3dnM055RTJNZ0N1WHYtTUswbUtjZmRTS3FwbEtKZkd5Ti1WT0JndWtUSEJJTktud19OQzRELW93em1SMFdjcnphTVBMQ1BPMzBJLTdEYmxMbnJ2bFB4NVN4ZVlKYjIyZUlFZGx3RUljSQ?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "title": "Options market braces for $225 billion swing in SpaceX’s value as earnings loom",
+      "source": "WKZO",
+      "publishedAt": "2026-08-04T13:05:36+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSWxxYk55ZjRobjJDYldzYW1qUTE3aXUtd01DTHJuV094M3VGUjY4VllmTVpnQ1duVDlabFdPeVN2cGpjdzRTQjFMWEpVUWg2ZS1zU091ckh1ZlpTTEo5YXVsU3I5VHNCSFNVRXpnVTJ3TUdCdUwzdzhOQjJuVnRPWjNRMDRsdTRMV1pxd2tFc0ZoQ1FVampWbEtKeGN5T0F5QXhqdmd1OFFOQQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
-      "title": "China’s AI rout triggers 14% margin retreat in record tech sell-off",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-08-04T01:00:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnFXdWc1S2NITnhYRTFYMnQyNmNyR1NWampXQ3ZfSWlIeEFsWDJSV3FpTGhTTUdxM2hka2IwUDA1R1dtTmtrUFc3eEQyZDZGVURFaFlyY2Z0VGItMFhUajRoR05mUXJ2eVJOVnBJSUtIeHMxWE1SV3VLMnJiN1NGSHhVOWRSWVBBNmg1a0x5Z3g0V0tqUWQ5YXdBQVNqTWtIVzZfcHRaM2JXZXZuUUxHT3FVWXZIT1VpYlZSRE4xY0F6N3NFVkHSAcYBQVVfeXFMUHBRUUk4N3NObHFYeTRaUl9oZ1dyOWMxcHNfOUc3MnNIdDdvTHBHemlwVElGTl92Nktta1FvdDRCby1KRjY3V3luLW5FQjZkWlFualQ0QW9Rbmxlb3hrSXUwWnI1QWVkMV9JcmgwWUtCaDVhU1BsbU9GbVY0WFMtQW9wZ3Z5eHQzNkxFRVdFUlRrT3Y1T1NfR2RFcWZCN1N2amtTRW44Z0MxdDFSdkhMSXdQRHI2czZxS3lFdWxDeFFqemxvaml3?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Wall Street bulls are starting to admit the earnings bubble is real—and the 60/40 portfolio may be the first casualty",
-      "source": "Fortune",
-      "publishedAt": "2026-08-03T16:03:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVGJxOVN1T211RW9KcERVWm9UZVVQMEE2UUdIQkRVaHVMX3Rhc3ptRHdTQVNBclItZXhVQnlkUlZkZUJUN3IyY3UwN0FERGNQcEIxaWtUa1N2NU5tQjVYNUxvM3ZLT0tuZTBZbFpLVkZRLThlWXZKdEc0WEhkVXI5MW9tQnFSclZ3WjhWb0JvN0x6YmkzdW9KODhjRi1JV3hudDBidjVn?oc=5",
+      "title": "How SpaceX earnings, expiries could test Hong Kong, mainland China stocks",
+      "source": "scmp.com",
+      "publishedAt": "2026-08-04T10:00:13+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVGZyS2JodVFTX2VyNXl5MTB5eHh4SWVPeDU4aXNMZVNNRVB2UmNtVWhldkZENjA3bDZ2Z19oOUZ2aW1uWDJnRXJ0a3oxMERqeUhubE0yNWhKU0lPb3JLV05XS0dqWmZIZWVEeTJFYnpsb0dzQVNzdkloVTFaRGV4NGdBMnp5T19YcW81QUFfelM0cUpDcjVydXFmYVV2d1h3TlZ4WE5aWmZ6eGl4d215UXhyb2pCcjB5M1IySVdKeHlZZUNjU2tvUG12cUIxdmNFN0tpU0pMV19fbTc1bEZ30gHfAUFVX3lxTE9UZnJLYmh1UVNfZXI1eXkxMHl4eHhJZU94NThpc0xlU01FUHZSY21VaGV2RkQ2MDdsNnZnX2g5RnZpbW5YMmdFcnRrejEwRGp5SG5sTTI1aEpTSU9vcktXTldLR2paZkhlZUR5MkViemxvR3NBU3N2SWhVMVpEZXg0Z0EyenlPX1hxbzVBQV96UzRxSkNyNXJ1cWZhVXZ3WHdOVnhYTlpaZnp4aXh3bXlReHJvakJyMHkzUjJJV0p4eVllQ2NTa29QbXZxQjF2Y0U3S2lTSkxXX19tNzVsRnc?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
