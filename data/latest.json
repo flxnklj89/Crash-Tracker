@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T17:25:49.407034+00:00",
+  "fetchedAt": "2026-08-05T21:04:17.855744+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -59,7 +59,7 @@
         "vix": 16.5,
         "brent": 88.9,
         "eurusd": 1.1519,
-        "us10y": 4.7
+        "us10y": 4.63
       }
     }
   },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.7,
-      "chg": -0.05,
-      "chgPct": -1.05,
+      "val": 4.63,
+      "chg": -0.07,
+      "chgPct": -1.49,
       "unit": "%",
       "dec": 2
     },
@@ -20566,9 +20566,43 @@
   },
   "news": [
     {
+      "title": "Analysis-US Stock Market Could Ride Earnings Strength to More Gains After S&P 500 Hits Record",
+      "source": "U.S. News - Money",
+      "publishedAt": "2026-08-05T16:29:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVWROa20weWdoV0hkNHozOFpya08wUGEyUjBFT0lWUlpNd21BdUJYekY3bW1yU2gzakNFMEVib0VtbnFGdXZBQnFpM2VudzRTSGF1TDhwa0lMRGZSTDdPQ0JRTzZiRU9NcmhadU1TWlJ0X2RLaF9kS0hUalQyd1ZKYmctZ240dWpMTGlhQkdrTXpmbVlpT0NZM0V5cE41RzVxdlliV0pTbjhqY2NOM0QwbGJHZkV1NUdfTmY1UUt0eHdWSlRQTWtNNnVpUlkyXzdVQjJSTFlGcW1TLUoxcm9nOFFwRm94dTNY?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "What the Stock Market’s Record Highs Are Hiding",
+      "source": "Barron's",
+      "publishedAt": "2026-08-05T17:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObm91V2hFN3lOUnR4Z3F4elpoTnRubFVqSjhBMGJvSlFvenF6bnQwR2h6U0VCQ1c4N29UOEpUSGZBU19MY0NaQTdVaVZxUzZzZ0x3VVFMa1VXdDZTTDFxNjd2SG9QYUMzNVl0Z2k1YW5ISGV1dUpYQVYzZUlrRmx4U0pjTnBfWUoxMFZqb3FB?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "What the Stock Market’s Record Rally Has to Do With Rescuing the Yen",
       "source": "The New York Times",
-      "publishedAt": "2026-08-05T16:07:48+00:00",
+      "publishedAt": "2026-08-05T16:07:49+00:00",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1V0ZsTWlIOWFIaWtZXzVQODBRZTI4aTlFYUVGQ05JQUM3V2U2eHd1Z254bWl5M3ZDblJnRkR4QlUxLXpYZ0lDNDI0QzducnRXVDdBWm5aRG5qSmRXZEl5bnhiQ21GbC1ubkhOWWUyYU0yME51WURj?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
@@ -20583,20 +20617,21 @@
       ]
     },
     {
-      "title": "What the Stock Market’s Record Highs Are Hiding",
-      "source": "barrons.com",
-      "publishedAt": "2026-08-05T16:31:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJV3A4aUczTF9CTThlMzA3OWtXNUZxU2RVSG96NXZ0d0ZLWDl4MXB5MjdkMHc3X0hxb3pXVEdLLXB0NXlVR2V0UXVaUmtjVm5ZcUo1bHcyTWF5MXJlR2F4UTl4TUtxQVl6akdOVTQxNVlFOXVGSFE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Stocks hover near record highs and oil prices stabilize with talk of a deal to open Strait of Hormuz",
+      "source": "The Washington Post",
+      "publishedAt": "2026-08-05T19:02:11+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUjZmSXdjWmU5NW5BYTZicTRGUUJhQnRxdENIYUNVcVp4N0NxSlh2MGxHZS0yYnNRbk1tTGdyZGxaNDJfckY4LXpnaXJBemJlRmVuZS1ZcGdITHFQT1NQQlRDclk4bFF5eHhfeGoxY0RvQjM0VVRzZ3RIbDktWWtDZVFrOERQanhEWHN2cnhOYjE1WnBvOEpUVXI3aUEyWHhxVDMzOVVRUE5NY0p6UkNZYThFa1I2U3QzQi02LUxQZEFwZXBNeTJIOWtn?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
       ]
     },
     {
@@ -20618,27 +20653,10 @@
       ]
     },
     {
-      "title": "Stocks get AI boost; investors on tenterhooks over Mideast peace talks",
-      "source": "Reuters",
-      "publishedAt": "2026-08-05T01:37:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjNOaFJhdXRJblJMNldJM09LeFJDOXNqY2Y0R3dhcGt3S1ZyNm1peFdvVlBfN2RrNmtCYVhQa3pzenI5VlBld2c2Y0JPLTAzNWRhTWxUYWxjNEpvWGxIYlR3M2NLdGg5RnpRSmtYVVVwamJfYTZ5S1JaQ3J5QjFEQ3B0WQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Analysis-US stock market could ride earnings strength to more gains after S&P 500 hits record",
-      "source": "WSAU",
-      "publishedAt": "2026-08-05T16:41:52+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSEpyQmFxUjVvWUZvZVNaNEkyaTRJdmNhYUVRTWxmWUc4bFB5QS1PeXVsZUhEVGpoRldSdnAyOURhcHdhbGZPN3pTQVBfM09MdFhiNmhCSk11TThpYXA3d2JGTDVZOE9nOWtMVkNpQ1FRb0ZoUThsNEN3U2ptcTRIaDQyS2dLcEV0NTlnUFJXeXlsYmNGOHhHeVlDak9LREdydEwyYTFzVVRsM1hzN2FGWW9VUWJHM1JjdHY4T2xn?oc=5",
+      "title": "US stock market could ride earnings strength to more gains after S&P 500 hits record",
+      "source": "marketscreener.com",
+      "publishedAt": "2026-08-05T16:28:24+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEpHZXVBSzQxMC1tMWwxWmZTMk9KbUlhSnh0YmdvZk91d2lJZkpTSG1YMWpzeXNpeDVHUVV4MnpVdk05Y0JIcDFhRWgwMTEteWNXWXVaejYwUVd6RWtuZjlvUGpmemQ5TkV2bm5DU1lNM3dWVk9MZ29mV0MzMi1EVjdlN0oxVnh3UlYyazJnQlk0REJjSHN1NHE5Y1lkTVNaUko0T0RpSGt3NDlfT3RXUzMtTVVzbk5OUWFUbFA3aDB3enpFMHJjcmlFZUVfREpNYThj?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20649,24 +20667,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "U.S. stock market rallies to records as oil prices ease",
-      "source": "jcpost.com",
-      "publishedAt": "2026-08-05T03:23:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwRzNjTllFWkRhYjhIQUNzcDl3VERDTVhrR2hUR1hrOGlwT1kxQkhTdlJQWXdNUVN0UzhuT1E0MUxSaENPTmwwdmtHQzlxaWNSaG41ZUdwZlJIY2N4UHZhdVZNanBPcjY0ZFlNbXNn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
       ]
     }
   ]
