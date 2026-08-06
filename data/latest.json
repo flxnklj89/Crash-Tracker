@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T21:04:17.855744+00:00",
+  "fetchedAt": "2026-08-06T02:21:41.328468+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 12.8,
+      "ytd": 12.61,
       "first": 6858.47,
-      "latest": 7736.52,
-      "date": "2026-08-04",
+      "latest": 7723.55,
+      "date": "2026-08-05",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,7 +52,7 @@
     "tradeStress": {
       "value": 24,
       "label": "Entspannt",
-      "date": "2026-08-04",
+      "date": "2026-08-05",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 31.0,
     "label": "Stabil",
-    "date": "2026-08-05"
+    "date": "2026-08-06"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7736.52,
-      "chg": 136.02,
-      "chgPct": 1.79,
+      "val": 7723.55,
+      "chg": -12.97,
+      "chgPct": -0.17,
       "unit": "",
       "dec": 2
     },
@@ -878,10 +878,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-08-06",
-        "value": 0.1
-      },
       {
         "date": "2020-08-07",
         "value": 0.1
@@ -7611,10 +7607,6 @@
     ],
     "sp500": [
       {
-        "date": "2020-08-06",
-        "value": 3349.16
-      },
-      {
         "date": "2020-08-07",
         "value": 3351.28
       },
@@ -13629,6 +13621,10 @@
       {
         "date": "2026-08-04",
         "value": 7736.52
+      },
+      {
+        "date": "2026-08-05",
+        "value": 7723.55
       }
     ],
     "sentiment": [
@@ -14350,10 +14346,6 @@
       }
     ],
     "tradeStress": [
-      {
-        "date": "2020-08-06",
-        "value": 15
-      },
       {
         "date": "2020-08-07",
         "value": 15
@@ -20561,15 +20553,36 @@
       {
         "date": "2026-08-04",
         "value": 24
+      },
+      {
+        "date": "2026-08-05",
+        "value": 24
       }
     ]
   },
   "news": [
     {
-      "title": "Analysis-US Stock Market Could Ride Earnings Strength to More Gains After S&P 500 Hits Record",
-      "source": "U.S. News - Money",
-      "publishedAt": "2026-08-05T16:29:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVWROa20weWdoV0hkNHozOFpya08wUGEyUjBFT0lWUlpNd21BdUJYekY3bW1yU2gzakNFMEVib0VtbnFGdXZBQnFpM2VudzRTSGF1TDhwa0lMRGZSTDdPQ0JRTzZiRU9NcmhadU1TWlJ0X2RLaF9kS0hUalQyd1ZKYmctZ240dWpMTGlhQkdrTXpmbVlpT0NZM0V5cE41RzVxdlliV0pTbjhqY2NOM0QwbGJHZkV1NUdfTmY1UUt0eHdWSlRQTWtNNnVpUlkyXzdVQjJSTFlGcW1TLUoxcm9nOFFwRm94dTNY?oc=5",
+      "title": "What the Stock Market’s Record Rally Has to Do With Rescuing the Yen",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-05T16:07:49+00:00",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1V0ZsTWlIOWFIaWtZXzVQODBRZTI4aTlFYUVGQ05JQUM3V2U2eHd1Z254bWl5M3ZDblJnRkR4QlUxLXpYZ0lDNDI0QzducnRXVDdBWm5aRG5qSmRXZEl5bnhiQ21GbC1ubkhOWWUyYU0yME51WURj?oc=5",
+      "bucket": "Globales Wachstum",
+      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
+      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
+      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
+      "horizon": "Tage bis Wochen.",
+      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "assets": [
+        "Weltaktien",
+        "Währungen",
+        "Rohstoffe"
+      ]
+    },
+    {
+      "title": "Analysis-US stock market could ride earnings strength to more gains after S&P 500 hits record",
+      "source": "whbl.com",
+      "publishedAt": "2026-08-05T17:09:55+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ0FNbDA4REJSLXUyUlgtZ1BpUWpzbjlvcXFQaHZjZXVIR1g4NlBpVDcyaGx1Z1h2OXhMYjJ0Zngtd05CWGFMblBOVU1yaU1pdjRDLTFiM0VqdGVFck9YaWNlaE52YVJjOEEtYjhxWkozWTVOQk1ZWEc4UkpwOW8yd0NiaHFLMWdsSWxuWFNTNFpiY0wtSGJPMUItMHItVkpMdHRKeHFfa0FCUDNCampYVHhQaExEd1lCZThWTUhB?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20600,63 +20613,10 @@
       ]
     },
     {
-      "title": "What the Stock Market’s Record Rally Has to Do With Rescuing the Yen",
-      "source": "The New York Times",
-      "publishedAt": "2026-08-05T16:07:49+00:00",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1V0ZsTWlIOWFIaWtZXzVQODBRZTI4aTlFYUVGQ05JQUM3V2U2eHd1Z254bWl5M3ZDblJnRkR4QlUxLXpYZ0lDNDI0QzducnRXVDdBWm5aRG5qSmRXZEl5bnhiQ21GbC1ubkhOWWUyYU0yME51WURj?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Stocks hover near record highs and oil prices stabilize with talk of a deal to open Strait of Hormuz",
-      "source": "The Washington Post",
-      "publishedAt": "2026-08-05T19:02:11+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUjZmSXdjWmU5NW5BYTZicTRGUUJhQnRxdENIYUNVcVp4N0NxSlh2MGxHZS0yYnNRbk1tTGdyZGxaNDJfckY4LXpnaXJBemJlRmVuZS1ZcGdITHFQT1NQQlRDclk4bFF5eHhfeGoxY0RvQjM0VVRzZ3RIbDktWWtDZVFrOERQanhEWHN2cnhOYjE1WnBvOEpUVXI3aUEyWHhxVDMzOVVRUE5NY0p6UkNZYThFa1I2U3QzQi02LUxQZEFwZXBNeTJIOWtn?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "US stock market hits record high amid hopes for Strait of Hormuz reopening",
-      "source": "Al Jazeera",
-      "publishedAt": "2026-08-05T08:22:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdnNodFRlOXZtOTlIUnRSTlFmbTVsUF82dFRfeXlKYVAwUHZidGt1eU5GcmpYMHRSYmVMa2pHY0I4d2dtTThnLWJGdWF6NTk2a0ZXNlNhTDk5Z2R0VE5BRjllOWJENWFGOXR0QWNreWVSbjVWQVFXQ0pJQlFvaUpDeGI4VnRUYW8wOXZ5SFkxVWxfeENoYVcxQ1FtRjNLaHVKd290V0ZLRWpJTDcyTElDbmNKTDJCVDZp0gG-AUFVX3lxTE9BLU5sYmQzSWNsVUdkeXFmSXhPbUZ1eU51cFdtbEo3d3FCU1VlMUVINGZKOXZXaWVDanpJT2JSS3ZKZXhic2MwYzVNQTRSd0ZMSGswODVsemh0a3drY0JqNkx4MHBueWdmamtjU3N6amJQemh1cUthOGowdzJ2VmxaUU93WjlSZmlRMnQ4NEpZa3MxdWdRZmxOLWU1Z1dCTk5haGpkOWlFNUlxUFdtbGJIeE5VakM0VzFSMUY5S0E?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "US stock market could ride earnings strength to more gains after S&P 500 hits record",
-      "source": "marketscreener.com",
-      "publishedAt": "2026-08-05T16:28:24+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOEpHZXVBSzQxMC1tMWwxWmZTMk9KbUlhSnh0YmdvZk91d2lJZkpTSG1YMWpzeXNpeDVHUVV4MnpVdk05Y0JIcDFhRWgwMTEteWNXWXVaejYwUVd6RWtuZjlvUGpmemQ5TkV2bm5DU1lNM3dWVk9MZ29mV0MzMi1EVjdlN0oxVnh3UlYyazJnQlk0REJjSHN1NHE5Y1lkTVNaUko0T0RpSGt3NDlfT3RXUzMtTVVzbk5OUWFUbFA3aDB3enpFMHJjcmlFZUVfREpNYThj?oc=5",
+      "title": "Dow makes history again, as strong earnings could keep stocks climbing, analyst says",
+      "source": "kmph.com",
+      "publishedAt": "2026-08-05T22:57:38+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVGczRUFTQWswamdkc1BJQmpKc2FZSmhVbTBwU041UW51SU5QeFRyaGQ5dnhya2RiYnVZd2I0dnNTdTZPZ1dYRlduN0phcFd1a08yTkZwWVc1VHJyZmZ1bXNpVUtEQWhWR29TemxFeGM5ZjhLbzBUQ3IxdzhpMW1MV1FUb2FQLTF6UlpCNzlXamw0Tzl5b1pXMVd1V2V1c0RFQXR6ckNOQXAwdmxlZUVUZnRxU3djUGxw?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20667,6 +20627,41 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Investment strategist details the market’s ‘earnings-driven rally’",
+      "source": "Fox Business",
+      "publishedAt": "2026-08-05T22:33:27+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RWmpjdWRhZnlOYVhDcTBoV0RpX0w0X08wbWdRSHAxM25PNWV3V1VzWEtwTmVUT0xQbzdYM2ZhSVdaclZadGFZY01sdzh6ZG15eWM4QnVLZE5tWDg?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stocks hold near records on hopes of an agreement with Iran",
+      "source": "Pittsburgh Post-Gazette",
+      "publishedAt": "2026-08-06T00:21:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWEpyVWxEUmVwcThJWENTTFpseU1ockpkZFZqSmgxLTc2UUtNYnR3MWVLM1FpMk45c2VWU0w5LVFhTGhpdlBwcTc5OHFWSGM2TnZTMS0xMFBoSzJiQ2tsaGhtMWJtZmhENzlLQ2h2TTVIVXl0NmdQMUE5Z0dfRlFjVmxBdU0ybzQyOUk4emNfT25OWU95aUpiVm5Sa0xUVE80bjhvZnNudzZKUWF3?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
