@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T04:53:12.965624+00:00",
+  "fetchedAt": "2026-08-08T08:36:33.832965+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20645,23 +20645,6 @@
       ]
     },
     {
-      "title": "The Stock Market Is Finally Rising Again—and It’s Getting Cheaper, Too",
-      "source": "Barron's",
-      "publishedAt": "2026-08-07T18:50:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcUNNamhMcXZaTVNfSXVUeW1hTTJxU0E2bm9ueWQ2c3M0SGN2Qk5tMEhyNXA1ejEwN0gwaHVmZWZQMTM4TVdUQktic0NORUdVMDNTSEE1QXYxMUFSaUhURVhhSTUxNTQyYjB2YnFWc2ZDVVR6czBrZ3B6WTRRUGp2X2RR?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
       "title": "Stock Market Today, Aug. 7: Palantir Surges on Bank of America Upbeat View After Strong Earnings",
       "source": "The Motley Fool",
       "publishedAt": "2026-08-07T21:45:00+00:00",
@@ -20676,6 +20659,23 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "The Stock Market Is Finally Rising Again—and It’s Getting Cheaper, Too",
+      "source": "Barron's",
+      "publishedAt": "2026-08-07T18:50:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcUNNamhMcXZaTVNfSXVUeW1hTTJxU0E2bm9ueWQ2c3M0SGN2Qk5tMEhyNXA1ejEwN0gwaHVmZWZQMTM4TVdUQktic0NORUdVMDNTSEE1QXYxMUFSaUhURVhhSTUxNTQyYjB2YnFWc2ZDVVR6czBrZ3B6WTRRUGp2X2RR?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     }
   ]
