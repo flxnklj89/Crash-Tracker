@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-14T20:27:32.804111+00:00",
+  "fetchedAt": "2026-08-15T01:03:43.994698+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 13.71,
+      "ytd": 13.52,
       "first": 6858.47,
-      "latest": 7798.99,
-      "date": "2026-08-13",
+      "latest": 7785.76,
+      "date": "2026-08-14",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,7 +52,7 @@
     "tradeStress": {
       "value": 22,
       "label": "Entspannt",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "cadence": "daily",
       "method": "proxy",
       "components": {
@@ -66,7 +66,7 @@
   "globalComposite": {
     "value": 31.0,
     "label": "Stabil",
-    "date": "2026-08-14"
+    "date": "2026-08-15"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7798.99,
-      "chg": 50.49,
-      "chgPct": 0.65,
+      "val": 7785.76,
+      "chg": -13.23,
+      "chgPct": -0.17,
       "unit": "",
       "dec": 2
     },
@@ -13633,6 +13633,10 @@
       {
         "date": "2026-08-13",
         "value": 7798.99
+      },
+      {
+        "date": "2026-08-14",
+        "value": 7785.76
       }
     ],
     "sentiment": [
@@ -20565,31 +20569,51 @@
       {
         "date": "2026-08-13",
         "value": 22
+      },
+      {
+        "date": "2026-08-14",
+        "value": 22
       }
     ]
   },
   "news": [
     {
-      "title": "US stocks rise to a record as oil prices drop and inflation gets less bad",
+      "title": "Wall Street slips from its record following the latest weak update on the US economy",
       "source": "AP News",
-      "publishedAt": "2026-08-13T21:23:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWVotZ0lJOWNnZjE3MXRvdkM2MXJuY2dScktoRFRXSnk0UWg3M3B4ck5UWWM1NHFmcDRXaldfeVFSbDN4QU04bkkwNlBZaXNQN0s1c3pCZDlUT041R2lfUlROU2Q1bzF3V08tbXRrYXVURzJaeXpwNG1URkdPWnRHeW5Dd2t4ZXVUaHpmUDlVZU5RekxSNVU3ckxySk1WOE1QdWV1Sg?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "publishedAt": "2026-08-14T20:17:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHZRYUU0eWZPOG1WOUx5U1BpNXRlenFUWnhSdEJvbExTQXl6amlVS2w2YV9wY1JENXkyOG45VUVsaENIb1FUUms1RFBoN2djemxuLVBPMG1GVHlMWTY3aVJuT3BHUEVwVzQ1YnVsYndPUnRyRzhEYzBXbmdMX1NPSW5GUHlLNm0tZHJKYWs5TmllTElIV3l6ZDRrOG1IVE05OUc4QQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "The stock market may already be adjusting to a future with slower earnings growth 🤔",
+      "source": "TKer by Sam Ro",
+      "publishedAt": "2026-08-14T15:28:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON18waTcxQzJ0dlh0RzRJaTFkeU80UTJHbmV5dEVrZWF6bDJDZkgyUGdWRFhUVFgybGFjWDlKYnVPRFhvb3hPbC0telR4OUk3ZHJTN2wwdXV6WEdNYnBYOHFVdjdmWW1kelVsZ014cjBOQnpVVXdTMXlVMm5DNmpTNTAweGY4Zi1ZdGE4ME1QVGVJNWpBSFE?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
       "title": "A Big Inflation Risk Still Looms for Stock Markets",
-      "source": "barrons.com",
+      "source": "Barron's",
       "publishedAt": "2026-08-14T10:52:00+00:00",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWmxiR1ZzcURsQ2daSzU1d2tFQkhOZjRudkdOVkJSUllRSXBwVGtzWUNDUWFRS1NzMTNlZGgyanVqY0RUZDlOaVplNjhrLTFKbmNxSzNiWG1LT3llX0dHVHVTLUp1SzY0eERnTlpyamNkV2U0WWJJX1lPUWl5bk41OE9YWTFoMWpZWmJLT0lR?oc=5",
       "bucket": "Zinsen / Inflation",
@@ -20606,46 +20630,28 @@
       ]
     },
     {
-      "title": "TACO No More: How Trump Won on Tariffs",
-      "source": "politico.com",
-      "publishedAt": "2026-08-14T09:00:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSUxxZXAxZFZ5ZEIxTV83eDZEdmlYM0hOYUZBcU9lNHdvWUFQU3dkMW96a1lBLWVUa2RXRjFSc1AzcUtxOXRnVWp2c0VhbmJXSGlCNDJhNGpjNm9TbWMzUU9zZ3RwVDRyd1V1U0ZSTFhseW1vbHJ4UzBzTlNKU1Q1ejNiN0JITXhRVExhdm1NeHYzQlk?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "title": "Easing inflation, oil prices lift stocks to a new high",
+      "source": "pressreader.com",
+      "publishedAt": "2026-08-15T00:36:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQZC1VaDVMODJCS0tOczZRVEZWR0x5ZTBndHJ0NDduMnhFM0lWaDNVa2dNU2dPMFBKbE9Senl5bXR6MjZDY01JeUt2ek9zZ2NGYlIyakVmSVRJWVBpQ0NMaUQ3S0l3VEtUNGV1MmszcFp6dFZBWWFHSGZWTmFZNDA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
       "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
+        "Öl",
+        "Energieaktien",
         "Inflation",
-        "Transport"
+        "Staatsanleihen"
       ]
     },
     {
-      "title": "Drone stocks soar after Trump announces tariffs",
-      "source": "Axios",
-      "publishedAt": "2026-08-14T16:07:28+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQemFGMndpSFdZZVZsN3k5LUhRd1Z4dFpkaElWTmk3Y0k4ODZ5T051VlpmaW42QW9VU0JqaU55MnR3ZGEzaEE4NGhYM3g1RW4xZXhHWU5zeTVacEhoNlVCZ2lWanB0dWFwMVk0UHNhV3o0SXF6bDBpakxfd3pRUF9VdA?oc=5",
-      "bucket": "Handel / Lieferketten",
-      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
-      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
-      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
-      "horizon": "Sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
-      "assets": [
-        "Industrieaktien",
-        "Rohstoffe",
-        "Inflation",
-        "Transport"
-      ]
-    },
-    {
-      "title": "US markets strive for a positive week amid retail sales data and signs of cooling inflation",
-      "source": "Orlando Sentinel",
-      "publishedAt": "2026-08-14T13:06:59+00:00",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZXBreUxtSWhkd2FXUy1UY2JQT0lUQkVjQUd0LWFSWEx2dXR0Z0Q4RzJLZGhCajZCMHZsUVBrZGVMdXA0bnFsdVh1UGV4ektIYnRtRVJFZ0N4LWdzQmlqNG5wSGVPNzVIeTdyS0Y5U1RkM0s2bHQ1SW5YeXJFYUplOVlqZw?oc=5",
+      "title": "Strategist explains why stock market is not in an earnings bubble",
+      "source": "foxbusiness.com",
+      "publishedAt": "2026-08-14T18:53:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5jSzlTcnNRNkRCNEJBSE8zRURlRmpwYnAwT0tWTTBVX3VONEVRUUhsMzVDbVRNVjB0bmZRSnNMUUhKU2Z1YnJTZDZDRWstY0JER1UxQjdTNV85T0k?oc=5",
       "bucket": "Zinsen / Inflation",
       "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
       "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
@@ -20660,20 +20666,21 @@
       ]
     },
     {
-      "title": "The stock market is already adjusting to a future with slower earnings growth 🤔",
-      "source": "TKer by Sam Ro",
-      "publishedAt": "2026-08-14T15:28:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON18waTcxQzJ0dlh0RzRJaTFkeU80UTJHbmV5dEVrZWF6bDJDZkgyUGdWRFhUVFgybGFjWDlKYnVPRFhvb3hPbC0telR4OUk3ZHJTN2wwdXV6WEdNYnBYOHFVdjdmWW1kelVsZ014cjBOQnpVVXdTMXlVMm5DNmpTNTAweGY4Zi1ZdGE4ME1QVGVJNWpBSFE?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "TACO No More: How Trump Won on Tariffs",
+      "source": "Politico",
+      "publishedAt": "2026-08-14T09:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSUxxZXAxZFZ5ZEIxTV83eDZEdmlYM0hOYUZBcU9lNHdvWUFQU3dkMW96a1lBLWVUa2RXRjFSc1AzcUtxOXRnVWp2c0VhbmJXSGlCNDJhNGpjNm9TbWMzUU9zZ3RwVDRyd1V1U0ZSTFhseW1vbHJ4UzBzTlNKU1Q1ejNiN0JITXhRVExhdm1NeHYzQlk?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
       "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
       ]
     }
   ]
