@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-22T01:03:49.141737+00:00",
+  "fetchedAt": "2026-08-22T04:29:21.994818+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20595,10 +20595,10 @@
       ]
     },
     {
-      "title": "Stock Market Bounces Up But Logs Weekly Drop; Warsh Speech, Nvidia Earnings Due",
+      "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
       "source": "Investor's Business Daily",
-      "publishedAt": "2026-08-21T21:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdko5X1ZSUGpRXzgzajFSekUwSWRXa04xa1dicmkyb1RrZkhEU0lzU3Q5WlBsbm8xallZakxBQzk2RjV4MTk5clE2RXVLVzVLQWU2b1Y5UjNkS2J0RjdRZ0llRTc2anZKbDBWelRGQXpkUW5JbFNHYUE5SWstV09OUS1PYVY1QzdTNXZubERaOFg3ZUR4ZUFTbEpaSWYtWnlJZmNpd1NIbmh6OWsweFFlWFRtVDJsQ1dsSHBlRg?oc=5",
+      "publishedAt": "2026-08-22T02:36:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkR0Mk1hdnJPQVZHWEJYWXQ2UENlazJ1OG1EWTVtNFVYLTdMVHpfbVRIQ09zMmtMRnlLT1dnd0VyVzh1cTQzVm1jMS1keHR1TUNXOXBPSXEwWE10bFNoTi1Sd1ptX1lDcHhzaG5OaTFwTzE0UlBvTzgzTHpGVkVQeUoyY2szcks3RkFENTdPbmRVUVFWMjZaWF93cFpXcnZEUEM3d21BTGpKcWZJblEtcEhJVjA?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20609,23 +20609,6 @@
         "Aktien",
         "Sektoren",
         "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "US stock market plunges to worst day in 3 weeks",
-      "source": "The Arkansas Democrat-Gazette",
-      "publishedAt": "2026-08-21T06:47:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbmJCMmdJdEN2cjlvZkQwSVN2UHdVV05sNlFDRlNyWUFueXFndmFGUE11Zk5VUC04U0wwbWdOUzVMYU9lN0NWOGcwYUJtUVp1X2QxcFROeWswdVhDMjhIREJlcWxrOTdRcWcwTVRyZFhybzZDMk9idHptaUdIOUFwZGhNLXZLOWh1a0V2Vmpld01YazhtZEIyMmtNR1Y?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
       ]
     },
     {
@@ -20647,6 +20630,23 @@
       ]
     },
     {
+      "title": "US stock market plunges to worst day in 3 weeks",
+      "source": "The Arkansas Democrat-Gazette",
+      "publishedAt": "2026-08-21T06:47:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbmJCMmdJdEN2cjlvZkQwSVN2UHdVV05sNlFDRlNyWUFueXFndmFGUE11Zk5VUC04U0wwbWdOUzVMYU9lN0NWOGcwYUJtUVp1X2QxcFROeWswdVhDMjhIREJlcWxrOTdRcWcwTVRyZFhybzZDMk9idHptaUdIOUFwZGhNLXZLOWh1a0V2Vmpld01YazhtZEIyMmtNR1Y?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Stock Market Today (Aug. 21, 2026): Dow futures rise following sharp sell-off",
       "source": "Yahoo Finance Singapore",
       "publishedAt": "2026-08-21T13:17:38+00:00",
@@ -20664,20 +20664,20 @@
       ]
     },
     {
-      "title": "BofA Sees a Stock Market Setup Starting to Change",
-      "source": "TradingView",
-      "publishedAt": "2026-08-21T19:37:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcXVjb0lEVVhnNGs1YS1YWV9FVjNBS1BNdmJmc2U2NEtsdVR1U0FZeHhnNkI5YWVEeEV1WndId0Z2ZWdFN2JrUVNieVRiZUNDcUtmRURJMWZRVC1leGthWHVPWGtscE9UME04TWE3bW5IdXlIMmI4M0xJTDQzQkhUb1c5U1FBQzlRVHUzV0dfT05qekVzZDNnbzJVSnVNcExtcDRWRDJXcXg5X0pBWEE?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "title": "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally",
+      "source": "Reuters",
+      "publishedAt": "2026-08-21T10:15:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTRXSGR0N2FUbGhlTWN5NFFQWkc0OS1TX1dhS0RtQkNySkxWWDBWQVktajFIWWJwTzBoR2pOczFKdjYwWlRsWVBmODR6M2IzSWM4VzlMblk3cHNwQ21pdXVlbERIZDhlanhFT19UT214OWxBUFJHMk81cjlOajRRTm9pamlEb05VeHVVZEtpQmNLMC1rSnhmbmZCWWY1WEQtZDkxUWV4MDFHR1dqWmhSVmQ2Y3R0dW1U?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
       "assets": [
         "Aktien",
-        "Anleihen",
-        "Währungen"
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     }
   ]
