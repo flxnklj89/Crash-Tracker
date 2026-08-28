@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-27T18:48:48.747404+00:00",
+  "fetchedAt": "2026-08-28T04:01:10.833781+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 11.92,
+      "ytd": 12.72,
       "first": 6858.47,
-      "latest": 7675.7,
-      "date": "2026-08-26",
+      "latest": 7730.99,
+      "date": "2026-08-27",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -52,21 +52,21 @@
     "tradeStress": {
       "value": 16,
       "label": "Entspannt",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 15.21,
         "brent": 88.24,
         "eurusd": 1.1684,
-        "us10y": 4.64
+        "us10y": 4.66
       }
     }
   },
   "globalComposite": {
     "value": 31.0,
     "label": "Stabil",
-    "date": "2026-08-27"
+    "date": "2026-08-28"
   },
   "regions": {
     "europe": {
@@ -167,9 +167,9 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7675.7,
-      "chg": -1.58,
-      "chgPct": -0.02,
+      "val": 7730.99,
+      "chg": 55.29,
+      "chgPct": 0.72,
       "unit": "",
       "dec": 2
     },
@@ -194,9 +194,9 @@
     {
       "label": "US 10Y",
       "icon": "📉",
-      "val": 4.64,
-      "chg": -0.06,
-      "chgPct": -1.28,
+      "val": 4.66,
+      "chg": 0.02,
+      "chgPct": 0.43,
       "unit": "%",
       "dec": 2
     },
@@ -212,10 +212,6 @@
   ],
   "history": {
     "inflation": [
-      {
-        "date": "2012-08-01",
-        "value": 1.69
-      },
       {
         "date": "2012-09-01",
         "value": 1.95
@@ -882,10 +878,6 @@
       }
     ],
     "fedRate": [
-      {
-        "date": "2020-08-28",
-        "value": 0.09
-      },
       {
         "date": "2020-08-31",
         "value": 0.09
@@ -6897,10 +6889,6 @@
     ],
     "recProb": [
       {
-        "date": "2011-08-01",
-        "value": 0.0
-      },
-      {
         "date": "2011-09-01",
         "value": 0.1
       },
@@ -7614,10 +7602,6 @@
       }
     ],
     "sp500": [
-      {
-        "date": "2020-08-28",
-        "value": 3508.01
-      },
       {
         "date": "2020-08-31",
         "value": 3500.31
@@ -13633,13 +13617,13 @@
       {
         "date": "2026-08-26",
         "value": 7675.7
+      },
+      {
+        "date": "2026-08-27",
+        "value": 7730.99
       }
     ],
     "sentiment": [
-      {
-        "date": "2011-08-01",
-        "value": 55.8
-      },
       {
         "date": "2011-09-01",
         "value": 59.5
@@ -14355,14 +14339,6 @@
     ],
     "tradeStress": [
       {
-        "date": "2020-08-28",
-        "value": 15
-      },
-      {
-        "date": "2020-08-31",
-        "value": 22
-      },
-      {
         "date": "2020-09-01",
         "value": 22
       },
@@ -14384,7 +14360,7 @@
       },
       {
         "date": "2020-09-08",
-        "value": 34
+        "value": 28
       },
       {
         "date": "2020-09-09",
@@ -20565,10 +20541,48 @@
       {
         "date": "2026-08-26",
         "value": 16
+      },
+      {
+        "date": "2026-08-27",
+        "value": 16
       }
     ]
   },
   "news": [
+    {
+      "title": "Stock Market Today, Aug. 27: Salesforce Surges 23% on Anthropic Partnership and Q2 Earnings Beat",
+      "source": "The Motley Fool",
+      "publishedAt": "2026-08-27T22:27:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOU0FwN1h6YWI3MW1WZElRdEdjaVFQVnpPUHZqT1RYZ1Q0SlJ4eGU2MFJMWjl5ejVpTHdYM2I3b3JYVHlDTmpDeFNHNVZHT25IeDVOOHZCcnJ3bHhDTUFsRTFOamxjNWdUeHNtZ0IweWVPUDFzcmxQdFZVVDFxR1Rja3lPZ3Y2TFJDU1hCRTMxYi1hYV81TzE3al8zZHZBZXIwalhvZG1SeDVLRjZYVXE1ak9JRmxzTFFBQ3RyUXFlVDBQUFg0TE5MX2NfQVNETnlFdkRDUXl0SzdNVGJ0OFo5ZE5WcGtaUE5G?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Nasdaq Jumps 411 Points as Nvidia Stock Soars on Big Earnings Beat: Stock Market Today",
+      "source": "Kiplinger",
+      "publishedAt": "2026-08-27T20:10:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSGpOLWl2YjU3MlBXdkxjb0lIdHFjZUhZbUI5cTFPRkE4aEM1dGxFUXBFTmk4Wm1yQS1xZEVmcURPTVVQcWZ0R0lzenZYcjVvU3AxMUNoQ2hoTHh0RzFXdS1NLUtiUUIzUXN1WUNXVGh5WHRTSlJDaDZXdVlQdkRQVG9jMThSNXBmNkJ5c1VuSFNidmZ1NGV2WVNQV2NFZ0lHT1N2N2F5aHV2VjQ?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
     {
       "title": "Stock Market Tug of War: Earnings vs. Rates",
       "source": "Advisor Perspectives",
@@ -20588,10 +20602,10 @@
       ]
     },
     {
-      "title": "AI Still Headlines, But New Stock Market Stories Emerge From Q2 Earnings",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-08-27T12:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOckZzYVZ6MktJZFlRQWRXTkliNTBYVEt5a3hycDFmQUkzNFN0dEU1dW9fY09acWoxSlJLMk5VQlotR2hVRDA2S1E2cmJHWVVMSzVnVGR5NC1GUDhxZ1BZQlBmaFhySHJwcVBNYzhCNWJtRl9vcHpBQm13ZmRFWFNEMU0zcGszMW5xQlRLMmlXdnZ3YVVGa0poUTlkUkhyMVdJYm0xT25qWE5nd1I2?oc=5",
+      "title": "CXMT’s 580% Stock Rally Raises Bar for First Earnings Since IPO",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-08-28T00:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVDI4Y3AzV09IaGY2a1p4SkpySjZacUZMbHBUdDRWa3hLN0RUTjZXRUpUa0tvM2txSHhZTjU4VXUzZFplTmxwSXR5MGpZOTFnSThGVXQ1aFMyZlJBaS0xQXJ1N01ZNFF4emxQQTh1WmN3SmxhOGpPUFNIOXp4cUJUMjdOelZldFZaa25IWnROVFBRZml6X1FwR2ZGbGJkZTFBMzdfVnNGaGVCY1k3ZXRkeUU0RQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20605,61 +20619,28 @@
       ]
     },
     {
-      "title": "Nvidia: What We Think of the Stock After Earnings",
-      "source": "Morningstar",
-      "publishedAt": "2026-08-27T08:15:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM3ZkbHhTRlhjekFtYkd3WEIwd3lMb3pFNXZVSmZWb21lazBvMEtFV0c4ck0tTllqZmhFX3ZsVzl1WnNnVjUtVzRfbkxBdmNwZTN6eTZDU3JKTnZpNkZVRGRDdFRYSUVLUjJtbXFOOEd5QWh3SERJRGpQZmY0RWhKMXpaZlEydkdlYVo4TjRn?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "title": "Dow Jones Futures Rise With Fed Chief Warsh Due; Nvidia, These 7 Stocks Are In Buy Zones",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-08-28T03:07:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNkw3UmhaS2RhbmFhQk9LSnVfa1dmMENsLUI3azdkZC1SRHlLbXd6d043LU1BSXJ0dFZsMndBMHQ1aEYwUEp1ZlI5dmFyZTFXSnpLWFJqQWN4VEg3RUVSbWdzRFlERjJQdnlTQ1RodkNqUEYxNjV1ay1NWnF1UEJwWEh5ZTVmdm01bU9FdXZYVE5WU3I4MTdoN0szZHNPMkgzQ014TkVhQW10dE56Q1RrV2JfTW5Od2d0RjFEcGMxSjVVTTJHY1A0UkVGRU5tcEN5SFE?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
       "assets": [
+        "Staatsanleihen",
         "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
+        "US-Dollar",
+        "Gold"
       ]
     },
     {
-      "title": "Stocks Look to Nvidia Earnings for Direction: Stock Market Today",
-      "source": "Kiplinger",
-      "publishedAt": "2026-08-26T20:09:44+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNmQyUk94SVlwZWN2M3ZsdFhTUHF4ZTJVTW9JbnlwSFlQTUhveFBDWG1pMHlHS21IVkVoaTNlTlVkdG5HeEJ6R0tTZzJhbDQ1c2hUdXI5NlIxYjB3Zm5Ec3dIaUl2NjlJUUNCUmlmeDJzcG5TWXlOaE95LWRlOGZsbDlmRC1pck1KSVVzTEpVbUpyNjc4RWQ2REtRMG04a2NHZTBmcEtLZWJwUQ?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "If a Stock Market Crash Is Coming, History Says There's a Major Silver Lining for Investors",
-      "source": "The Motley Fool",
-      "publishedAt": "2026-08-27T17:22:39+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSmcyYjRWZmlpME1hZmxPX1NPRmxobTk0b3Y1VDlSZXZBUjJGM19Fd2dNbXhlZmhNd0NqTmZDQTF3Tk9nZXJUdE1KaGFPWHpZVk9LNEQ3MXBKWXNvdF9TRHgzYXpHampjcG9XU0xqZWZfYVpfWFpnZmowSTBJeXZlT2s0SjliSjFmZk1LN1libnNvcUNoUnVqZg?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Stock Market Today: Wall Street Retreats Slightly as Investors Await Nvidia Earnings",
-      "source": "Eurasia Business News",
-      "publishedAt": "2026-08-26T19:50:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNmlXQ05DUFlzR0ZlVGdRUlFYUF9iSFlCZXl6T1FYazJ0X3BINEVpdldQWHR1cHpzVDBaUWJnMHJMOGxyQkdqTkRpUlhkOEh2QmlHSkhLZUlGcWR4eENFWUp3VDVwamJZWUhPbUNpX3BYZWdfZVlzWkg3UjYxdTlXTjNsTlpyNl94SkVaVjExcHlUajdYM0lDTFotSk01Q0hjLWZRS2V4S0l6bFJlZTFQRDVEVE4xVkVLU0tFV1c2VURDdVNMZXc?oc=5",
+      "title": "Stock Market Today (Aug. 27, 2026): S&P 500 climbs after Nvidia earnings beat",
+      "source": "Yahoo Finance Australia",
+      "publishedAt": "2026-08-27T14:43:18+00:00",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XbFhCMVlGZlQ3YVd3cGJoSFFKRnBNTGN2SFI0a3dQcmxfWFhUYXNWYkE2U3VadXpwSTBxMGpjeVk1cnlBZmlRUm84SmFEM0JjLV94ZXJ0eFBkQ3ctSGlwUENXRFg4bldMWV9DZF9KYmMyOEVBbXdwOEluSHV0Wk0?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
