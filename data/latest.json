@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-02T15:56:34.061771+00:00",
+  "fetchedAt": "2026-09-02T19:15:07.928758+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -50,14 +50,14 @@
       "series": "UMCSENT"
     },
     "tradeStress": {
-      "value": 24,
+      "value": 30,
       "label": "Entspannt",
       "date": "2026-09-01",
       "cadence": "daily",
       "method": "proxy",
       "components": {
         "vix": 16.34,
-        "brent": 88.24,
+        "brent": 96.02,
         "eurusd": 1.1598,
         "us10y": 4.75
       }
@@ -185,9 +185,9 @@
     {
       "label": "BRENT",
       "icon": "🛢️",
-      "val": 88.24,
-      "chg": -4.47,
-      "chgPct": -4.82,
+      "val": 96.02,
+      "chg": 6.27,
+      "chgPct": 6.99,
       "unit": "USD",
       "dec": 2
     },
@@ -20548,7 +20548,7 @@
       },
       {
         "date": "2026-08-27",
-        "value": 16
+        "value": 22
       },
       {
         "date": "2026-08-28",
@@ -20560,16 +20560,51 @@
       },
       {
         "date": "2026-09-01",
-        "value": 24
+        "value": 30
       }
     ]
   },
   "news": [
     {
-      "title": "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off",
-      "source": "PBS",
-      "publishedAt": "2026-09-01T17:48:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVUpDbXlNdGxqU3l1LVBFQ1drbmNpcU40UmxDTldlNlBiOE9aazU2bVg1VE1qOXAtM1Z3VlBIUHNpN1NMWlZlSm9DY3cxLVdjTVNDcFZPUTAxUHhkNFMwUW9WQWVPUnlKZ2Fqc3dBRUV3aTNfU3JVWlVCYk56cC12clA4dGFRN2hoYWg2cUMybmh4ZkEtV0d0VTdZTDQwYUVBV01oRmxPMmxnMENCc3BkY0xpWU5mZ9IBuwFBVV95cUxPbVR0dUcteGhCV0s5UmFidkNta0didWVNOVk1WTRkUTJYbDZnTjhBOTJsNFNZMWUwdm00S0g4WmNLbm9vS3d0UkVoc3FWZXZOcmNBRjNqSGtCd0JFa3RxTVY1Wks1OW1hVDdlMFp6eUFMUFNMWkprcjB5eFlqdldxT3BCaDJLczJkdDhSREN2Y29QX0tUOWROZk4xd2M3bEZiVGRrTDZDeXZXV3RydTZ0bl9aV0JFWVJXc2U4?oc=5",
+      "title": "Downside Risk to the Stock Market and Consumption",
+      "source": "Atlanta - Federal Reserve Bank",
+      "publishedAt": "2026-09-02T18:15:05+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYTBzZEUwUk5XQmpmbTV4WWhEdWp2dGNxaGlJWE03aGFUQk13VFZVTjhUZ2dGOUVOSXFfOWR2X3FERkg3bDVXQmJfa3lIY2dXZ2hoUFgtNE9yWmY3SmprbEZUcmdCRVJfb3otWEpSTEJISkNNQTZBaUgxaUZ0cXF4Mmt5WFBieTQ5UlJjOVJUMFhlU3pZeW9Wc1FCTUNoTDBiR0FWczlJTy1sZGljdC1pSUJRSy04cmhfQ1kzOVV2UDhHMHIwSUh6amNiVHBGNTBW?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
+      "source": "Reuters",
+      "publishedAt": "2026-09-02T15:55:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0JPMlNBNHNJUVR2WWhfd0xOR3ZnWHAzampvY0tJRGFrN1NteWRFR28tekVYR0F1VW5GQ3I4M0FsR0dFalZzYUdERVlOSHJqOWRNNUFCVnFsaURzb0ZwWFZEZ3VHRTQ5czJaYkk2Ym9sOGROUEMxUHJzMzdFMnctMGZDbGRpUHdiOE1DSFI2VHhDNHdwWHlXTW13cG9FSUhOb0lrbEx5bXRaVzAyeVNsaGRYTWJYRnNqWjh1ZjFCcw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Stocks rise on Wall Street as oil prices, bond yields hold relatively steady",
+      "source": "New Haven Register",
+      "publishedAt": "2026-09-02T17:37:30+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVXVNQzNTMzE2LW9nRU9ZcmlUdlgxcUZ1dEZrdm9tSmFETDVhTmRFOGFVRU13RXRLTmgtLVEwOUpYaFZxSFh0VGt5dnRrNlNwUUhIUkNiUmlNVzQwbkRKWnMzUjY5ejlJaWcwdUdBQXdrMDVwUlpuZWFwVzUzTkJTT1ZTU1BPQWowMDVheVU0cXRvQXhIVDVWX1hNTnV0SFBwdzlEYUhwbTg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20587,7 +20622,7 @@
       "title": "Why Macro Fears Are Driving September’s Stock Market Slump",
       "source": "Barron's",
       "publishedAt": "2026-09-02T12:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdnlNcDFxZnN4MndsSHY3WUpsWGZhQjVEWWFsb1JZZWdDV2hZdHptZWJFNnk3RUx5V2tWNVhBd0NTTFpCZXUzQTFUcjUyY2s5NHRmblZNbS00ZFJULUlKTDdRWkFGMXZxUWpGQnA3MkU5UGdHUFlqSzdwemhHQkdYcHpnWEw0V1JtZUJocA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1RSQ2xQMmhXY1dsdnAxNGpzSXI3RE9XTF9uQjBCTldfWmRrVEFfR3FOQlNPVjBPbTdnUDFuWVNnUjFGYkc0R0xrU0JPLWhLeDhKU2lCVXBXdjZTVGV1SlpiYy1vZVNBLTdpV1Rvc1I5V0IxaGZZZ1dFMnhLT0cwcVZzbFJWdjltS1I5T20tZXNnV3ZjaHZVejNrMEllck1na2JkWEUxN3MzUQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20598,66 +20633,30 @@
         "Aktien",
         "Anleihen",
         "Währungen"
+      ]
+    },
+    {
+      "title": "MongoDB Stock Tumbles Despite An Earnings Beat. Here's Why.",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-09-02T13:24:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFJ1ekF4bGdOS2hsTmI2aHowTGlqZW13ZXZlckk4cnlMY2E5YzF4Um9zQWxKTF8xS2FOYi0wMHllTUg5QzlBTTU2ODNZbHoxOU9LSVpLX1FLUUctcjVQRkYyMTdQT3VaRVRvUmdaaEwxMjRnN3kxVDk1M2tKa0F0NVZTX3ltaE0?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
       ]
     },
     {
       "title": "Kevin Warsh Just Sent the Stock Market a Blunt 5-Word Warning. Here's What History Says Comes Next.",
-      "source": "fool.com",
-      "publishedAt": "2026-09-02T12:57:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdURoeFVmdlQ3eTZkU2JKbUFwYkhxRmNkWFNJSDRPOTZIMDdRX0ZJNnF0ejJjbnEwRmdQaTF4eDRmMU0tSmVOaGktR1RzbUJ5MXdhRjhUR0lySHk4V2xGZXRPa0M2RHlHeGtnT19aRDlxbTh4UjNLdDhJVkM3dkhnRU0zN1dFbEd2Vl8tWlEzeF84QXA5Wi1Sbw?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Oil prices surge after U.S. renews Iran strikes, heightening inflation fears",
-      "source": "NBC News",
-      "publishedAt": "2026-09-01T17:26:39+00:00",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX1k2M25nYzF5bW1Db3RnMldRZ19jWklIUWthSDVPNkhIRk5QQXZfd2dCMHdvNmdrbU1KMlVwYjJZaEtPZzhEa3R3bTBvTEl4MDJ6Q2dWby1NZlJsYi15TzdnWVZLcmg2TTBkVm1NNWhWYlgtM3VFa3RieUJMN2V6NTBSQTFvck1HVkU5NzQ0aHQ2eXJDNGZIVmVKZVNRZw?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks rise on Wall Street as oil prices, bond yields hold relatively steady",
-      "source": "Boston Herald",
-      "publishedAt": "2026-09-02T15:11:15+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOEZIempNd0ctLUpHVHpvZkd4S0F2eGhkRVJmZ2wtdEdrSnRDWUo5SXpiNEdxYTVzeDdZeUEwb2otTlFBTUx4YkxFME9PbU4tMWtvTDdqNGJZcG5oMzJmQjBTNVJmXzRSd25ueGtxNVhrX05RcmNHSE4zWmxuTGpaRkNtYTI0N00?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Stocks drift on Wall Street amid jobs market updates, renewed fighting in US war with Iran",
-      "source": "The Press Democrat",
-      "publishedAt": "2026-09-02T13:58:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVBlUERFQWZ5cUVldTYyeUtUSk5Sa1hHbS1Delg4Y0pBRE5yZEZTNGJnTmI1T0U3cVVkYWJjWEM4bDR4YldHbnhGcHEwSDdad0RUU05QN2FyLWRMSlpVbmplMVNRSXlOcmRQeGVDRmVPTVlLU0pKamZYNHpVWDY0eElsczhKbl80?oc=5",
+      "source": "The Globe and Mail",
+      "publishedAt": "2026-09-02T12:52:35+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNWm5OUUsycmhvdUtCNzVVN0lyYU5kdHBFVGlwVWdtcmo4aHQ4T2lyWGNaY0RZVlFobzg4dmUtcHVTbFVuZXVtaTE5clB1T2IzZzFjRHdYbEpzd0dnZzBhRkZwY3hFSGZxMmZMdkNKaEFKTXNhNU1ZMFozaE1DeDdIOXREQWxpMnBtRnV4ZFN4YTAxOHRIMWlrdW1JQ1hzRk1TZVM4aXdIY2FqRE5JZVpMM2Z6Wi1XVmxXVmdkYWhQOVI3N002SWpZMUhnMHplNTRlMG1WYjVzbGcwVTQ3c0dieUVnVTlTX1dKWms0ekRwUjJSUndJVHFDbzJFSExlRE0wTUI0UlA2Nk1Zajd5RmRtZW1B?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
