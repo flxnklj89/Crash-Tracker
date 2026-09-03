@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-03T02:53:28.460545+00:00",
+  "fetchedAt": "2026-09-03T08:31:43.192722+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20580,8 +20580,25 @@
       ]
     },
     {
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "source": "TradingView",
+      "publishedAt": "2026-09-03T06:04:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQckFfWEFza2xDOFIxTnRnc19oTFRhemh1M2tzcU1BejZFOGFMN20zeDF4WGtNbHF5NldpeTY4U0FOd3Z0WjRnZDFuWVJvMXJnRHNqYU90VzlNTjVKd2t4VGVXTWJ6YmR5eHk2TXQ4NzlHSjVQZ3FGMWpnblZ1R0N0d2pTQkh4cjBLMTRQUHNHbU94MS1QY3VfeFQzMkMzbVBTU2hIVjBlY0RFQQ?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "Wall Street rises as tech stocks climb and oil prices, bond yields hold relatively steady",
-      "source": "Los Angeles Times",
+      "source": "latimes.com",
       "publishedAt": "2026-09-02T20:54:54+00:00",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2N3blB2d3NJXzByQzdRclQ4ODVGOUF1QWRXY3ZhS0RXYThNYnV0N2Z2UGJEZXlycnNJcHhkVDdQVW1hM2toNC0wSXRlSEI5VFBWOHpkYnhMbU5IRFh5b3VVbnJzNlZfNF9USFNTVkxrVDRqOGRqMmhkRFIwYTNkVENkeEYzd1lMLWFiUExfaVRGTVJrMXAxRmpvU1JISkI5anJQZ0lfak9DN0V1eWhRQXUxMmFDazA2cHQtT0NsTUtxdjVvS00zVE5QcmhqWU0?oc=5",
       "bucket": "Energie / Inflation",
@@ -20598,27 +20615,10 @@
       ]
     },
     {
-      "title": "Why Macro Fears Are Driving September’s Stock Market Slump",
-      "source": "Barron's",
-      "publishedAt": "2026-09-02T12:30:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd1RSQ2xQMmhXY1dsdnAxNGpzSXI3RE9XTF9uQjBCTldfWmRrVEFfR3FOQlNPVjBPbTdnUDFuWVNnUjFGYkc0R0xrU0JPLWhLeDhKU2lCVXBXdjZTVGV1SlpiYy1vZVNBLTdpV1Rvc1I5V0IxaGZZZ1dFMnhLT0cwcVZzbFJWdjltS1I5T20tZXNnV3ZjaHZVejNrMEllck1na2JkWEUxN3MzUQ?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Indian shares likely to rebound after recent slide; higher oil prices to cap upside",
-      "source": "Reuters",
-      "publishedAt": "2026-09-03T02:38:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdmx3ekk2V0VXSlJYX04xM2x3WHVkOW1id2dsUlVJTDI5U1hWekdqeGZSRHlJUnR1U09RZ3FVRzFUa09uNFgyeng0Z0VuYjltTFFwMGVqb3dxRFlOaGZzTGtKS1FhN19vaWl5V3poemFDVFRwTWRuQlJPcnkxdTB0b19TS2VCQnR4NVZzaHU0NU9KMHR5TzdqSnBuR1oyTExNTmlXbFIzNWVtTHhBbV9ET0FzbjBpSjQ0MFpXT2hQOGJnZw?oc=5",
+      "title": "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off",
+      "source": "PBS",
+      "publishedAt": "2026-09-01T17:48:23+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbVR0dUcteGhCV0s5UmFidkNta0didWVNOVk1WTRkUTJYbDZnTjhBOTJsNFNZMWUwdm00S0g4WmNLbm9vS3d0UkVoc3FWZXZOcmNBRjNqSGtCd0JFa3RxTVY1Wks1OW1hVDdlMFp6eUFMUFNMWkprcjB5eFlqdldxT3BCaDJLczJkdDhSREN2Y29QX0tUOWROZk4xd2M3bEZiVGRrTDZDeXZXV3RydTZ0bl9aV0JFWVJXc2U40gG7AUFVX3lxTE9tVHR1Ry14aEJXSzlSYWJ2Q21rR2J1ZU05WTVZNGRRMlhsNmdOOEE5Mmw0U1kxZTB2bTRLSDhaY0tub29Ld3RSRWhzcVZldk5yY0FGM2pIa0J3QkVrdHFNVjVaSzU5bWFUN2UwWnp5QUxQU0xaSmtyMHl4WWp2V3FPcEJoMktzMmR0OFJEQ3Zjb1BfS1Q5ZE5mTjF3YzdsRmJUZGtMNkN5dldXdHJ1NnRuX1pXQkVZUldzZTg?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20630,6 +20630,23 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Mainland Chinese investors buy Hong Kong AI stocks, sell financials",
+      "source": "South China Morning Post",
+      "publishedAt": "2026-09-03T03:20:10+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOS2dGMXNGdm5HNHV4aW5WSzU0blpmOWpKTkdvTnBCWElKbUZMZHhMenc5R1VCVkxXY2h5TkVtS3J5dXdwbGk2b1FsS2gyalZmWUxkcXlzdkdsTnhXM3NJa2dGVVhudklTQm1oc1VhaktKM04wNjlyeUdJZnRyMlFDRVNXQVpjWm42Tk82UkprYjR6NkNUOTJDRGl3ZTcyWHJ1dXR5UkIyS3d2MDlsNm9BTnV6NTNtWFNMY1B4T2FwWU1kX0h5QU14akRGSTJDc2VUUnlYeNIB1AFBVV95cUxOS2dGMXNGdm5HNHV4aW5WSzU0blpmOWpKTkdvTnBCWElKbUZMZHhMenc5R1VCVkxXY2h5TkVtS3J5dXdwbGk2b1FsS2gyalZmWUxkcXlzdkdsTnhXM3NJa2dGVVhudklTQm1oc1VhaktKM04wNjlyeUdJZnRyMlFDRVNXQVpjWm42Tk82UkprYjR6NkNUOTJDRGl3ZTcyWHJ1dXR5UkIyS3d2MDlsNm9BTnV6NTNtWFNMY1B4T2FwWU1kX0h5QU14akRGSTJDc2VUUnlYeA?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
@@ -20648,23 +20665,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Natixis Raises Japan Stocks Allocation, Cuts US Equity Exposure",
-      "source": "Yahoo Finance UK",
-      "publishedAt": "2026-09-03T00:20:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTzZGMllWclRfX2RfWEVLaW5qREFZVVFyVWVOTHNrVzd1dXo5d1pybVA5a0VZSzNRb0RmOTRrV2JaUVBVUGFYODJfUUs3WmRXNkpUU3hVV21jeEtRVWRJd3BvVjhZQU5iaGxadVNMQ1k3NmFkZnVpS0RoT0RfMk5FZkRuLWtBdTFzdXViUE5DSXc?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ]
