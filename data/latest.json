@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-23T03:16:36.469586+00:00",
+  "fetchedAt": "2026-09-23T09:03:10.850006+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20566,6 +20566,60 @@
   },
   "news": [
     {
+      "title": "Stock market holds near record as oil prices drop",
+      "source": "The Arkansas Democrat-Gazette",
+      "publishedAt": "2026-09-23T07:16:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ0ZxLVA1V29MTkphbGdnb3NJTnBrR0duNVpaYXJvZWxrMnFkM2h5cnQ3TGp5Z0FsaURnczZLYURyYWJJdURnbDVKdXpPWXFNYklmZXZSZmxHZS1BX2xqZjU2M0pJZE9BSVVPSVJEeWVZWjJ5SkNsQnloV1RLUVJ6RU0yS0V4LUJoQzNseUMxbk9iVjBqOUM0b3VBbnh0bjA?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Asia stocks ride tech wave higher, oil slips again",
+      "source": "Reuters",
+      "publishedAt": "2026-09-23T01:51:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSzB2Vlh0Nm9MZUlDRnA2S1pIMUJXWmZtdlZEVUdFRDV2WEJ1U3pLQnJKUFNBU3YyZGxXZ0trVk1tdm9lVFp0aEh5N0VpVUdOZDNWYjRzOTdUVW84bEYwYnZHNEQ1X213dHl5OGlpQWNSUEFkdXRpRC1rUTRDaDRBMFh2Zw?oc=5",
+      "bucket": "Energie / Inflation",
+      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
+      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
+      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
+      "horizon": "Sofort bis einige Wochen.",
+      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
+      "assets": [
+        "Öl",
+        "Energieaktien",
+        "Inflation",
+        "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Why the Market Welcomed a Rate Hike",
+      "source": "Cabot Wealth Network",
+      "publishedAt": "2026-09-23T06:00:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTG9FZy1lWGE1b3hWZjF3NnZ5S2NHS0thMWU2WTVEVGxQUzRrSllSWGEyRHUyUURCeTR0OVRrWmpkQ0xhMThjcnYyZ1FLc2hueUFCTWhONGRRX19GQ2NZVVpJQWRPSmY1dGdSS0l6Tnc5MTVVZHdLeUNXdE9yTU85Q1NB?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
       "title": "Stock Market Today: Dow Skids But Apple Eyes A Buy Point; Filing Says Trump Makes These Trades",
       "source": "Investor's Business Daily",
       "publishedAt": "2026-09-22T20:40:00+00:00",
@@ -20584,28 +20638,10 @@
       ]
     },
     {
-      "title": "Wall Street holds near its record after Brent oil falls below $100 per barrel",
-      "source": "thebusinessjournal.com",
-      "publishedAt": "2026-09-22T20:45:23+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWZWs1U05EWnppeDYxRTZLZWhmWDN1MDVnSmwxNFhXSTRLc1V3TTM1S2Vwejh6ZE5fS1JzY0NINFNFV2VxX3dFbnBLYzRWaGhKb1lRUkFZRFdVYVJQbVY4QnV4U3gzTHMyTTBTVzJUQm1FT0tNME5JMFln?oc=5",
-      "bucket": "Energie / Inflation",
-      "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
-      "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
-      "probability": "Mittel bis hoch, wenn die Meldung anhaltende Angebotsknappheit beschreibt.",
-      "horizon": "Sofort bis einige Wochen.",
-      "priceEffect": "Vor allem Öl, Energieaktien, Inflationserwartungen, Staatsanleihen und zinssensitive Aktien könnten reagieren.",
-      "assets": [
-        "Öl",
-        "Energieaktien",
-        "Inflation",
-        "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "Nasdaq reaches record high close, AI stocks rally",
-      "source": "Reuters",
-      "publishedAt": "2026-09-22T22:25:27+00:00",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUI2bTZ5ZFhnZUozYjg5LXM1WHhuT24xUS0zYmRRZkViWVBreE05ZTNMWFBDSGhHTXUyQ3ZyMWhsUFdxSUlxUXVUUXVHWGRVelg3Z2RuVXo3bndwaXJfRXhEUEFERFNSUVZoaDNERnFxdnhuNkxLdVhnNDRpRGhxYndETzVJdVNnZXJESmpMNmw5QVFQODFGY2w2NzVCcFl0bXBSNjRaTQ?oc=5",
+      "title": "Stock Market: Will S&P 500 Open Up or Down Today?",
+      "source": "Benzinga",
+      "publishedAt": "2026-09-23T06:03:48+00:00",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNanJaaVFJOC1fZU9lZ19vR25ZYXdxdHFWVkdhcWxwN2FoN0lZN0tPamo4ZWgyZkxUaGRjZTNGSWUyNXFqVTQxYXNQMlM3S1JWdTNtYzdDc0tQYnhsMEJEYVB2ZG1RZkJLSlpVLWp2Q1lZSmlxUGUwWjAzZ0ZkU29ReDlhS3VkQlQyTkUwQXJtYllUaWlsX0JMUEFSUERhNW92Y2NvMUNHT1VJeXpsMThFYXB3SU80YjQ?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
       "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
@@ -20616,24 +20652,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "What’s Next for US Stocks After the Fed Rate Hike",
-      "source": "Morningstar",
-      "publishedAt": "2026-09-22T10:13:58+00:00",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZko0WU1kUWFDbVBBaXdJT09qeTFSY000SVlCd3diMHFVMjNodUtGWFlBMUtkdmZSRmlmTnRmWXBYaGlpbHVpOTdyZHN2QjNMampxSTM3czM0VE5MMlk4OU1kVUFsUkZhMHBxYXJhbFlpNnQzLVgteXNySXplRkFDVVRHUHNha182TmJNUDRB?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
       ]
     },
     {
@@ -20652,23 +20670,6 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
-      ]
-    },
-    {
-      "title": "BofA warns of uneven risks in China’s expanding AI stock universe",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-09-23T00:00:21+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQVkU4LTZzMXgzQ2tPM29iNmtjU09IMVZrcjVEd2JrTkxFRGlLbWxVMWxHLTR1ODhFZUJYcGlsSkNiemRkZm1QNlhrOVhxNGxwaUV0MHRxX3dReVNNcjVpbUg2V01fVTFhbEdpTTVOaFVhNGdtaDNiZGF3TDU0d3k0V295M204b0hBeVcwRDh4N0xnNXRYblQ3NjJVQmRhNEx2Q2Z4d0RDbU9jQ1BxVldvVWtXR3A1U2JXUExvV0FublZ3bEkyZy10YndqSWtCVjEzd2dfXzlJOUtpbERraWfSAd4BQVVfeXFMUFZFOC02czF4M0NrTzNvYjZrY1NPSDFWa3I1RHdia05MRURpS21sVTFsRy00dTg4RWVCWHBpbEpDYnpkZGZtUDZYazlYcTRscGlFdDB0cV93UXlTTXI1aW1INldNX1UxYWxHaU01TmhVYTRnbWgzYmRhd0w1NHd5NFdveTNtOG9IQXlXMEQ4eDdMZzV0WG5UNzYyVUJkYTRMdkNmeHdEQ21PY0NQcVZXb1VrV0dwNVNiV1BMb1dBbm5Wd2xJMmctdGJ3aklrQlYxM3dnX185STlLaWxEa2ln?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ]
