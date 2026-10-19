@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-19T09:34:12.980022+00:00",
+  "fetchedAt": "2026-10-19T18:18:52.867726+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -18,7 +18,7 @@
     },
     "fedRate": {
       "value": 3.88,
-      "date": "2026-10-15",
+      "date": "2026-10-16",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate"
@@ -56,7 +56,7 @@
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 16.46,
+        "vix": 19.99,
         "brent": 126.55,
         "eurusd": 1.1193,
         "us10y": 5.1
@@ -73,7 +73,7 @@
       "name": "Europa",
       "score": 41.0,
       "label": "Beobachten",
-      "date": "2026-10-16",
+      "date": "2026-10-19",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -86,7 +86,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.5,
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -176,9 +176,9 @@
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 16.46,
-      "chg": -0.41,
-      "chgPct": -2.43,
+      "val": 19.99,
+      "chg": 3.53,
+      "chgPct": 21.45,
       "unit": "",
       "dec": 2
     },
@@ -6888,6 +6888,10 @@
       },
       {
         "date": "2026-10-15",
+        "value": 3.88
+      },
+      {
+        "date": "2026-10-16",
         "value": 3.88
       }
     ],
@@ -20566,10 +20570,28 @@
   },
   "news": [
     {
-      "title": "US Stock Futures Rise Ahead of Busy Earnings Week: Markets Wrap",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-10-19T05:55:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0MwWG9IMlN3MDVva0xabG5QbzNhX09jY3JnaVVTSHJvYXFMSmtHaDhFZ2RTSHVFLUVKYU9za2MxTXA4UGZDN0E3YVk4dEF6QmtIc2Z5YnR5TXB4V2h1QWR6MllZYXRUcGsyOExYMEloYll2RDhHVklKRno4TGhCaGV3RC1OMFJ3c04wWUVCblVFUkdB?oc=5",
+      "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine",
+      "source": "Reuters",
+      "publishedAt": "2026-10-19T11:35:47+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWZLVGpmVmN6M1o1UUJnRXhSMmVWdjY2Mm4tR0IyeXk0OHZzOVRPamx6eEdEVjhEUHVXMlkzeFhoWkg4Qnl0a3lYQ0xJdWNzVHcydDA0NFdVb0ctbEVoMExGek50RHoxWF9TRThVMXRENDhWV2RUbVRGOVhvOEtoTmlTS1NlZGk0UldmSEY4N0tRVVRBeWc5SmJqRGlaVWwzeHRPa1hHZDNHZ3UxUjhwZHBGQXo0YlIw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Tech Looks to Rebound, But Earnings Will Determine If it Sticks: 8 Key Items Shaping the Stock Market Monday",
+      "source": "RealMoney Pro",
+      "publishedAt": "2026-10-19T12:51:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmNiRmwwNXI0eTRpZzV5U2JIclRYTFBCaklkU09Wc1FQd1IxVTVMWmJ0WTJNLV91M0VSS1ktcmpQTVUtcEJ4cUkwYzVCV3FJanRCM1RmT0NJQm5NaVgzQURhWjY3SHlxMi1FcnVFckI0N0h2OGpkRFNrVGhWMi02M3NmMl93a0VuRl9INVZCcjczOVdJT2R1WDJyZEFWX1oxUFpNbTNVWHZ3VlZ6ajVBaGVjV2xtUWpGdS1RcUVURFNFdjJBckhnMnF2cmIyVHZicTYxMzd1Mm9oQQ?oc=5",
       "bucket": "Unternehmensgewinne",
       "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
       "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
@@ -20601,62 +20623,10 @@
       ]
     },
     {
-      "title": "As AI rally wobbles, stock market’s spotlight turns to earnings By Reuters",
-      "source": "Investing.com",
-      "publishedAt": "2026-10-18T13:06:35+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQi1sWlF3NHlZQU9PazJsdFJRdktNeXdaNGZHWndhd0JSelZ6bTRnZEpkVi1SRDlRaDdVR2xhdGpnVkhoOURLdVBKcXRQZzJiWktYYVhxMHdOZ01uOTRkRnAxT0JRNlNyX3pCTUFPR3Vndld5bjlyVjZOdE83MURodWRGdks0QWNQQ01TQnp4aEdYT0hxTHp4ZTBoNWQwYjZ2ZEdlMUtBV0x2dldWQTd4cEd1dVRxWWdXbGc?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "Stock market week ahead: Tesla averaged a 7.8% earnings move",
-      "source": "Opening Bell Daily",
-      "publishedAt": "2026-10-18T11:47:48+00:00",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMThQOUZaT2NpNjBtS0ZEV3h2ZExwVUJNcC1kQXh0cHBLdzZQSDBqMFYwTUhaNUJ5aGpPenNtb053eFRVYmxrZHM2Q21RM0FHUVBqekJ5V3ZuTlJzY0VTcDlNeEMyazlJd3BvYWttUjZndGtaeEtFYVEzd0h0OU9INEotY28yQVk?oc=5",
-      "bucket": "Unternehmensgewinne",
-      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
-      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
-      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
-      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
-      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
-      "assets": [
-        "Aktien",
-        "Sektoren",
-        "Gewinnschätzungen"
-      ]
-    },
-    {
-      "title": "China’s investors flock to dividend stocks as returns double 10-year bond yields",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-10-19T01:00:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd0tjX1RpcWZPUkpLNWRSRU4taTk2Vy1laGJRMnd3SUY1R1hwNWt6eEF5aXl1ZTlOSkR3N1FOUFZTd1cxekFuTVUteEFOS19hMkx6S1ExWTdRZlBoLXZ0WGhnaDdjWFB3cERxWWhtQmhXLW0xa2RQRVFJOHdDVkVTdE5LYzJzUkl5UDBoQnJKXzUxcU1ySEtZNDZoY2FnVjJHVUhpRjAxdHlkcDVsLVlLT0JmcS1JNlBhQTdsMXY1VDJSMlIxRnVwT3RobG3SAcwBQVVfeXFMT29zWmVMWW9Uc1VKUzZ3NFd2QUVTLW02bUQ2UzBONHNLT21yRzlyeGxYc01pY2xELVotMTdvaTI5NVJIcE9UZ2U5T1NnLTUtM0tBdENHRnhkRFduOUlLM1ctM1FCbDE4cDV2TlZCWi1CVGNHZU1taU1hZEFidE5iaWNQalQxOW1zdlBfdlhseG5LSlUzVXlWbk5pZnpxd0pYaVFRU1Z5UUpFMFhjbC1VdF9IbFFfT3F2Rl9DX2RtWUFMT00tV285YWhNUC12?oc=5",
-      "bucket": "Zinsen / Inflation",
-      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
-      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
-      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
-      "horizon": "Von sofort bis mehrere Wochen.",
-      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
-      "assets": [
-        "Staatsanleihen",
-        "Aktien",
-        "US-Dollar",
-        "Gold"
-      ]
-    },
-    {
-      "title": "Asian Shares are Mixed with Tech Stocks Volatile, and Oil Falls on Trump's Russian Sanctions Waiver",
-      "source": "ASHARQ AL-AWSAT English",
-      "publishedAt": "2026-10-19T07:40:36+00:00",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNc081Z0RKUzhmcW55T21pVVBfV1ZUelVOdXRrNkQ5Ymg1UmVKV2YyRmpmeFhrSzZKbHd1T2sybG92Q0lWa0o2VHRYVE9YS1B4anFmUGp3WDN3VWdURzBxY2dtV0dNb1lnU3ZJOF9QODBhUzM1MG4wQlNfeDlJVjNRbVpKRk5zYmdtVWhCeXRWYkVTRFdndE1jRzdjR05PWERiUmJYam92MFZOVlRhWkgtSUt6WGdRamZwN2RNSnVGNkowWnZi?oc=5",
+      "title": "What Does This Record Correlation In Bonds And Oil Mean For Stocks?",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-10-19T15:20:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUnhfOFc5MHI3empZenlQUGpldlhrQ3dacmlrVmlfTDZpM1FuWGtSaW9LeHlvRWI4Sy10X21zMXhLb21rOFFmYTdyQTZsNkdmWEtNOE5oM0tMY3RHWTdkSUkwdzd6aHBRWlpjaDUwTktKM3RDQnk3Q1J5NXRYNXp4OWoxTG90Nm1hbTlNYUtiQlpBakI3a0ZjbkNETHNPeXc?oc=5",
       "bucket": "Energie / Inflation",
       "summary": "Die Meldung betrifft Energiepreise oder Lieferwege. Das ist wichtig, weil Energie direkt auf Inflation, Transportkosten und Risikoappetit wirkt.",
       "impact": "Hoch, wenn der Preisanstieg anhält oder Lieferwege gestört bleiben.",
@@ -20668,6 +20638,41 @@
         "Energieaktien",
         "Inflation",
         "Staatsanleihen"
+      ]
+    },
+    {
+      "title": "Stock market shows an interesting hidden hint about investor confidence coming into earnings",
+      "source": "investingLive",
+      "publishedAt": "2026-10-19T15:00:26+00:00",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUW8ySXhaQWFjeHRWZjRhb2pRVEp4WjVJU2hRbXdtME5oNndBNDgyNEdQMkJCODBFZmJFYjBqZmNLc01aMGxNQUdJNTZvV0RzdWE5ZzV1c0MxbnNOQlNfU09wUDVIeTVuRkVLcFZ3QTJqblVzemwxcV9FbjFWc1ptemFlWG5xSlA0cExMZnh5YmdoT0JaODBabWsydHN1YmRDLUtUNEFtLUJqaU45aUdtLWVET09LZ3pEdlJnVEVwa2hGNHN0?oc=5",
+      "bucket": "Unternehmensgewinne",
+      "summary": "Die Meldung zeigt, ob Unternehmen mit Kosten, Nachfrage und Margendruck besser oder schlechter klarkommen als gedacht.",
+      "impact": "Mittel, manchmal hoch – je nachdem, wie groß und richtungsweisend die betroffenen Unternehmen sind.",
+      "probability": "Hoch, wenn mehrere große Unternehmen in dieselbe Richtung überraschen.",
+      "horizon": "Kurzfristig bis zur nächsten Berichtswelle.",
+      "priceEffect": "Direkt betroffen sind Einzelaktien, Sektoren und oft auch der Gesamtmarkt über die Gewinnschätzungen.",
+      "assets": [
+        "Aktien",
+        "Sektoren",
+        "Gewinnschätzungen"
+      ]
+    },
+    {
+      "title": "Nasdaq 100 Climbs on AI Trade Revival After Rout: Markets Wrap",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-10-18T22:07:25+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR0MwWG9IMlN3MDVva0xabG5QbzNhX09jY3JnaVVTSHJvYXFMSmtHaDhFZ2RTSHVFLUVKYU9za2MxTXA4UGZDN0E3YVk4dEF6QmtIc2Z5YnR5TXB4V2h1QWR6MllZYXRUcGsyOExYMEloYll2RDhHVklKRno4TGhCaGV3RC1OMFJ3c04wWUVCblVFUkdB?oc=5",
+      "bucket": "Handel / Lieferketten",
+      "summary": "Die Meldung betrifft Zölle, Sanktionen oder Logistik. Das ist wichtig, weil solche Themen Preise, Margen und Verfügbarkeit von Vorprodukten beeinflussen.",
+      "impact": "Mittel bis hoch, wenn die Störung mehrere Branchen oder Länder betrifft.",
+      "probability": "Mittel, weil politische Schlagzeilen oft erst bestätigt werden müssen.",
+      "horizon": "Sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders empfindlich reagieren Industrie, Transport, Rohstoffe, Inflationspreise und konjunktursensitive Aktien.",
+      "assets": [
+        "Industrieaktien",
+        "Rohstoffe",
+        "Inflation",
+        "Transport"
       ]
     }
   ]
