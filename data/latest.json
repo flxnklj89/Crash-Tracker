@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-22T15:54:18.905448+00:00",
+  "fetchedAt": "2026-11-22T21:30:45.516976+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -20591,6 +20591,40 @@
       ]
     },
     {
+      "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate",
+      "source": "Reuters",
+      "publishedAt": "2026-11-22T12:22:12+00:00",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "Everyday Economics: The stock selloff could hit spending",
+      "source": "The Center Square",
+      "publishedAt": "2026-11-22T17:07:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaDhWVVJjQy1QV1RmRGM3UzQ3Ny13LTZoTm1PM01rQmlDR1d4eW5RaG1KVmJyQUdWNE8yZGFYb0RYWTVYMDExMzByTGd4UDUydWhzdENtQWdEUFNseTI1VmhFcDFLaVZkNm43a1haa0JMazRtbXB5ekl6UDcxZDRiUGpLcjczak9yNDhaWmo3TEJQdGFB0gGaAUFVX3lxTE5kbkZGa1lTUUNHbDJFMFY5cDhGYkFUMzcyTmR1OG1TODlicEtFV1J6VzBIek12OTNKVS1sVzBsa3lyTWtfMGVLbU42X0ZRcTBzTEJRXzdpYi16czZ4SzFhcGJtMXlVMnk3d28zZTY1SUVJTU9vak11SUlEWElobWJ3MXhiUEJRU1VuOThqcWtLX0pLX3NCSnhjSHc?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
       "title": "GLOBAL MARKET CALL: Stocks Are Cheaper Everywhere",
       "source": "Yardeni QuickTakes",
       "publishedAt": "2026-11-22T13:04:30+00:00",
@@ -20629,40 +20663,6 @@
       "source": "Bloomberg.com",
       "publishedAt": "2026-11-22T12:25:17+00:00",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0lsWGMtQzFaN3pHeFA3ZFVNLWdHN0lDcVZESDA4UFZUVlVpXzhTdllpOHhTZDBzX2pvT3dEdDNZS1laUnh0bzVWZS16WXZyYlVvTW5qU3VVOXVzSzFVTlRWbzB2eFhoS0VVVk14WGU0aGQxLUxaOG1Gb01lTURmMERJaDhEVkVoNXdxdFNLTVZLdXFGWjZ4WWJWajV4NmZaTEhuUmFLY1BzVHQxQTRoZ1l4WQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Chinese exchanges ease margin trading requirements to aid stock markets",
-      "source": "Reuters",
-      "publishedAt": "2026-11-22T13:09:43+00:00",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVHZKRlQ0Y0pzZDRaTzJIdHRfX2dkZkVVUUh4YXotTkpLQTdrQ0NPTzVXTzVjczF2aUdKYTRtTHg5Wl9GLU1VbjFkREJ0bXY5S2RDdXphbnowRFdsUldyVGZsZFVIY1N0VTg0Q3RYOWp6TDVlb2lhOEhpM3M2d1NFZDhtdExWcERBS3BmVFNiVEprV0swRWhORV94MG1rcWhYUGpEQnR5akI5cXN0ZEhr?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "China to cut minimum margin requirement to bolster stock market",
-      "source": "China Daily Global Edition",
-      "publishedAt": "2026-11-22T12:46:17+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObzNMNHJZR21kNmNBNlhVVVJxa2RPLTg4MU50T0hNcjVsaVVxRUhSOW1SLVhTRjhMdl9fak5yQ3lseTlrdzhLOUNocG1QSl8ybU1nVGlsMV9Ha3FlZDFkZWFYT2FrLUQzWkI5VURQRUFsMy1VaG1DMEFOZDA2MDFJUWVB?oc=5",
       "bucket": "Globales Wachstum",
       "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
       "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
