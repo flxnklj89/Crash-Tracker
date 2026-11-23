@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-23T05:43:24.946719+00:00",
+  "fetchedAt": "2026-11-23T19:48:30.507520+00:00",
   "meta": {
     "schemaVersion": "3.0",
     "source": "FRED + Google News RSS",
@@ -18,7 +18,7 @@
     },
     "fedRate": {
       "value": 3.88,
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "cadence": "daily",
       "series": "EFFR",
       "displayName": "Effective Federal Funds Rate"
@@ -36,10 +36,10 @@
       }
     },
     "sp500": {
-      "ytd": 4.63,
+      "ytd": 0.76,
       "first": 6858.47,
-      "latest": 7175.83,
-      "date": "2026-11-19",
+      "latest": 6910.39,
+      "date": "2026-11-20",
       "cadence": "daily",
       "series": "SP500"
     },
@@ -50,13 +50,13 @@
       "series": "UMCSENT"
     },
     "tradeStress": {
-      "value": 51,
+      "value": 57,
       "label": "Erhöht",
-      "date": "2026-11-19",
+      "date": "2026-11-20",
       "cadence": "daily",
       "method": "proxy",
       "components": {
-        "vix": 28.44,
+        "vix": 35.89,
         "brent": 92.94,
         "eurusd": 1.1034,
         "us10y": 5.04
@@ -73,7 +73,7 @@
       "name": "Europa",
       "score": 52.0,
       "label": "Beobachten",
-      "date": "2026-11-20",
+      "date": "2026-11-23",
       "summary": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "driverText": "Europa wird hier über Preisdruck, Zinsniveau und den Euro gegenüber dem US-Dollar gelesen. Ein schwächerer Euro und hoher Preisdruck erhöhen den Stress im Block.",
       "inflation": {
@@ -86,7 +86,7 @@
       "growthOrRate": {
         "label": "ECB Einlagezins",
         "value": 2.5,
-        "date": "2026-11-20",
+        "date": "2026-11-23",
         "unit": "%",
         "cadence": "daily",
         "series": "ECBDFR"
@@ -167,18 +167,18 @@
     {
       "label": "SPX",
       "icon": "📊",
-      "val": 7175.83,
-      "chg": -147.8,
-      "chgPct": -2.02,
+      "val": 6910.39,
+      "chg": -265.44,
+      "chgPct": -3.7,
       "unit": "",
       "dec": 2
     },
     {
       "label": "VIX",
       "icon": "⚡",
-      "val": 28.44,
-      "chg": 3.88,
-      "chgPct": 15.8,
+      "val": 35.89,
+      "chg": 7.45,
+      "chgPct": 26.2,
       "unit": "",
       "dec": 2
     },
@@ -6888,6 +6888,10 @@
       },
       {
         "date": "2026-11-19",
+        "value": 3.88
+      },
+      {
+        "date": "2026-11-20",
         "value": 3.88
       }
     ],
@@ -13625,6 +13629,10 @@
       {
         "date": "2026-11-19",
         "value": 7175.83
+      },
+      {
+        "date": "2026-11-20",
+        "value": 6910.39
       }
     ],
     "sentiment": [
@@ -20557,31 +20565,105 @@
       {
         "date": "2026-11-19",
         "value": 51
+      },
+      {
+        "date": "2026-11-20",
+        "value": 57
       }
     ]
   },
   "news": [
     {
-      "title": "China Lowers Margin Requirement to 80% to Boost Stock Liquidity",
-      "source": "Bloomberg.com",
-      "publishedAt": "2026-11-23T04:45:00+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQ0lsWGMtQzFaN3pHeFA3ZFVNLWdHN0lDcVZESDA4UFZUVlVpXzhTdllpOHhTZDBzX2pvT3dEdDNZS1laUnh0bzVWZS16WXZyYlVvTW5qU3VVOXVzSzFVTlRWbzB2eFhoS0VVVk14WGU0aGQxLUxaOG1Gb01lTURmMERJaDhEVkVoNXdxdFNLTVZLdXFGWjZ4WWJWajV4NmZaTEhuUmFLY1BzVHQxQTRoZ1l4WQ?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
+      "title": "Weekly market commentary",
+      "source": "BlackRock",
+      "publishedAt": "2026-11-23T16:26:20+00:00",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
       "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "A battered stock market looks for the bottom: What to watch this week",
+      "source": "Yahoo Finance",
+      "publishedAt": "2026-11-23T12:06:56+00:00",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcU03UEttMkt2VHk0czNiZGxHNnB0MTR6Z2lvN01WUEF4VXZaejRWdV9IZ1d1b2YxUTc5bG9NUXVscVV4RjZ1TmdEdGtzWDdlb0JsQzhIWUozSHhGVFNSYW55aWpaalN4V1NlU21GWUpjYURFVU9YajkwZ3ltNXhvM2kwRW51T2RtYzVtajM4M3RvRmYwLUNQU1RHN0hjYmlsR3JGdTQ2WVNoMThMNTNwZmI0VlB5NXhaYzZoLWxralZSSGM?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
+      ]
+    },
+    {
+      "title": "US Stock Selloff Revives Question of a Fed ‘Put,’ This Time Under Warsh",
+      "source": "Bloomberg.com",
+      "publishedAt": "2026-11-23T19:31:19+00:00",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOamhQcGtONXo1SHNRdHRjWHRPZ3gzaHJCUTdNbW1BdUJ3ZUhLTjZ6X1F2dVo3SDdmZHZlWFIwMHVOX3RSZ3lFaE9vRzFDdUE0YlhFbXVTOWxuM2J3dkVwYjE0VE5JV0ZIaHNVLVp3d1dIMGxlX3JvVTNkNnRsRldmeUsyVk9IYldqbTFsU3RZUXpWclpybnhaei1CU2U5WDdQb1ZfcHpZdm5TdldRUlVfMVNnV0dDMG56eWRfNEhCbw?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "Fed Rate-Hike Odds Jump As Nvidia, 'Central Bank Of AI,' Saves The Day",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2026-11-23T17:38:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPekVNZHhlOGE4S1J0b1d5cjhBUWp2WVkzdEhZaWZRcVc5WU95cktFRXhGbVkwaGxNR1YyM3VnR2hkdkktRHU1UTJZZnBVUjVuWXp5VDB3NGk3XzNGT19KTTdpSHJZeXJISHBJRHVTQXdYWldEZlRhNUI1XzlvSXlSM1I2eERFVzRTR0pmc2JMRGM3UQ?oc=5",
+      "bucket": "Zinsen / Inflation",
+      "summary": "Die Meldung verschiebt Erwartungen an Zentralbanken, Zinsen oder Inflation. Das trifft oft direkt auf Bewertungen und Renditen.",
+      "impact": "Mittel bis hoch, weil Zins- und Inflationspfade fast alle Anlageklassen beeinflussen.",
+      "probability": "Hoch, wenn die Nachricht harte Daten oder klare Aussagen von Zentralbanken enthält.",
+      "horizon": "Von sofort bis mehrere Wochen.",
+      "priceEffect": "Besonders betroffen sind Staatsanleihen, Wachstumstitel, US-Dollar, Gold und breite Aktienindizes.",
+      "assets": [
+        "Staatsanleihen",
+        "Aktien",
+        "US-Dollar",
+        "Gold"
+      ]
+    },
+    {
+      "title": "The return of Jensen Huang has saved the U.S. stock market — for now. Why the rebound may not last.",
+      "source": "MarketWatch",
+      "publishedAt": "2026-11-23T16:44:00+00:00",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOLVJRdWlobDNsNFF2VmVjRlBva1phRWRBd2tPUWt1VnNyM3I2MHdWXzE0ejQ0TklZZ2VRSExBT3VhRml6S2ZaUVZaY0Jxa0ZrVGJIRHEtMVBqSkJqVkhiTEZyZzlLWUkwODE1WVpXRlRrbEowNHlXWHBNSnVsNVBJajdxOXZlci1fY3l2SFV1eVhQQnhUZUlPZ01BeDZBckpiQktJa1p0ZjhRVzhKRko2cUtZNE9yMUd0Snk4aXE0MkZXdnZFMVJ6eWt6cFpSRjgwWGRr?oc=5",
+      "bucket": "Marktkontext",
+      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
+      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
+      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
+      "horizon": "Kurzfristig bis einige Tage.",
+      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
+      "assets": [
+        "Aktien",
+        "Anleihen",
+        "Währungen"
       ]
     },
     {
       "title": "Asian stock markets tumble as AI bubble fears mount",
       "source": "Al Jazeera",
-      "publishedAt": "2026-11-23T02:40:35+00:00",
+      "publishedAt": "2026-11-23T09:21:03+00:00",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaWg2VjJNckwyMnpNTjV6cnBRckpmX2hndGxyM29qMnU0aml6bUNicGJPNXJKdzludzVfYVNhSHpJR0xhZjJMeHFDM3d4MldqQUJPbE9ha3VFbjMyLXFEeS1VSkFxejNJN2czNFlnMF9uNGdnb2lPUUdoTmZZeUFrbHFfNjVsZzc5QUVSR3hST2VYaDB1S2dYd0ktRWNoSHNmQUHSAacBQVVfeXFMUHlLZVl5SzNCcWd0RjktYlZwT2pDLXNDZmg1dzNKQ2k4VFZaa08xWjhQcEFubzhxYnpsZWxQU3ZIaGZSZlFzOGlrY3RRNUlLczVZRk8xN05VdkduMFRaVy03ME5zMWFtT0JSSWRqTzZ0cjVtUVBwYzJ5LWZhM0FiOFlSSlJHS1ZhcmZqeGlFdi1CLTBLeVpVSFNJVElhSnQxQmU4WS1hSWM?oc=5",
       "bucket": "Marktkontext",
       "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
@@ -20593,74 +20675,6 @@
         "Aktien",
         "Anleihen",
         "Währungen"
-      ]
-    },
-    {
-      "title": "Stock market: China eases rules on stock purchases on credit",
-      "source": "Table.Briefings",
-      "publishedAt": "2026-11-22T22:05:27+00:00",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaXJmNC16ZV9zYVZJbHBoTURtUDZOdFlkcWtReDBPQkNqMU9pUllacUdLUHZXOXFYbDZ6UDFvWnFtUVRCSWNDVktGbElZSDAzcDk1UGxIY0d6ZVZYc2JxUXZmZ2syMk9ZSnNUZmlQYkZLbGhZMkk5cURTVEFBenhNNWlFY29oc19ENmVZbDNDWnEyOFpqSnpreA?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
-      ]
-    },
-    {
-      "title": "Can Gold and Bitcoin Tell Us When the Stock Market Has Bottomed?",
-      "source": "Substack",
-      "publishedAt": "2026-11-22T23:18:09+00:00",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOOUNqR3VHX3p0Y2NxNElFRnppM3FTWDZUTGFrenkyaDdVd0l0TWsyazdXUVVyOEphV3k2dks1SG1zenlYRTFzRmxtUHcxSnB3b3htU04tSndidGw2ZHByc0F3QXZvRTh4SnFsUW9RU01fdWN4STZycEdsUzhIV2pzZy1R?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate",
-      "source": "Reuters",
-      "publishedAt": "2026-11-22T12:22:12+00:00",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
-      "bucket": "Marktkontext",
-      "summary": "Die Meldung liefert zusätzlichen Kontext dafür, wie Risikoappetit, Wachstumserwartungen oder Inflation kurzfristig verschoben werden können.",
-      "impact": "Eher mittel. Der Effekt hängt davon ab, ob weitere Daten die Meldung bestätigen.",
-      "probability": "Mittel. Einzelmeldungen bewegen Märkte oft erst dann stärker, wenn Folgeinfos nachkommen.",
-      "horizon": "Kurzfristig bis einige Tage.",
-      "priceEffect": "Am ehesten betroffen sind breite Aktienindizes, Anleihen oder Währungen – je nachdem, worauf die Meldung einzahlt.",
-      "assets": [
-        "Aktien",
-        "Anleihen",
-        "Währungen"
-      ]
-    },
-    {
-      "title": "Mainland China stock exchanges make moves to raise liquidity and activity to stem decline",
-      "source": "South China Morning Post",
-      "publishedAt": "2026-11-23T00:00:13+00:00",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVk1VcGdRNHhuVlc2NGxpcmNzSlhmb3BMdjN5THR1YVZUbFR4d0cxMm1XSkFFRE1MdlpxUlYzdFY5Sy1CTV9XdzJqVE9GYTJBcGVFYUtINWhJTE43U3NLN0tCSVMtSkx5WE5HdlltY2dNV2NkcllvamYzam0tY3lLWWNxZUszY3dyRloyUHFNbkpVc19HejBDOXdVZHN3WmoxeU56QXdnZ0dvM0xiTzZpb0xrS0wwMU9TZ0tqUjhhbW9hZTJEVHdfdWFacFk4MUVhcG9J?oc=5",
-      "bucket": "Globales Wachstum",
-      "summary": "Die Meldung betrifft wichtige Wirtschaftsblöcke außerhalb der USA. Das ist relevant für Nachfrage, Währungen, Industrie und Rohstoffe.",
-      "impact": "Mittel, bei großen Wachstums- oder Währungssignalen auch hoch.",
-      "probability": "Mittel, weil globale Themen oft über mehrere Tage in Marktpreise einsickern.",
-      "horizon": "Tage bis Wochen.",
-      "priceEffect": "Weltaktien, Rohstoffe, Exportwerte und regionale Währungen könnten besonders reagieren.",
-      "assets": [
-        "Weltaktien",
-        "Währungen",
-        "Rohstoffe"
       ]
     }
   ]
